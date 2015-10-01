@@ -1,0 +1,99 @@
+package com.abc.auto;
+
+import java.util.HashMap;
+import java.util.Queue;
+import java.util.concurrent.ConcurrentLinkedQueue;
+
+import com.alok.utils.AppLog;
+
+public class RetailOutlet {
+	
+	String id;
+	String region;
+	
+	HashMap<String, Customer> hmapCustomerContainer = new HashMap<String, Customer>();
+	
+	Object lockCarOrderQueue = new Object();
+	Object lockBykeOrderQueue = new Object();
+	Object lockTruckOrderQueue = new Object();
+	
+	Queue<String> qCarOrderQueue = new ConcurrentLinkedQueue<String>();
+	Queue<String> qBykeOrderQueue = new ConcurrentLinkedQueue<String>();
+	Queue<String> qTruckOrderQueue = new ConcurrentLinkedQueue<String>();
+	
+	RetailOutlet (String id, String region) {
+		this.id = id;
+		this.region = region;
+		Store.GetInstance().RegisterRO(id, this);
+	}
+
+	private String GetID() {
+		return id;
+	}
+	
+	public String GetRegion() {
+		return region;
+	}
+	
+    public void RegisterCustomer(String id, Customer customer) {
+    	hmapCustomerContainer.put(id, customer);
+    }
+    
+    private void UnRegisterCustomer(String id) {
+    	hmapCustomerContainer.remove(id);
+    }
+    
+    private Customer GetCustomerObject(String id) {
+    	return hmapCustomerContainer.get(id);
+    }
+    
+    private void AddOrderToQueue(String type, String custID) {
+    	AppLog.PrintTrace(3, "RO(" + GetID() + "):Putting order in " + type + " queue");
+		if (type == "Car") {
+			synchronized(lockCarOrderQueue) {
+				qCarOrderQueue.add(custID);
+			}
+		} else if(type == "Truck") {
+			synchronized(lockTruckOrderQueue) {
+				qTruckOrderQueue.add(custID);
+			}
+		} else {
+			synchronized(lockBykeOrderQueue) {
+				qBykeOrderQueue.add(custID);
+			}
+		}
+    }
+    
+    private String GetOrderFromQueue(String type) {
+		System.out.println("RO(" + GetID() + "):Rertriving order from " + type + " queue");
+		if (type == "Car") {			
+			synchronized(lockCarOrderQueue) {
+				System.out.println("\t\tRO(" + GetID() + "):Car Order queue(" + qCarOrderQueue.size() + "): " + qCarOrderQueue.toString());
+				return qCarOrderQueue.poll();
+			}
+		} else if(type == "Truck") {
+			synchronized(lockTruckOrderQueue) {
+				System.out.println("\t\tRO(" + GetID() + "):Truck Order queue(" + qTruckOrderQueue.size() + "): " + qTruckOrderQueue.toString());
+				return qTruckOrderQueue.poll();
+			}
+		} else {
+			synchronized(lockBykeOrderQueue) {
+				System.out.println("\t\tRO(" + GetID() + "):Byke Order queue(" + qBykeOrderQueue.size() + "): " + qBykeOrderQueue.toString());
+				return qBykeOrderQueue.poll();
+			}
+		}
+	}
+    
+	public Integer RequestOrder(String type, String custID) {
+		AddOrderToQueue(type, custID);
+		return Store.GetInstance().ReceiveOrder(type, GetID());
+	}
+	
+	public void DeliverOrder(String type) {
+		String custID = GetOrderFromQueue(type);
+		if (custID != null) { 
+    		GetCustomerObject(custID).OrderReceived(type);
+    		UnRegisterCustomer(custID);
+	   	}
+	}
+}

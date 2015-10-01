@@ -1,0 +1,1143 @@
+05:07:2011 091736354 CarProduction Started...
+05:07:2011 091736357 TruckProduction Started...
+05:07:2011 091736359 BykeProduction Started...
+05:07:2011 091747360 Produced (Byke): 1
+05:07:2011 091750355 Produced (Car): 1
+05:07:2011 091752358 Produced (Truck): 1
+05:07:2011 091756348 			[Requested(NORTH0,Car)]
+05:07:2011 091756349 			[Customer(NORTH0) Order served, Type: Car]
+05:07:2011 091758349 			[Requested(NORTH1,Byke)]
+05:07:2011 091758350 			[Customer(NORTH1) Order served, Type: Byke]
+05:07:2011 091758361 Produced (Byke): 1
+05:07:2011 091800350 			[Requested(NORTH2,Truck)]
+05:07:2011 091800350 			[Customer(NORTH2) Order served, Type: Truck]
+05:07:2011 091804351 			[Requested(SOUTH3,Car)]
+05:07:2011 091804351 						Request(SOUTH3,Car) will be served at: 05/07/2011 09:18:18 PM
+05:07:2011 091804356 			[Customer(SOUTH3) Order served, Type: Car]
+05:07:2011 091804357 Produced (Car): 1
+05:07:2011 091806352 			[Requested(SOUTH4,Byke)]
+05:07:2011 091806352 			[Customer(SOUTH4) Order served, Type: Byke]
+05:07:2011 091808353 			[Requested(SOUTH5,Truck)]
+05:07:2011 091808354 						Request(SOUTH5,Truck) will be served at: 05/07/2011 09:18:24 PM
+05:07:2011 091808359 			[Customer(SOUTH5) Order served, Type: Truck]
+05:07:2011 091808359 Produced (Truck): 1
+05:07:2011 091809361 Produced (Byke): 1
+05:07:2011 095608843 CarProduction Started...
+05:07:2011 095608845 TruckProduction Started...
+05:07:2011 095608847 BykeProduction Started...
+05:07:2011 095632876 CarProduction Started...
+05:07:2011 095632879 TruckProduction Started...
+05:07:2011 095632880 BykeProduction Started...
+05:07:2011 0958552 CarProduction Started...
+05:07:2011 0958553 BykeProduction Started...
+05:07:2011 0958554 TruckProduction Started...
+05:07:2011 0959064 Produced (Byke): 1
+05:07:2011 0959094 Produced (Car): 1
+05:07:2011 0959115 Produced (Truck): 1
+05:07:2011 0959151 			[Requested(NORTH0,Car)]
+05:07:2011 0959152 			[Customer(NORTH0) Order served, Type: Car]
+05:07:2011 0959174 			[Requested(NORTH1,Byke)]
+05:07:2011 0959174 			[Customer(NORTH1) Order served, Type: Byke]
+05:07:2011 0959176 Produced (Byke): 1
+05:07:2011 0959195 			[Requested(NORTH2,Truck)]
+05:07:2011 0959195 			[Customer(NORTH2) Order served, Type: Truck]
+05:07:2011 100004606 CarProduction Started...
+05:07:2011 100004607 BykeProduction Started...
+05:07:2011 100004607 TruckProduction Started...
+05:07:2011 100015609 Produced (Byke): 1
+05:07:2011 100018608 Produced (Car): 1
+05:07:2011 100020268 CarProduction Started...
+05:07:2011 100020269 BykeProduction Started...
+05:07:2011 100020269 TruckProduction Started...
+05:07:2011 100020608 Produced (Truck): 1
+05:07:2011 100024605 			[Requested(NORTH0,Car)]
+05:07:2011 100024606 			[Customer(NORTH0) Order served, Type: Car]
+05:07:2011 100026607 			[Requested(NORTH1,Byke)]
+05:07:2011 100026607 			[Customer(NORTH1) Order served, Type: Byke]
+05:07:2011 100026610 Produced (Byke): 1
+05:07:2011 100028607 			[Requested(NORTH2,Truck)]
+05:07:2011 100028607 			[Customer(NORTH2) Order served, Type: Truck]
+05:07:2011 100031271 Produced (Byke): 1
+05:07:2011 100032608 			[Requested(SOUTH3,Car)]
+05:07:2011 100032608 						Request(SOUTH3,Car) will be served at: 05/07/2011 10:00:46 PM
+05:07:2011 100032609 			[Customer(SOUTH3) Order served, Type: Car]
+05:07:2011 100032609 Produced (Car): 1
+05:07:2011 100034270 Produced (Car): 1
+05:07:2011 100034609 			[Requested(SOUTH4,Byke)]
+05:07:2011 100034609 			[Customer(SOUTH4) Order served, Type: Byke]
+05:07:2011 100036270 Produced (Truck): 1
+05:07:2011 100036609 Produced (Truck): 1
+05:07:2011 100036610 			[Requested(SOUTH5,Truck)]
+05:07:2011 100036610 			[Customer(SOUTH5) Order served, Type: Truck]
+05:07:2011 100037610 Produced (Byke): 1
+05:07:2011 100038512 CarProduction Started...
+05:07:2011 100038516 BykeProduction Started...
+05:07:2011 100038517 TruckProduction Started...
+05:07:2011 100040266 			[Requested(NORTH0,Car)]
+05:07:2011 100040266 			[Customer(NORTH0) Order served, Type: Car]
+05:07:2011 100040610 			[Requested(EAST6,Car)]
+05:07:2011 100040610 						Request(EAST6,Car) will be served at: 05/07/2011 10:00:54 PM
+05:07:2011 100042266 			[Requested(NORTH1,Byke)]
+05:07:2011 100042266 			[Customer(NORTH1) Order served, Type: Byke]
+05:07:2011 100042271 Produced (Byke): 1
+05:07:2011 100042611 			[Requested(EAST7,Byke)]
+05:07:2011 100042612 			[Customer(EAST7) Order served, Type: Byke]
+05:07:2011 100044268 			[Requested(NORTH2,Truck)]
+05:07:2011 100044268 			[Customer(NORTH2) Order served, Type: Truck]
+05:07:2011 100044613 			[Requested(EAST8,Truck)]
+05:07:2011 100044613 						Request(EAST8,Truck) will be served at: 05/07/2011 10:01:00 PM
+05:07:2011 100046610 			[Customer(EAST6) Order served, Type: Car]
+05:07:2011 100046610 Produced (Car): 1
+05:07:2011 100048611 Produced (Byke): 1
+05:07:2011 100048614 			[Requested(WEST9,Car)]
+05:07:2011 100048614 						Request(WEST9,Car) will be served at: 05/07/2011 10:01:02 PM
+05:07:2011 100124167 CarProduction Started...
+05:07:2011 100124168 TruckProduction Started...
+05:07:2011 100124169 BykeProduction Started...
+05:07:2011 100129890 CarProduction Started...
+05:07:2011 100129892 TruckProduction Started...
+05:07:2011 100129892 BykeProduction Started...
+05:07:2011 101548431 CarProduction Started...
+05:07:2011 101548433 BykeProduction Started...
+05:07:2011 101548433 TruckProduction Started...
+05:07:2011 101559435 Produced (Byke): 1
+05:07:2011 101602433 Produced (Car): 1
+05:07:2011 101604434 Produced (Truck): 1
+05:07:2011 101608430 			[Requested(NORTH0,Car)]
+05:07:2011 101608431 			[Customer(NORTH0) Order served, Type: Car]
+05:07:2011 101610433 			[Requested(NORTH1,Byke)]
+05:07:2011 101610433 			[Customer(NORTH1) Order served, Type: Byke]
+05:07:2011 101610436 Produced (Byke): 1
+05:07:2011 101612434 			[Requested(NORTH2,Truck)]
+05:07:2011 101612434 			[Customer(NORTH2) Order served, Type: Truck]
+05:07:2011 101616434 Produced (Car): 1
+05:07:2011 101616435 			[Requested(SOUTH3,Car)]
+05:07:2011 101616435 			[Customer(SOUTH3) Order served, Type: Car]
+05:07:2011 101618436 			[Requested(SOUTH4,Byke)]
+05:07:2011 101618436 			[Customer(SOUTH4) Order served, Type: Byke]
+05:07:2011 101620435 Produced (Truck): 1
+05:07:2011 101620437 			[Requested(SOUTH5,Truck)]
+05:07:2011 101620437 			[Customer(SOUTH5) Order served, Type: Truck]
+05:07:2011 101621436 Produced (Byke): 1
+05:07:2011 101624438 			[Requested(EAST6,Car)]
+05:07:2011 101624439 						Request(EAST6,Car) will be served at: 05/07/2011 10:16:38 PM
+05:07:2011 101626439 			[Requested(EAST7,Byke)]
+05:07:2011 101626440 			[Customer(EAST7) Order served, Type: Byke]
+05:07:2011 101628441 			[Requested(EAST8,Truck)]
+05:07:2011 101628441 						Request(EAST8,Truck) will be served at: 05/07/2011 10:16:44 PM
+05:07:2011 101630435 			[Customer(EAST6) Order served, Type: Car]
+05:07:2011 101630436 Produced (Car): 1
+05:07:2011 101632437 Produced (Byke): 1
+05:07:2011 101632442 			[Requested(WEST9,Car)]
+05:07:2011 101632443 						Request(WEST9,Car) will be served at: 05/07/2011 10:16:46 PM
+05:07:2011 101634443 			[Requested(WEST10,Byke)]
+05:07:2011 101634443 			[Customer(WEST10) Order served, Type: Byke]
+05:07:2011 101636436 			[Customer(EAST8) Order served, Type: Truck]
+05:07:2011 101636437 Produced (Truck): 1
+05:07:2011 101636444 			[Requested(WEST11,Truck)]
+05:07:2011 101636445 						Request(WEST11,Truck) will be served at: 05/07/2011 10:16:52 PM
+05:07:2011 101643437 Produced (Byke): 1
+05:07:2011 101644437 			[Customer(WEST9) Order served, Type: Car]
+05:07:2011 101644437 Produced (Car): 1
+05:07:2011 101652438 			[Customer(WEST11) Order served, Type: Truck]
+05:07:2011 101652439 Produced (Truck): 1
+05:07:2011 101654438 Produced (Byke): 1
+05:07:2011 101658438 Produced (Car): 1
+05:07:2011 101700453 			[Requested(NORTH12,Car)]
+05:07:2011 101700454 			[Customer(NORTH12) Order served, Type: Car]
+05:07:2011 101702455 			[Requested(NORTH13,Byke)]
+05:07:2011 101702456 			[Customer(NORTH13) Order served, Type: Byke]
+05:07:2011 101704457 			[Requested(NORTH14,Truck)]
+05:07:2011 101704457 						Request(NORTH14,Truck) will be served at: 05/07/2011 10:17:20 PM
+05:07:2011 101705439 Produced (Byke): 1
+05:07:2011 101708440 			[Customer(NORTH14) Order served, Type: Truck]
+05:07:2011 101708441 Produced (Truck): 1
+05:07:2011 101708458 			[Requested(SOUTH15,Car)]
+05:07:2011 101708459 						Request(SOUTH15,Car) will be served at: 05/07/2011 10:17:22 PM
+05:07:2011 101710459 			[Requested(SOUTH16,Byke)]
+05:07:2011 101710459 			[Customer(SOUTH16) Order served, Type: Byke]
+05:07:2011 101712439 			[Customer(SOUTH15) Order served, Type: Car]
+05:07:2011 101712440 Produced (Car): 1
+05:07:2011 101712460 			[Requested(SOUTH17,Truck)]
+05:07:2011 101712461 						Request(SOUTH17,Truck) will be served at: 05/07/2011 10:17:28 PM
+05:07:2011 101716439 Produced (Byke): 1
+05:07:2011 101716461 			[Requested(EAST18,Car)]
+05:07:2011 101716461 						Request(EAST18,Car) will be served at: 05/07/2011 10:17:30 PM
+05:07:2011 101718462 			[Requested(EAST19,Byke)]
+05:07:2011 101718462 			[Customer(EAST19) Order served, Type: Byke]
+05:07:2011 101720464 			[Requested(EAST20,Truck)]
+05:07:2011 101720465 						Request(EAST20,Truck) will be served at: 05/07/2011 10:17:52 PM
+05:07:2011 101724442 			[Customer(SOUTH17) Order served, Type: Truck]
+05:07:2011 101724443 Produced (Truck): 1
+05:07:2011 101724465 			[Requested(WEST21,Car)]
+05:07:2011 101724465 						Request(WEST21,Car) will be served at: 05/07/2011 10:17:52 PM
+05:07:2011 101726441 			[Customer(EAST18) Order served, Type: Car]
+05:07:2011 101726441 Produced (Car): 1
+05:07:2011 101726466 			[Requested(WEST22,Byke)]
+05:07:2011 101726466 			[Customer(WEST22) Order served, Type: Byke]
+05:07:2011 101727440 Produced (Byke): 1
+05:07:2011 101728467 			[Requested(WEST23,Truck)]
+05:07:2011 101728468 						Request(WEST23,Truck) will be served at: 05/07/2011 10:18:00 PM
+05:07:2011 101738441 Produced (Byke): 1
+05:07:2011 101740445 			[Customer(WEST21) Order served, Type: Car]
+05:07:2011 101740445 Produced (Car): 1
+05:07:2011 101740455 			[Customer(EAST20) Order served, Type: Truck]
+05:07:2011 101740457 Produced (Truck): 1
+05:07:2011 101749441 Produced (Byke): 1
+05:07:2011 101752471 			[Requested(NORTH24,Car)]
+05:07:2011 101752472 						Request(NORTH24,Car) will be served at: 05/07/2011 10:18:06 PM
+05:07:2011 101754446 			[Customer(NORTH24) Order served, Type: Car]
+05:07:2011 101754446 Produced (Car): 1
+05:07:2011 101754473 			[Requested(NORTH25,Byke)]
+05:07:2011 101754473 			[Customer(NORTH25) Order served, Type: Byke]
+05:07:2011 101756458 			[Customer(WEST23) Order served, Type: Truck]
+05:07:2011 101756458 Produced (Truck): 1
+05:07:2011 101756474 			[Requested(NORTH26,Truck)]
+05:07:2011 101756474 						Request(NORTH26,Truck) will be served at: 05/07/2011 10:18:12 PM
+05:07:2011 101800442 Produced (Byke): 1
+05:07:2011 101800475 			[Requested(SOUTH27,Car)]
+05:07:2011 101800476 						Request(SOUTH27,Car) will be served at: 05/07/2011 10:18:14 PM
+05:07:2011 101802476 			[Requested(SOUTH28,Byke)]
+05:07:2011 101802477 			[Customer(SOUTH28) Order served, Type: Byke]
+05:07:2011 101804477 			[Requested(SOUTH29,Truck)]
+05:07:2011 101804478 						Request(SOUTH29,Truck) will be served at: 05/07/2011 10:18:36 PM
+05:07:2011 101808447 			[Customer(SOUTH27) Order served, Type: Car]
+05:07:2011 101808447 Produced (Car): 1
+05:07:2011 101808478 			[Requested(EAST30,Car)]
+05:07:2011 101808479 						Request(EAST30,Car) will be served at: 05/07/2011 10:18:22 PM
+05:07:2011 101810479 			[Requested(EAST31,Byke)]
+05:07:2011 101810479 			[Customer(EAST31) Order served, Type: Byke]
+05:07:2011 101811442 Produced (Byke): 1
+05:07:2011 101812460 			[Customer(NORTH26) Order served, Type: Truck]
+05:07:2011 101812460 Produced (Truck): 1
+05:07:2011 101812481 			[Requested(EAST32,Truck)]
+05:07:2011 101812482 						Request(EAST32,Truck) will be served at: 05/07/2011 10:18:44 PM
+05:07:2011 101816482 			[Requested(WEST33,Car)]
+05:07:2011 101816483 						Request(WEST33,Car) will be served at: 05/07/2011 10:18:44 PM
+05:07:2011 101818483 			[Requested(WEST34,Byke)]
+05:07:2011 101818483 			[Customer(WEST34) Order served, Type: Byke]
+05:07:2011 101820484 			[Requested(WEST35,Truck)]
+05:07:2011 101820485 						Request(WEST35,Truck) will be served at: 05/07/2011 10:19:09 PM
+05:07:2011 101822443 Produced (Byke): 1
+05:07:2011 101822449 			[Customer(EAST30) Order served, Type: Car]
+05:07:2011 101822449 Produced (Car): 1
+05:07:2011 101828461 			[Customer(SOUTH29) Order served, Type: Truck]
+05:07:2011 101828461 Produced (Truck): 1
+05:07:2011 101833444 Produced (Byke): 1
+05:07:2011 101836451 			[Customer(WEST33) Order served, Type: Car]
+05:07:2011 101836451 Produced (Car): 1
+05:07:2011 101844444 Produced (Byke): 1
+05:07:2011 101844463 			[Customer(EAST32) Order served, Type: Truck]
+05:07:2011 101844463 Produced (Truck): 1
+05:07:2011 101844488 			[Requested(NORTH36,Car)]
+05:07:2011 101844488 						Request(NORTH36,Car) will be served at: 05/07/2011 10:18:58 PM
+05:07:2011 101846489 			[Requested(NORTH37,Byke)]
+05:07:2011 101846489 			[Customer(NORTH37) Order served, Type: Byke]
+05:07:2011 101848491 			[Requested(NORTH38,Truck)]
+05:07:2011 101848492 						Request(NORTH38,Truck) will be served at: 05/07/2011 10:19:20 PM
+05:07:2011 101850453 			[Customer(NORTH36) Order served, Type: Car]
+05:07:2011 101850453 Produced (Car): 1
+05:07:2011 101852492 			[Requested(SOUTH39,Car)]
+05:07:2011 101852493 						Request(SOUTH39,Car) will be served at: 05/07/2011 10:19:06 PM
+05:07:2011 101854493 			[Requested(SOUTH40,Byke)]
+05:07:2011 101854493 			[Customer(SOUTH40) Order served, Type: Byke]
+05:07:2011 101855445 Produced (Byke): 1
+05:07:2011 101856494 			[Requested(SOUTH41,Truck)]
+05:07:2011 101856495 						Request(SOUTH41,Truck) will be served at: 05/07/2011 10:19:45 PM
+05:07:2011 101900465 			[Customer(WEST35) Order served, Type: Truck]
+05:07:2011 101900465 Produced (Truck): 1
+05:07:2011 101900495 			[Requested(EAST42,Car)]
+05:07:2011 101900495 						Request(EAST42,Car) will be served at: 05/07/2011 10:19:28 PM
+05:07:2011 101902495 			[Requested(EAST43,Byke)]
+05:07:2011 101902495 			[Customer(EAST43) Order served, Type: Byke]
+05:07:2011 101904455 			[Customer(SOUTH39) Order served, Type: Car]
+05:07:2011 101904456 Produced (Car): 1
+05:07:2011 101904497 			[Requested(EAST44,Truck)]
+05:07:2011 101904498 						Request(EAST44,Truck) will be served at: 05/07/2011 10:19:53 PM
+05:07:2011 101906446 Produced (Byke): 1
+05:07:2011 101908498 			[Requested(WEST45,Car)]
+05:07:2011 101908499 						Request(WEST45,Car) will be served at: 05/07/2011 10:19:36 PM
+05:07:2011 101910499 			[Requested(WEST46,Byke)]
+05:07:2011 101910499 			[Customer(WEST46) Order served, Type: Byke]
+05:07:2011 101912500 			[Requested(WEST47,Truck)]
+05:07:2011 101912501 						Request(WEST47,Truck) will be served at: 05/07/2011 10:20:17 PM
+05:07:2011 101916466 			[Customer(NORTH38) Order served, Type: Truck]
+05:07:2011 101916466 Produced (Truck): 1
+05:07:2011 101917446 Produced (Byke): 1
+05:07:2011 101918456 			[Customer(EAST42) Order served, Type: Car]
+05:07:2011 101918456 Produced (Car): 1
+05:07:2011 101928447 Produced (Byke): 1
+05:07:2011 101932458 			[Customer(WEST45) Order served, Type: Car]
+05:07:2011 101932458 Produced (Car): 1
+05:07:2011 101932468 			[Customer(SOUTH41) Order served, Type: Truck]
+05:07:2011 101932469 Produced (Truck): 1
+05:07:2011 101936504 			[Requested(NORTH48,Car)]
+05:07:2011 101936504 						Request(NORTH48,Car) will be served at: 05/07/2011 10:19:50 PM
+05:07:2011 101938505 			[Requested(NORTH49,Byke)]
+05:07:2011 101938506 			[Customer(NORTH49) Order served, Type: Byke]
+05:07:2011 101939448 Produced (Byke): 1
+05:07:2011 101940507 			[Requested(NORTH50,Truck)]
+05:07:2011 101940508 						Request(NORTH50,Truck) will be served at: 05/07/2011 10:20:29 PM
+05:07:2011 101944508 			[Requested(SOUTH51,Car)]
+05:07:2011 101944508 						Request(SOUTH51,Car) will be served at: 05/07/2011 10:20:12 PM
+05:07:2011 101946460 			[Customer(NORTH48) Order served, Type: Car]
+05:07:2011 101946460 Produced (Car): 1
+05:07:2011 101946509 			[Requested(SOUTH52,Byke)]
+05:07:2011 101946509 			[Customer(SOUTH52) Order served, Type: Byke]
+05:07:2011 101948470 			[Customer(EAST44) Order served, Type: Truck]
+05:07:2011 101948470 Produced (Truck): 1
+05:07:2011 101948510 			[Requested(SOUTH53,Truck)]
+05:07:2011 101948510 						Request(SOUTH53,Truck) will be served at: 05/07/2011 10:20:37 PM
+05:07:2011 101950448 Produced (Byke): 1
+05:07:2011 101952511 			[Requested(EAST54,Car)]
+05:07:2011 101952512 						Request(EAST54,Car) will be served at: 05/07/2011 10:20:20 PM
+05:07:2011 101954512 			[Requested(EAST55,Byke)]
+05:07:2011 101954513 			[Customer(EAST55) Order served, Type: Byke]
+05:07:2011 101956513 			[Requested(EAST56,Truck)]
+05:07:2011 101956513 						Request(EAST56,Truck) will be served at: 05/07/2011 10:21:01 PM
+05:07:2011 102000462 			[Customer(SOUTH51) Order served, Type: Car]
+05:07:2011 102000462 Produced (Car): 1
+05:07:2011 102000515 			[Requested(WEST57,Car)]
+05:07:2011 102000515 						Request(WEST57,Car) will be served at: 05/07/2011 10:20:28 PM
+05:07:2011 102001449 Produced (Byke): 1
+05:07:2011 102002516 			[Requested(WEST58,Byke)]
+05:07:2011 102002516 			[Customer(WEST58) Order served, Type: Byke]
+05:07:2011 102004472 			[Customer(WEST47) Order served, Type: Truck]
+05:07:2011 102004472 Produced (Truck): 1
+05:07:2011 102004517 			[Requested(WEST59,Truck)]
+05:07:2011 102004517 						Request(WEST59,Truck) will be served at: 05/07/2011 10:21:09 PM
+05:07:2011 102012449 Produced (Byke): 1
+05:07:2011 102014464 			[Customer(EAST54) Order served, Type: Car]
+05:07:2011 102014464 Produced (Car): 1
+05:07:2011 102020474 			[Customer(NORTH50) Order served, Type: Truck]
+05:07:2011 102020474 Produced (Truck): 1
+05:07:2011 102023450 Produced (Byke): 1
+05:07:2011 102028465 			[Customer(WEST57) Order served, Type: Car]
+05:07:2011 102028465 Produced (Car): 1
+05:07:2011 102028521 			[Requested(NORTH60,Car)]
+05:07:2011 102028521 						Request(NORTH60,Car) will be served at: 05/07/2011 10:20:42 PM
+05:07:2011 102030522 			[Requested(NORTH61,Byke)]
+05:07:2011 102030522 			[Customer(NORTH61) Order served, Type: Byke]
+05:07:2011 102032524 			[Requested(NORTH62,Truck)]
+05:07:2011 102032524 						Request(NORTH62,Truck) will be served at: 05/07/2011 10:21:37 PM
+05:07:2011 102034451 Produced (Byke): 1
+05:07:2011 102036476 			[Customer(SOUTH53) Order served, Type: Truck]
+05:07:2011 102036476 Produced (Truck): 1
+05:07:2011 102036525 			[Requested(SOUTH63,Car)]
+05:07:2011 102036525 						Request(SOUTH63,Car) will be served at: 05/07/2011 10:21:04 PM
+05:07:2011 102038526 			[Requested(SOUTH64,Byke)]
+05:07:2011 102038526 			[Customer(SOUTH64) Order served, Type: Byke]
+05:07:2011 102040527 			[Requested(SOUTH65,Truck)]
+05:07:2011 102040528 						Request(SOUTH65,Truck) will be served at: 05/07/2011 10:21:45 PM
+05:07:2011 102042467 			[Customer(NORTH60) Order served, Type: Car]
+05:07:2011 102042467 Produced (Car): 1
+05:07:2011 102044528 			[Requested(EAST66,Car)]
+05:07:2011 102044529 						Request(EAST66,Car) will be served at: 05/07/2011 10:21:12 PM
+05:07:2011 102045451 Produced (Byke): 1
+05:07:2011 102046529 			[Requested(EAST67,Byke)]
+05:07:2011 102046529 			[Customer(EAST67) Order served, Type: Byke]
+05:07:2011 102048530 			[Requested(EAST68,Truck)]
+05:07:2011 102048531 						Request(EAST68,Truck) will be served at: 05/07/2011 10:22:09 PM
+05:07:2011 102052478 			[Customer(EAST56) Order served, Type: Truck]
+05:07:2011 102052478 Produced (Truck): 1
+05:07:2011 102052532 			[Requested(WEST69,Car)]
+05:07:2011 102052532 						Request(WEST69,Car) will be served at: 05/07/2011 10:21:35 PM
+05:07:2011 102054533 			[Requested(WEST70,Byke)]
+05:07:2011 102054533 			[Customer(WEST70) Order served, Type: Byke]
+05:07:2011 102056452 Produced (Byke): 1
+05:07:2011 102056469 			[Customer(SOUTH63) Order served, Type: Car]
+05:07:2011 102056469 Produced (Car): 1
+05:07:2011 102056534 			[Requested(WEST71,Truck)]
+05:07:2011 102056534 						Request(WEST71,Truck) will be served at: 05/07/2011 10:22:17 PM
+05:07:2011 102107453 Produced (Byke): 1
+05:07:2011 102108480 			[Customer(WEST59) Order served, Type: Truck]
+05:07:2011 102108480 Produced (Truck): 1
+05:07:2011 102110471 			[Customer(EAST66) Order served, Type: Car]
+05:07:2011 102110472 Produced (Car): 1
+05:07:2011 102118453 Produced (Byke): 1
+05:07:2011 102120538 			[Requested(NORTH72,Car)]
+05:07:2011 102120538 						Request(NORTH72,Car) will be served at: 05/07/2011 10:21:48 PM
+05:07:2011 102122539 			[Requested(NORTH73,Byke)]
+05:07:2011 102122539 			[Customer(NORTH73) Order served, Type: Byke]
+05:07:2011 102124473 			[Customer(WEST69) Order served, Type: Car]
+05:07:2011 102124474 Produced (Car): 1
+05:07:2011 102124482 			[Customer(NORTH62) Order served, Type: Truck]
+05:07:2011 102124482 Produced (Truck): 1
+05:07:2011 102124541 			[Requested(NORTH74,Truck)]
+05:07:2011 102124542 						Request(NORTH74,Truck) will be served at: 05/07/2011 10:22:29 PM
+05:07:2011 102128542 			[Requested(SOUTH75,Car)]
+05:07:2011 102128542 						Request(SOUTH75,Car) will be served at: 05/07/2011 10:21:56 PM
+05:07:2011 102129454 Produced (Byke): 1
+05:07:2011 102130543 			[Requested(SOUTH76,Byke)]
+05:07:2011 102130543 			[Customer(SOUTH76) Order served, Type: Byke]
+05:07:2011 102132544 			[Requested(SOUTH77,Truck)]
+05:07:2011 102132545 						Request(SOUTH77,Truck) will be served at: 05/07/2011 10:22:53 PM
+05:07:2011 102136545 			[Requested(EAST78,Car)]
+05:07:2011 102136546 						Request(EAST78,Car) will be served at: 05/07/2011 10:22:19 PM
+05:07:2011 102138474 			[Customer(NORTH72) Order served, Type: Car]
+05:07:2011 102138474 Produced (Car): 1
+05:07:2011 102138546 			[Requested(EAST79,Byke)]
+05:07:2011 102138546 			[Customer(EAST79) Order served, Type: Byke]
+05:07:2011 102140454 Produced (Byke): 1
+05:07:2011 102140483 			[Customer(SOUTH65) Order served, Type: Truck]
+05:07:2011 102140483 Produced (Truck): 1
+05:07:2011 102140547 			[Requested(EAST80,Truck)]
+05:07:2011 102140547 						Request(EAST80,Truck) will be served at: 05/07/2011 10:23:01 PM
+05:07:2011 102144549 			[Requested(WEST81,Car)]
+05:07:2011 102144549 						Request(WEST81,Car) will be served at: 05/07/2011 10:22:27 PM
+05:07:2011 102146550 			[Requested(WEST82,Byke)]
+05:07:2011 102146550 			[Customer(WEST82) Order served, Type: Byke]
+05:07:2011 102148551 			[Requested(WEST83,Truck)]
+05:07:2011 102148552 						Request(WEST83,Truck) will be served at: 05/07/2011 10:23:26 PM
+05:07:2011 102151455 Produced (Byke): 1
+05:07:2011 102152476 			[Customer(SOUTH75) Order served, Type: Car]
+05:07:2011 102152476 Produced (Car): 1
+05:07:2011 102156485 			[Customer(EAST68) Order served, Type: Truck]
+05:07:2011 102156485 Produced (Truck): 1
+05:07:2011 102202456 Produced (Byke): 1
+05:07:2011 102206478 			[Customer(EAST78) Order served, Type: Car]
+05:07:2011 102206478 Produced (Car): 1
+05:07:2011 102212487 			[Customer(WEST71) Order served, Type: Truck]
+05:07:2011 102212488 Produced (Truck): 1
+05:07:2011 102212554 			[Requested(NORTH84,Car)]
+05:07:2011 102212554 						Request(NORTH84,Car) will be served at: 05/07/2011 10:22:40 PM
+05:07:2011 102213457 Produced (Byke): 1
+05:07:2011 102214555 			[Requested(NORTH85,Byke)]
+05:07:2011 102214555 			[Customer(NORTH85) Order served, Type: Byke]
+05:07:2011 102216557 			[Requested(NORTH86,Truck)]
+05:07:2011 102216558 						Request(NORTH86,Truck) will be served at: 05/07/2011 10:23:37 PM
+05:07:2011 102220480 			[Customer(WEST81) Order served, Type: Car]
+05:07:2011 102220480 Produced (Car): 1
+05:07:2011 102220558 			[Requested(SOUTH87,Car)]
+05:07:2011 102220558 						Request(SOUTH87,Car) will be served at: 05/07/2011 10:22:48 PM
+05:07:2011 102222559 			[Requested(SOUTH88,Byke)]
+05:07:2011 102222559 			[Customer(SOUTH88) Order served, Type: Byke]
+05:07:2011 102224458 Produced (Byke): 1
+05:07:2011 102224560 			[Requested(SOUTH89,Truck)]
+05:07:2011 102224560 						Request(SOUTH89,Truck) will be served at: 05/07/2011 10:24:02 PM
+05:07:2011 102228489 			[Customer(NORTH74) Order served, Type: Truck]
+05:07:2011 102228489 Produced (Truck): 1
+05:07:2011 102228561 			[Requested(EAST90,Car)]
+05:07:2011 102228561 						Request(EAST90,Car) will be served at: 05/07/2011 10:23:11 PM
+05:07:2011 102230562 			[Requested(EAST91,Byke)]
+05:07:2011 102230562 			[Customer(EAST91) Order served, Type: Byke]
+05:07:2011 102232563 			[Requested(EAST92,Truck)]
+05:07:2011 102232563 						Request(EAST92,Truck) will be served at: 05/07/2011 10:24:10 PM
+05:07:2011 102234482 			[Customer(NORTH84) Order served, Type: Car]
+05:07:2011 102234482 Produced (Car): 1
+05:07:2011 102235459 Produced (Byke): 1
+05:07:2011 102236565 			[Requested(WEST93,Car)]
+05:07:2011 102236566 						Request(WEST93,Car) will be served at: 05/07/2011 10:23:19 PM
+05:07:2011 102238567 			[Requested(WEST94,Byke)]
+05:07:2011 102238568 			[Customer(WEST94) Order served, Type: Byke]
+05:07:2011 102240568 			[Requested(WEST95,Truck)]
+05:07:2011 102240568 						Request(WEST95,Truck) will be served at: 05/07/2011 10:24:34 PM
+05:07:2011 102244491 			[Customer(SOUTH77) Order served, Type: Truck]
+05:07:2011 102244491 Produced (Truck): 1
+05:07:2011 102246459 Produced (Byke): 1
+05:07:2011 102248482 			[Customer(SOUTH87) Order served, Type: Car]
+05:07:2011 102248482 Produced (Car): 1
+05:07:2011 102257460 Produced (Byke): 1
+05:07:2011 102300493 			[Customer(EAST80) Order served, Type: Truck]
+05:07:2011 102300493 Produced (Truck): 1
+05:07:2011 102302484 			[Customer(EAST90) Order served, Type: Car]
+05:07:2011 102302484 Produced (Car): 1
+05:07:2011 102304571 			[Requested(NORTH96,Car)]
+05:07:2011 102304571 						Request(NORTH96,Car) will be served at: 05/07/2011 10:23:32 PM
+05:07:2011 102306572 			[Requested(NORTH97,Byke)]
+05:07:2011 102306572 			[Customer(NORTH97) Order served, Type: Byke]
+05:07:2011 102308460 Produced (Byke): 1
+05:07:2011 102308573 			[Requested(NORTH98,Truck)]
+05:07:2011 102308573 						Request(NORTH98,Truck) will be served at: 05/07/2011 10:24:46 PM
+05:07:2011 102312574 			[Requested(SOUTH99,Car)]
+05:07:2011 102312574 						Request(SOUTH99,Car) will be served at: 05/07/2011 10:23:55 PM
+05:07:2011 102314575 			[Requested(SOUTH100,Byke)]
+05:07:2011 102314575 			[Customer(SOUTH100) Order served, Type: Byke]
+05:07:2011 102316486 			[Customer(WEST93) Order served, Type: Car]
+05:07:2011 102316486 Produced (Car): 1
+05:07:2011 102316495 			[Customer(WEST83) Order served, Type: Truck]
+05:07:2011 102316496 Produced (Truck): 1
+05:07:2011 102316576 			[Requested(SOUTH101,Truck)]
+05:07:2011 102316576 						Request(SOUTH101,Truck) will be served at: 05/07/2011 10:24:54 PM
+05:07:2011 102319461 Produced (Byke): 1
+05:07:2011 102320577 			[Requested(EAST102,Car)]
+05:07:2011 102320577 						Request(EAST102,Car) will be served at: 05/07/2011 10:24:03 PM
+05:07:2011 102322577 			[Requested(EAST103,Byke)]
+05:07:2011 102322577 			[Customer(EAST103) Order served, Type: Byke]
+05:07:2011 102324578 			[Requested(EAST104,Truck)]
+05:07:2011 102324578 						Request(EAST104,Truck) will be served at: 05/07/2011 10:25:18 PM
+05:07:2011 102328580 			[Requested(WEST105,Car)]
+05:07:2011 102328580 						Request(WEST105,Car) will be served at: 05/07/2011 10:24:25 PM
+05:07:2011 102330462 Produced (Byke): 1
+05:07:2011 102330488 			[Customer(NORTH96) Order served, Type: Car]
+05:07:2011 102330488 Produced (Car): 1
+05:07:2011 102330581 			[Requested(WEST106,Byke)]
+05:07:2011 102330581 			[Customer(WEST106) Order served, Type: Byke]
+05:07:2011 102332497 			[Customer(NORTH86) Order served, Type: Truck]
+05:07:2011 102332497 Produced (Truck): 1
+05:07:2011 102332582 			[Requested(WEST107,Truck)]
+05:07:2011 102332582 						Request(WEST107,Truck) will be served at: 05/07/2011 10:25:26 PM
+05:07:2011 102341462 Produced (Byke): 1
+05:07:2011 102344490 			[Customer(SOUTH99) Order served, Type: Car]
+05:07:2011 102344490 Produced (Car): 1
+05:07:2011 102348499 			[Customer(SOUTH89) Order served, Type: Truck]
+05:07:2011 102348499 Produced (Truck): 1
+05:07:2011 102352463 Produced (Byke): 1
+05:07:2011 102356586 			[Requested(NORTH108,Car)]
+05:07:2011 102356586 						Request(NORTH108,Car) will be served at: 05/07/2011 10:24:39 PM
+05:07:2011 102358491 			[Customer(EAST102) Order served, Type: Car]
+05:07:2011 102358491 Produced (Car): 1
+05:07:2011 102358587 			[Requested(NORTH109,Byke)]
+05:07:2011 102358587 			[Customer(NORTH109) Order served, Type: Byke]
+05:07:2011 102400588 			[Requested(NORTH110,Truck)]
+05:07:2011 102400589 						Request(NORTH110,Truck) will be served at: 05/07/2011 10:25:54 PM
+05:07:2011 102403464 Produced (Byke): 1
+05:07:2011 102404500 			[Customer(EAST92) Order served, Type: Truck]
+05:07:2011 102404500 Produced (Truck): 1
+05:07:2011 102404590 			[Requested(SOUTH111,Car)]
+05:07:2011 102404590 						Request(SOUTH111,Car) will be served at: 05/07/2011 10:24:47 PM
+05:07:2011 102406591 			[Requested(SOUTH112,Byke)]
+05:07:2011 102406591 			[Customer(SOUTH112) Order served, Type: Byke]
+05:07:2011 102408592 			[Requested(SOUTH113,Truck)]
+05:07:2011 102408592 						Request(SOUTH113,Truck) will be served at: 05/07/2011 10:26:02 PM
+05:07:2011 102412493 			[Customer(WEST105) Order served, Type: Car]
+05:07:2011 102412493 Produced (Car): 1
+05:07:2011 102412595 			[Requested(EAST114,Car)]
+05:07:2011 102412595 						Request(EAST114,Car) will be served at: 05/07/2011 10:24:55 PM
+05:07:2011 102414464 Produced (Byke): 1
+05:07:2011 102414596 			[Requested(EAST115,Byke)]
+05:07:2011 102414596 			[Customer(EAST115) Order served, Type: Byke]
+05:07:2011 102416596 			[Requested(EAST116,Truck)]
+05:07:2011 102416597 						Request(EAST116,Truck) will be served at: 05/07/2011 10:26:26 PM
+05:07:2011 102420502 			[Customer(WEST95) Order served, Type: Truck]
+05:07:2011 102420503 Produced (Truck): 1
+05:07:2011 102420600 			[Requested(WEST117,Car)]
+05:07:2011 102420600 						Request(WEST117,Car) will be served at: 05/07/2011 10:25:17 PM
+05:07:2011 102422600 			[Requested(WEST118,Byke)]
+05:07:2011 102422600 			[Customer(WEST118) Order served, Type: Byke]
+05:07:2011 102424601 			[Requested(WEST119,Truck)]
+05:07:2011 102424601 						Request(WEST119,Truck) will be served at: 05/07/2011 10:26:34 PM
+05:07:2011 102425465 Produced (Byke): 1
+05:07:2011 102426495 			[Customer(NORTH108) Order served, Type: Car]
+05:07:2011 102426495 Produced (Car): 1
+05:07:2011 102436466 Produced (Byke): 1
+05:07:2011 102436504 			[Customer(NORTH98) Order served, Type: Truck]
+05:07:2011 102436504 Produced (Truck): 1
+05:07:2011 102440497 			[Customer(SOUTH111) Order served, Type: Car]
+05:07:2011 102440497 Produced (Car): 1
+05:07:2011 102447466 Produced (Byke): 1
+05:07:2011 102448605 			[Requested(NORTH120,Car)]
+05:07:2011 102448605 						Request(NORTH120,Car) will be served at: 05/07/2011 10:25:31 PM
+05:07:2011 102450605 			[Requested(NORTH121,Byke)]
+05:07:2011 102450605 			[Customer(NORTH121) Order served, Type: Byke]
+05:07:2011 102452505 			[Customer(SOUTH101) Order served, Type: Truck]
+05:07:2011 102452505 Produced (Truck): 1
+05:07:2011 102452606 			[Requested(NORTH122,Truck)]
+05:07:2011 102452606 						Request(NORTH122,Truck) will be served at: 05/07/2011 10:26:46 PM
+05:07:2011 102454498 			[Customer(EAST114) Order served, Type: Car]
+05:07:2011 102454498 Produced (Car): 1
+05:07:2011 102456607 			[Requested(SOUTH123,Car)]
+05:07:2011 102456608 						Request(SOUTH123,Car) will be served at: 05/07/2011 10:25:39 PM
+05:07:2011 102458467 Produced (Byke): 1
+05:07:2011 102458608 			[Requested(SOUTH124,Byke)]
+05:07:2011 102458608 			[Customer(SOUTH124) Order served, Type: Byke]
+05:07:2011 102500609 			[Requested(SOUTH125,Truck)]
+05:07:2011 102500609 						Request(SOUTH125,Truck) will be served at: 05/07/2011 10:27:10 PM
+05:07:2011 102504610 			[Requested(EAST126,Car)]
+05:07:2011 102504610 						Request(EAST126,Car) will be served at: 05/07/2011 10:26:01 PM
+05:07:2011 102506611 			[Requested(EAST127,Byke)]
+05:07:2011 102506611 			[Customer(EAST127) Order served, Type: Byke]
+05:07:2011 102508498 			[Customer(WEST117) Order served, Type: Car]
+05:07:2011 102508498 Produced (Car): 1
+05:07:2011 102508506 			[Customer(EAST104) Order served, Type: Truck]
+05:07:2011 102508506 Produced (Truck): 1
+05:07:2011 102508612 			[Requested(EAST128,Truck)]
+05:07:2011 102508613 						Request(EAST128,Truck) will be served at: 05/07/2011 10:27:18 PM
+05:07:2011 102509467 Produced (Byke): 1
+05:07:2011 102512614 			[Requested(WEST129,Car)]
+05:07:2011 102512615 						Request(WEST129,Car) will be served at: 05/07/2011 10:26:09 PM
+05:07:2011 102514615 			[Requested(WEST130,Byke)]
+05:07:2011 102514616 			[Customer(WEST130) Order served, Type: Byke]
+05:07:2011 102516616 			[Requested(WEST131,Truck)]
+05:07:2011 102516616 						Request(WEST131,Truck) will be served at: 05/07/2011 10:27:43 PM
+05:07:2011 102520468 Produced (Byke): 1
+05:07:2011 102522500 			[Customer(NORTH120) Order served, Type: Car]
+05:07:2011 102522500 Produced (Car): 1
+05:07:2011 102524508 			[Customer(WEST107) Order served, Type: Truck]
+05:07:2011 102524508 Produced (Truck): 1
+05:07:2011 102531469 Produced (Byke): 1
+05:07:2011 102536501 			[Customer(SOUTH123) Order served, Type: Car]
+05:07:2011 102536501 Produced (Car): 1
+05:07:2011 102540509 			[Customer(NORTH110) Order served, Type: Truck]
+05:07:2011 102540509 Produced (Truck): 1
+05:07:2011 102540618 			[Requested(NORTH132,Car)]
+05:07:2011 102540619 						Request(NORTH132,Car) will be served at: 05/07/2011 10:26:23 PM
+05:07:2011 102542469 Produced (Byke): 1
+05:07:2011 102542619 			[Requested(NORTH133,Byke)]
+05:07:2011 102542619 			[Customer(NORTH133) Order served, Type: Byke]
+05:07:2011 102544620 			[Requested(NORTH134,Truck)]
+05:07:2011 102544620 						Request(NORTH134,Truck) will be served at: 05/07/2011 10:27:54 PM
+05:07:2011 102548621 			[Requested(SOUTH135,Car)]
+05:07:2011 102548621 						Request(SOUTH135,Car) will be served at: 05/07/2011 10:26:45 PM
+05:07:2011 102550503 			[Customer(EAST126) Order served, Type: Car]
+05:07:2011 102550503 Produced (Car): 1
+05:07:2011 102550622 			[Requested(SOUTH136,Byke)]
+05:07:2011 102550622 			[Customer(SOUTH136) Order served, Type: Byke]
+05:07:2011 102552623 			[Requested(SOUTH137,Truck)]
+05:07:2011 102552624 						Request(SOUTH137,Truck) will be served at: 05/07/2011 10:28:19 PM
+05:07:2011 102553470 Produced (Byke): 1
+05:07:2011 102556511 			[Customer(SOUTH113) Order served, Type: Truck]
+05:07:2011 102556512 Produced (Truck): 1
+05:07:2011 102556624 			[Requested(EAST138,Car)]
+05:07:2011 102556624 						Request(EAST138,Car) will be served at: 05/07/2011 10:26:53 PM
+05:07:2011 102558625 			[Requested(EAST139,Byke)]
+05:07:2011 102558625 			[Customer(EAST139) Order served, Type: Byke]
+05:07:2011 102600626 			[Requested(EAST140,Truck)]
+05:07:2011 102600627 						Request(EAST140,Truck) will be served at: 05/07/2011 10:28:27 PM
+05:07:2011 102604471 Produced (Byke): 1
+05:07:2011 102604505 			[Customer(WEST129) Order served, Type: Car]
+05:07:2011 102604505 Produced (Car): 1
+05:07:2011 102604628 			[Requested(WEST141,Car)]
+05:07:2011 102604628 						Request(WEST141,Car) will be served at: 05/07/2011 10:27:01 PM
+05:07:2011 102606629 			[Requested(WEST142,Byke)]
+05:07:2011 102606629 			[Customer(WEST142) Order served, Type: Byke]
+05:07:2011 102608630 			[Requested(WEST143,Truck)]
+05:07:2011 102608630 						Request(WEST143,Truck) will be served at: 05/07/2011 10:28:51 PM
+05:07:2011 102612513 			[Customer(EAST116) Order served, Type: Truck]
+05:07:2011 102612513 Produced (Truck): 1
+05:07:2011 102615471 Produced (Byke): 1
+05:07:2011 102618506 			[Customer(NORTH132) Order served, Type: Car]
+05:07:2011 102618506 Produced (Car): 1
+05:07:2011 102626472 Produced (Byke): 1
+05:07:2011 102628515 			[Customer(WEST119) Order served, Type: Truck]
+05:07:2011 102628515 Produced (Truck): 1
+05:07:2011 102632507 			[Customer(SOUTH135) Order served, Type: Car]
+05:07:2011 102632507 Produced (Car): 1
+05:07:2011 102632642 			[Requested(NORTH144,Car)]
+05:07:2011 102632643 						Request(NORTH144,Car) will be served at: 05/07/2011 10:27:15 PM
+05:07:2011 102634643 			[Requested(NORTH145,Byke)]
+05:07:2011 102634643 			[Customer(NORTH145) Order served, Type: Byke]
+05:07:2011 102636644 			[Requested(NORTH146,Truck)]
+05:07:2011 102636645 						Request(NORTH146,Truck) will be served at: 05/07/2011 10:29:03 PM
+05:07:2011 102637472 Produced (Byke): 1
+05:07:2011 102640646 			[Requested(SOUTH147,Car)]
+05:07:2011 102640646 						Request(SOUTH147,Car) will be served at: 05/07/2011 10:27:37 PM
+05:07:2011 102642646 			[Requested(SOUTH148,Byke)]
+05:07:2011 102642646 			[Customer(SOUTH148) Order served, Type: Byke]
+05:07:2011 102644517 			[Customer(NORTH122) Order served, Type: Truck]
+05:07:2011 102644518 Produced (Truck): 1
+05:07:2011 102644647 			[Requested(SOUTH149,Truck)]
+05:07:2011 102644648 						Request(SOUTH149,Truck) will be served at: 05/07/2011 10:29:11 PM
+05:07:2011 102646509 			[Customer(EAST138) Order served, Type: Car]
+05:07:2011 102646509 Produced (Car): 1
+05:07:2011 102648473 Produced (Byke): 1
+05:07:2011 102648648 			[Requested(EAST150,Car)]
+05:07:2011 102648648 						Request(EAST150,Car) will be served at: 05/07/2011 10:27:45 PM
+05:07:2011 102650648 			[Requested(EAST151,Byke)]
+05:07:2011 102650648 			[Customer(EAST151) Order served, Type: Byke]
+05:07:2011 102652649 			[Requested(EAST152,Truck)]
+05:07:2011 102652649 						Request(EAST152,Truck) will be served at: 05/07/2011 10:29:35 PM
+05:07:2011 102656650 			[Requested(WEST153,Car)]
+05:07:2011 102656651 						Request(WEST153,Car) will be served at: 05/07/2011 10:28:08 PM
+05:07:2011 102658651 			[Requested(WEST154,Byke)]
+05:07:2011 102658651 			[Customer(WEST154) Order served, Type: Byke]
+05:07:2011 102659474 Produced (Byke): 1
+05:07:2011 102700511 			[Customer(WEST141) Order served, Type: Car]
+05:07:2011 102700511 Produced (Car): 1
+05:07:2011 102700519 			[Customer(SOUTH125) Order served, Type: Truck]
+05:07:2011 102700519 Produced (Truck): 1
+05:07:2011 102700651 			[Requested(WEST155,Truck)]
+05:07:2011 102700652 						Request(WEST155,Truck) will be served at: 05/07/2011 10:29:43 PM
+05:07:2011 102710474 Produced (Byke): 1
+05:07:2011 102714512 			[Customer(NORTH144) Order served, Type: Car]
+05:07:2011 102714512 Produced (Car): 1
+05:07:2011 102716521 			[Customer(EAST128) Order served, Type: Truck]
+05:07:2011 102716521 Produced (Truck): 1
+05:07:2011 102721475 Produced (Byke): 1
+05:07:2011 102724654 			[Requested(NORTH156,Car)]
+05:07:2011 102724655 						Request(NORTH156,Car) will be served at: 05/07/2011 10:28:21 PM
+05:07:2011 102726655 			[Requested(NORTH157,Byke)]
+05:07:2011 102726655 			[Customer(NORTH157) Order served, Type: Byke]
+05:07:2011 102728512 			[Customer(SOUTH147) Order served, Type: Car]
+05:07:2011 102728512 Produced (Car): 1
+05:07:2011 102728656 			[Requested(NORTH158,Truck)]
+05:07:2011 102728656 						Request(NORTH158,Truck) will be served at: 05/07/2011 10:30:11 PM
+05:07:2011 102732476 Produced (Byke): 1
+05:07:2011 102732523 			[Customer(WEST131) Order served, Type: Truck]
+05:07:2011 102732523 Produced (Truck): 1
+05:07:2011 102732657 			[Requested(SOUTH159,Car)]
+05:07:2011 102732657 						Request(SOUTH159,Car) will be served at: 05/07/2011 10:28:29 PM
+05:07:2011 102734658 			[Requested(SOUTH160,Byke)]
+05:07:2011 102734658 			[Customer(SOUTH160) Order served, Type: Byke]
+05:07:2011 102736659 			[Requested(SOUTH161,Truck)]
+05:07:2011 102736660 						Request(SOUTH161,Truck) will be served at: 05/07/2011 10:30:19 PM
+05:07:2011 102740660 			[Requested(EAST162,Car)]
+05:07:2011 102740661 						Request(EAST162,Car) will be served at: 05/07/2011 10:28:52 PM
+05:07:2011 102742513 			[Customer(EAST150) Order served, Type: Car]
+05:07:2011 102742513 Produced (Car): 1
+05:07:2011 102742661 			[Requested(EAST163,Byke)]
+05:07:2011 102742661 			[Customer(EAST163) Order served, Type: Byke]
+05:07:2011 102743476 Produced (Byke): 1
+05:07:2011 102744661 			[Requested(EAST164,Truck)]
+05:07:2011 102744661 						Request(EAST164,Truck) will be served at: 05/07/2011 10:30:44 PM
+05:07:2011 102748524 			[Customer(NORTH134) Order served, Type: Truck]
+05:07:2011 102748524 Produced (Truck): 1
+05:07:2011 102748663 			[Requested(WEST165,Car)]
+05:07:2011 102748663 						Request(WEST165,Car) will be served at: 05/07/2011 10:29:00 PM
+05:07:2011 102750663 			[Requested(WEST166,Byke)]
+05:07:2011 102750664 			[Customer(WEST166) Order served, Type: Byke]
+05:07:2011 102752664 			[Requested(WEST167,Truck)]
+05:07:2011 102752664 						Request(WEST167,Truck) will be served at: 05/07/2011 10:30:52 PM
+05:07:2011 102754477 Produced (Byke): 1
+05:07:2011 102756515 			[Customer(WEST153) Order served, Type: Car]
+05:07:2011 102756515 Produced (Car): 1
+05:07:2011 102804526 			[Customer(SOUTH137) Order served, Type: Truck]
+05:07:2011 102804526 Produced (Truck): 1
+05:07:2011 102805477 Produced (Byke): 1
+05:07:2011 102810517 			[Customer(NORTH156) Order served, Type: Car]
+05:07:2011 102810517 Produced (Car): 1
+05:07:2011 102816478 Produced (Byke): 1
+05:07:2011 102816673 			[Requested(NORTH168,Car)]
+05:07:2011 102816673 						Request(NORTH168,Car) will be served at: 05/07/2011 10:29:13 PM
+05:07:2011 102818674 			[Requested(NORTH169,Byke)]
+05:07:2011 102818674 			[Customer(NORTH169) Order served, Type: Byke]
+05:07:2011 102820527 			[Customer(EAST140) Order served, Type: Truck]
+05:07:2011 102820527 Produced (Truck): 1
+05:07:2011 102820675 			[Requested(NORTH170,Truck)]
+05:07:2011 102820675 						Request(NORTH170,Truck) will be served at: 05/07/2011 10:31:03 PM
+05:07:2011 102824518 			[Customer(SOUTH159) Order served, Type: Car]
+05:07:2011 102824518 Produced (Car): 1
+05:07:2011 102824677 			[Requested(SOUTH171,Car)]
+05:07:2011 102824678 						Request(SOUTH171,Car) will be served at: 05/07/2011 10:29:21 PM
+05:07:2011 102826678 			[Requested(SOUTH172,Byke)]
+05:07:2011 102826678 			[Customer(SOUTH172) Order served, Type: Byke]
+05:07:2011 102827479 Produced (Byke): 1
+05:07:2011 102828679 			[Requested(SOUTH173,Truck)]
+05:07:2011 102828679 						Request(SOUTH173,Truck) will be served at: 05/07/2011 10:31:28 PM
+05:07:2011 102832702 			[Requested(EAST174,Car)]
+05:07:2011 102832702 						Request(EAST174,Car) will be served at: 05/07/2011 10:29:44 PM
+05:07:2011 102834702 			[Requested(EAST175,Byke)]
+05:07:2011 102834702 			[Customer(EAST175) Order served, Type: Byke]
+05:07:2011 102836528 			[Customer(WEST143) Order served, Type: Truck]
+05:07:2011 102836528 Produced (Truck): 1
+05:07:2011 102836703 			[Requested(EAST176,Truck)]
+05:07:2011 102836703 						Request(EAST176,Truck) will be served at: 05/07/2011 10:31:36 PM
+05:07:2011 102838479 Produced (Byke): 1
+05:07:2011 102838519 			[Customer(EAST162) Order served, Type: Car]
+05:07:2011 102838519 Produced (Car): 1
+05:07:2011 102840704 			[Requested(WEST177,Car)]
+05:07:2011 102840705 						Request(WEST177,Car) will be served at: 05/07/2011 10:29:52 PM
+05:07:2011 102842706 			[Requested(WEST178,Byke)]
+05:07:2011 102842706 			[Customer(WEST178) Order served, Type: Byke]
+05:07:2011 102844707 			[Requested(WEST179,Truck)]
+05:07:2011 102844707 						Request(WEST179,Truck) will be served at: 05/07/2011 10:32:00 PM
+05:07:2011 102849480 Produced (Byke): 1
+05:07:2011 102852520 			[Customer(WEST165) Order served, Type: Car]
+05:07:2011 102852520 Produced (Car): 1
+05:07:2011 102852529 			[Customer(NORTH146) Order served, Type: Truck]
+05:07:2011 102852529 Produced (Truck): 1
+05:07:2011 102900481 Produced (Byke): 1
+05:07:2011 102906522 			[Customer(NORTH168) Order served, Type: Car]
+05:07:2011 102906522 Produced (Car): 1
+05:07:2011 102908531 			[Customer(SOUTH149) Order served, Type: Truck]
+05:07:2011 102908531 Produced (Truck): 1
+05:07:2011 102908709 			[Requested(NORTH180,Car)]
+05:07:2011 102908709 						Request(NORTH180,Car) will be served at: 05/07/2011 10:30:05 PM
+05:07:2011 102910710 			[Requested(NORTH181,Byke)]
+05:07:2011 102910710 			[Customer(NORTH181) Order served, Type: Byke]
+05:07:2011 102911481 Produced (Byke): 1
+05:07:2011 102912711 			[Requested(NORTH182,Truck)]
+05:07:2011 102912711 						Request(NORTH182,Truck) will be served at: 05/07/2011 10:32:12 PM
+05:07:2011 102916712 			[Requested(SOUTH183,Car)]
+05:07:2011 102916712 						Request(SOUTH183,Car) will be served at: 05/07/2011 10:30:28 PM
+05:07:2011 102918712 			[Requested(SOUTH184,Byke)]
+05:07:2011 102918713 			[Customer(SOUTH184) Order served, Type: Byke]
+05:07:2011 102920523 			[Customer(SOUTH171) Order served, Type: Car]
+05:07:2011 102920523 Produced (Car): 1
+05:07:2011 102920713 			[Requested(SOUTH185,Truck)]
+05:07:2011 102920713 						Request(SOUTH185,Truck) will be served at: 05/07/2011 10:32:36 PM
+05:07:2011 102922482 Produced (Byke): 1
+05:07:2011 102924532 			[Customer(EAST152) Order served, Type: Truck]
+05:07:2011 102924532 Produced (Truck): 1
+05:07:2011 102924714 			[Requested(EAST186,Car)]
+05:07:2011 102924715 						Request(EAST186,Car) will be served at: 05/07/2011 10:30:36 PM
+05:07:2011 102926715 			[Requested(EAST187,Byke)]
+05:07:2011 102926715 			[Customer(EAST187) Order served, Type: Byke]
+05:07:2011 102928716 			[Requested(EAST188,Truck)]
+05:07:2011 102928716 						Request(EAST188,Truck) will be served at: 05/07/2011 10:32:44 PM
+05:07:2011 102932717 			[Requested(WEST189,Car)]
+05:07:2011 102932718 						Request(WEST189,Car) will be served at: 05/07/2011 10:30:58 PM
+05:07:2011 102933482 Produced (Byke): 1
+05:07:2011 102934524 			[Customer(EAST174) Order served, Type: Car]
+05:07:2011 102934525 Produced (Car): 1
+05:07:2011 102934719 			[Requested(WEST190,Byke)]
+05:07:2011 102934719 			[Customer(WEST190) Order served, Type: Byke]
+05:07:2011 102936719 			[Requested(WEST191,Truck)]
+05:07:2011 102936719 						Request(WEST191,Truck) will be served at: 05/07/2011 10:33:08 PM
+05:07:2011 102940534 			[Customer(WEST155) Order served, Type: Truck]
+05:07:2011 102940535 Produced (Truck): 1
+05:07:2011 102944483 Produced (Byke): 1
+05:07:2011 102948525 			[Customer(WEST177) Order served, Type: Car]
+05:07:2011 102948525 Produced (Car): 1
+05:07:2011 102955484 Produced (Byke): 1
+05:07:2011 102956536 			[Customer(NORTH158) Order served, Type: Truck]
+05:07:2011 102956536 Produced (Truck): 1
+05:07:2011 103000721 			[Requested(NORTH192,Car)]
+05:07:2011 103000722 						Request(NORTH192,Car) will be served at: 05/07/2011 10:31:12 PM
+05:07:2011 103002527 			[Customer(NORTH180) Order served, Type: Car]
+05:07:2011 103002527 Produced (Car): 1
+05:07:2011 103002722 			[Requested(NORTH193,Byke)]
+05:07:2011 103002722 			[Customer(NORTH193) Order served, Type: Byke]
+05:07:2011 103004724 			[Requested(NORTH194,Truck)]
+05:07:2011 103004725 						Request(NORTH194,Truck) will be served at: 05/07/2011 10:33:20 PM
+05:07:2011 103006484 Produced (Byke): 1
+05:07:2011 103008726 			[Requested(SOUTH195,Car)]
+05:07:2011 103008726 						Request(SOUTH195,Car) will be served at: 05/07/2011 10:31:20 PM
+05:07:2011 103010726 			[Requested(SOUTH196,Byke)]
+05:07:2011 103010726 			[Customer(SOUTH196) Order served, Type: Byke]
+05:07:2011 103012537 			[Customer(SOUTH161) Order served, Type: Truck]
+05:07:2011 103012537 Produced (Truck): 1
+05:07:2011 103012727 			[Requested(SOUTH197,Truck)]
+05:07:2011 103012727 						Request(SOUTH197,Truck) will be served at: 05/07/2011 10:33:28 PM
+05:07:2011 103016528 			[Customer(SOUTH183) Order served, Type: Car]
+05:07:2011 103016528 Produced (Car): 1
+05:07:2011 103016728 			[Requested(EAST198,Car)]
+05:07:2011 103016728 						Request(EAST198,Car) will be served at: 05/07/2011 10:31:28 PM
+05:07:2011 103017485 Produced (Byke): 1
+05:07:2011 103018728 			[Requested(EAST199,Byke)]
+05:07:2011 103018728 			[Customer(EAST199) Order served, Type: Byke]
+05:07:2011 103020728 			[Requested(EAST200,Truck)]
+05:07:2011 103020728 						Request(EAST200,Truck) will be served at: 05/07/2011 10:33:52 PM
+05:07:2011 103024728 			[Requested(WEST201,Car)]
+05:07:2011 103024728 						Request(WEST201,Car) will be served at: 05/07/2011 10:31:50 PM
+05:07:2011 103026730 			[Requested(WEST202,Byke)]
+05:07:2011 103026730 			[Customer(WEST202) Order served, Type: Byke]
+05:07:2011 103028487 Produced (Byke): 1
+05:07:2011 103028538 			[Customer(EAST164) Order served, Type: Truck]
+05:07:2011 103028538 Produced (Truck): 1
+05:07:2011 103028730 			[Requested(WEST203,Truck)]
+05:07:2011 103028730 						Request(WEST203,Truck) will be served at: 05/07/2011 10:34:00 PM
+05:07:2011 103030529 			[Customer(EAST186) Order served, Type: Car]
+05:07:2011 103030529 Produced (Car): 1
+05:07:2011 103039516 Produced (Byke): 1
+05:07:2011 103044530 			[Customer(WEST189) Order served, Type: Car]
+05:07:2011 103044530 Produced (Car): 1
+05:07:2011 103044539 			[Customer(WEST167) Order served, Type: Truck]
+05:07:2011 103044539 Produced (Truck): 1
+05:07:2011 103050524 Produced (Byke): 1
+05:07:2011 103052732 			[Requested(NORTH204,Car)]
+05:07:2011 103052732 						Request(NORTH204,Car) will be served at: 05/07/2011 10:32:04 PM
+05:07:2011 103054732 			[Requested(NORTH205,Byke)]
+05:07:2011 103054732 			[Customer(NORTH205) Order served, Type: Byke]
+05:07:2011 103056732 			[Requested(NORTH206,Truck)]
+05:07:2011 103056732 						Request(NORTH206,Truck) will be served at: 05/07/2011 10:34:28 PM
+05:07:2011 103058530 			[Customer(NORTH192) Order served, Type: Car]
+05:07:2011 103058530 Produced (Car): 1
+05:07:2011 103100539 			[Customer(NORTH170) Order served, Type: Truck]
+05:07:2011 103100539 Produced (Truck): 1
+05:07:2011 103100732 			[Requested(SOUTH207,Car)]
+05:07:2011 103100734 						Request(SOUTH207,Car) will be served at: 05/07/2011 10:32:12 PM
+05:07:2011 103101525 Produced (Byke): 1
+05:07:2011 103102735 			[Requested(SOUTH208,Byke)]
+05:07:2011 103102735 			[Customer(SOUTH208) Order served, Type: Byke]
+05:07:2011 103104736 			[Requested(SOUTH209,Truck)]
+05:07:2011 103104737 						Request(SOUTH209,Truck) will be served at: 05/07/2011 10:34:36 PM
+05:07:2011 103108738 			[Requested(EAST210,Car)]
+05:07:2011 103108739 						Request(EAST210,Car) will be served at: 05/07/2011 10:32:34 PM
+05:07:2011 103110739 			[Requested(EAST211,Byke)]
+05:07:2011 103110739 			[Customer(EAST211) Order served, Type: Byke]
+05:07:2011 103112525 Produced (Byke): 1
+05:07:2011 103112531 			[Customer(SOUTH195) Order served, Type: Car]
+05:07:2011 103112531 Produced (Car): 1
+05:07:2011 103112740 			[Requested(EAST212,Truck)]
+05:07:2011 103112740 						Request(EAST212,Truck) will be served at: 05/07/2011 10:35:01 PM
+05:07:2011 103116540 			[Customer(SOUTH173) Order served, Type: Truck]
+05:07:2011 103116540 Produced (Truck): 1
+05:07:2011 103116741 			[Requested(WEST213,Car)]
+05:07:2011 103116741 						Request(WEST213,Car) will be served at: 05/07/2011 10:32:42 PM
+05:07:2011 103118743 			[Requested(WEST214,Byke)]
+05:07:2011 103118747 			[Customer(WEST214) Order served, Type: Byke]
+05:07:2011 103120747 			[Requested(WEST215,Truck)]
+05:07:2011 103120747 						Request(WEST215,Truck) will be served at: 05/07/2011 10:35:09 PM
+05:07:2011 103123526 Produced (Byke): 1
+05:07:2011 103126532 			[Customer(EAST198) Order served, Type: Car]
+05:07:2011 103126532 Produced (Car): 1
+05:07:2011 103132541 			[Customer(EAST176) Order served, Type: Truck]
+05:07:2011 103132541 Produced (Truck): 1
+05:07:2011 103134527 Produced (Byke): 1
+05:07:2011 103140533 			[Customer(WEST201) Order served, Type: Car]
+05:07:2011 103140533 Produced (Car): 1
+05:07:2011 103144749 			[Requested(NORTH216,Car)]
+05:07:2011 103144749 						Request(NORTH216,Car) will be served at: 05/07/2011 10:32:56 PM
+05:07:2011 103145528 Produced (Byke): 1
+05:07:2011 103146749 			[Requested(NORTH217,Byke)]
+05:07:2011 103146749 			[Customer(NORTH217) Order served, Type: Byke]
+05:07:2011 103148542 			[Customer(WEST179) Order served, Type: Truck]
+05:07:2011 103148542 Produced (Truck): 1
+05:07:2011 103148750 			[Requested(NORTH218,Truck)]
+05:07:2011 103148751 						Request(NORTH218,Truck) will be served at: 05/07/2011 10:35:20 PM
+05:07:2011 103152751 			[Requested(SOUTH219,Car)]
+05:07:2011 103152751 						Request(SOUTH219,Car) will be served at: 05/07/2011 10:33:18 PM
+05:07:2011 103154534 			[Customer(NORTH204) Order served, Type: Car]
+05:07:2011 103154534 Produced (Car): 1
+05:07:2011 103154753 			[Requested(SOUTH220,Byke)]
+05:07:2011 103154753 			[Customer(SOUTH220) Order served, Type: Byke]
+05:07:2011 103156531 Produced (Byke): 1
+05:07:2011 103156754 			[Requested(SOUTH221,Truck)]
+05:07:2011 103156754 						Request(SOUTH221,Truck) will be served at: 05/07/2011 10:35:45 PM
+05:07:2011 103200786 			[Requested(EAST222,Car)]
+05:07:2011 103200787 						Request(EAST222,Car) will be served at: 05/07/2011 10:33:26 PM
+05:07:2011 103202787 			[Requested(EAST223,Byke)]
+05:07:2011 103202787 			[Customer(EAST223) Order served, Type: Byke]
+05:07:2011 103204547 			[Customer(NORTH182) Order served, Type: Truck]
+05:07:2011 103204548 Produced (Truck): 1
+05:07:2011 103204787 			[Requested(EAST224,Truck)]
+05:07:2011 103204787 						Request(EAST224,Truck) will be served at: 05/07/2011 10:35:53 PM
+05:07:2011 103207531 Produced (Byke): 1
+05:07:2011 103208535 			[Customer(SOUTH207) Order served, Type: Car]
+05:07:2011 103208535 Produced (Car): 1
+05:07:2011 103208787 			[Requested(WEST225,Car)]
+05:07:2011 103208787 						Request(WEST225,Car) will be served at: 05/07/2011 10:33:34 PM
+05:07:2011 103210788 			[Requested(WEST226,Byke)]
+05:07:2011 103210788 			[Customer(WEST226) Order served, Type: Byke]
+05:07:2011 103212790 			[Requested(WEST227,Truck)]
+05:07:2011 103212790 						Request(WEST227,Truck) will be served at: 05/07/2011 10:36:17 PM
+05:07:2011 103218532 Produced (Byke): 1
+05:07:2011 103220549 			[Customer(SOUTH185) Order served, Type: Truck]
+05:07:2011 103220549 Produced (Truck): 1
+05:07:2011 103222536 			[Customer(EAST210) Order served, Type: Car]
+05:07:2011 103222536 Produced (Car): 1
+05:07:2011 103229533 Produced (Byke): 1
+05:07:2011 103236537 			[Customer(WEST213) Order served, Type: Car]
+05:07:2011 103236537 Produced (Car): 1
+05:07:2011 103236551 			[Customer(EAST188) Order served, Type: Truck]
+05:07:2011 103236551 Produced (Truck): 1
+05:07:2011 103236793 			[Requested(NORTH228,Car)]
+05:07:2011 103236794 						Request(NORTH228,Car) will be served at: 05/07/2011 10:33:48 PM
+05:07:2011 103238794 			[Requested(NORTH229,Byke)]
+05:07:2011 103238794 			[Customer(NORTH229) Order served, Type: Byke]
+05:07:2011 103240533 Produced (Byke): 1
+05:07:2011 103240794 			[Requested(NORTH230,Truck)]
+05:07:2011 103240794 						Request(NORTH230,Truck) will be served at: 05/07/2011 10:36:29 PM
+05:07:2011 103244794 			[Requested(SOUTH231,Car)]
+05:07:2011 103244795 						Request(SOUTH231,Car) will be served at: 05/07/2011 10:34:10 PM
+05:07:2011 103246796 			[Requested(SOUTH232,Byke)]
+05:07:2011 103246797 			[Customer(SOUTH232) Order served, Type: Byke]
+05:07:2011 103248797 			[Requested(SOUTH233,Truck)]
+05:07:2011 103248797 						Request(SOUTH233,Truck) will be served at: 05/07/2011 10:36:53 PM
+05:07:2011 103250538 			[Customer(NORTH216) Order served, Type: Car]
+05:07:2011 103250538 Produced (Car): 1
+05:07:2011 103251534 Produced (Byke): 1
+05:07:2011 103252552 			[Customer(WEST191) Order served, Type: Truck]
+05:07:2011 103252552 Produced (Truck): 1
+05:07:2011 103252797 			[Requested(EAST234,Car)]
+05:07:2011 103252797 						Request(EAST234,Car) will be served at: 05/07/2011 10:34:18 PM
+05:07:2011 103254797 			[Requested(EAST235,Byke)]
+05:07:2011 103254797 			[Customer(EAST235) Order served, Type: Byke]
+05:07:2011 103256798 			[Requested(EAST236,Truck)]
+05:07:2011 103256798 						Request(EAST236,Truck) will be served at: 05/07/2011 10:37:01 PM
+05:07:2011 103300799 			[Requested(WEST237,Car)]
+05:07:2011 103300799 						Request(WEST237,Car) will be served at: 05/07/2011 10:34:40 PM
+05:07:2011 103302534 Produced (Byke): 1
+05:07:2011 103302799 			[Requested(WEST238,Byke)]
+05:07:2011 103302799 			[Customer(WEST238) Order served, Type: Byke]
+05:07:2011 103304540 			[Customer(SOUTH219) Order served, Type: Car]
+05:07:2011 103304540 Produced (Car): 1
+05:07:2011 103304801 			[Requested(WEST239,Truck)]
+05:07:2011 103304801 						Request(WEST239,Truck) will be served at: 05/07/2011 10:37:25 PM
+05:07:2011 103308555 			[Customer(NORTH194) Order served, Type: Truck]
+05:07:2011 103308555 Produced (Truck): 1
+05:07:2011 103313536 Produced (Byke): 1
+05:07:2011 103318540 			[Customer(EAST222) Order served, Type: Car]
+05:07:2011 103318540 Produced (Car): 1
+05:07:2011 103324537 Produced (Byke): 1
+05:07:2011 103324556 			[Customer(SOUTH197) Order served, Type: Truck]
+05:07:2011 103324556 Produced (Truck): 1
+05:07:2011 103328804 			[Requested(NORTH240,Car)]
+05:07:2011 103328804 						Request(NORTH240,Car) will be served at: 05/07/2011 10:34:54 PM
+05:07:2011 103330805 			[Requested(NORTH241,Byke)]
+05:07:2011 103330806 			[Customer(NORTH241) Order served, Type: Byke]
+05:07:2011 103332541 			[Customer(WEST225) Order served, Type: Car]
+05:07:2011 103332541 Produced (Car): 1
+05:07:2011 103332806 			[Requested(NORTH242,Truck)]
+05:07:2011 103332806 						Request(NORTH242,Truck) will be served at: 05/07/2011 10:37:37 PM
+05:07:2011 103335537 Produced (Byke): 1
+05:07:2011 103336807 			[Requested(SOUTH243,Car)]
+05:07:2011 103336807 						Request(SOUTH243,Car) will be served at: 05/07/2011 10:35:02 PM
+05:07:2011 103338842 			[Requested(SOUTH244,Byke)]
+05:07:2011 103338842 			[Customer(SOUTH244) Order served, Type: Byke]
+05:07:2011 103340558 			[Customer(EAST200) Order served, Type: Truck]
+05:07:2011 103340558 Produced (Truck): 1
+05:07:2011 103340842 			[Requested(SOUTH245,Truck)]
+05:07:2011 103340842 						Request(SOUTH245,Truck) will be served at: 05/07/2011 10:37:45 PM
+05:07:2011 103344842 			[Requested(EAST246,Car)]
+05:07:2011 103344842 						Request(EAST246,Car) will be served at: 05/07/2011 10:35:24 PM
+05:07:2011 103346540 Produced (Byke): 1
+05:07:2011 103346542 			[Customer(NORTH228) Order served, Type: Car]
+05:07:2011 103346542 Produced (Car): 1
+05:07:2011 103346842 			[Requested(EAST247,Byke)]
+05:07:2011 103346842 			[Customer(EAST247) Order served, Type: Byke]
+05:07:2011 103348843 			[Requested(EAST248,Truck)]
+05:07:2011 103348843 						Request(EAST248,Truck) will be served at: 05/07/2011 10:38:09 PM
+05:07:2011 103352844 			[Requested(WEST249,Car)]
+05:07:2011 103352845 						Request(WEST249,Car) will be served at: 05/07/2011 10:35:32 PM
+05:07:2011 103354845 			[Requested(WEST250,Byke)]
+05:07:2011 103354845 			[Customer(WEST250) Order served, Type: Byke]
+05:07:2011 103356559 			[Customer(WEST203) Order served, Type: Truck]
+05:07:2011 103356559 Produced (Truck): 1
+05:07:2011 103356847 			[Requested(WEST251,Truck)]
+05:07:2011 103356847 						Request(WEST251,Truck) will be served at: 05/07/2011 10:38:17 PM
+05:07:2011 103357541 Produced (Byke): 1
+05:07:2011 103400543 			[Customer(SOUTH231) Order served, Type: Car]
+05:07:2011 103400544 Produced (Car): 1
+05:07:2011 103408542 Produced (Byke): 1
+05:07:2011 103412559 			[Customer(NORTH206) Order served, Type: Truck]
+05:07:2011 103412559 Produced (Truck): 1
+05:07:2011 103414545 			[Customer(EAST234) Order served, Type: Car]
+05:07:2011 103414545 Produced (Car): 1
+05:07:2011 103419543 Produced (Byke): 1
+05:07:2011 103420848 			[Requested(NORTH252,Car)]
+05:07:2011 103420849 						Request(NORTH252,Car) will be served at: 05/07/2011 10:35:46 PM
+05:07:2011 103422849 			[Requested(NORTH253,Byke)]
+05:07:2011 103422849 			[Customer(NORTH253) Order served, Type: Byke]
+05:07:2011 103424850 			[Requested(NORTH254,Truck)]
+05:07:2011 103424851 						Request(NORTH254,Truck) will be served at: 05/07/2011 10:38:45 PM
+05:07:2011 103428545 			[Customer(WEST237) Order served, Type: Car]
+05:07:2011 103428545 Produced (Car): 1
+05:07:2011 103428561 			[Customer(SOUTH209) Order served, Type: Truck]
+05:07:2011 103428561 Produced (Truck): 1
+05:07:2011 103428936 			[Requested(SOUTH255,Car)]
+05:07:2011 103428936 						Request(SOUTH255,Car) will be served at: 05/07/2011 10:35:54 PM
+05:07:2011 103430543 Produced (Byke): 1
+05:07:2011 103430937 			[Requested(SOUTH256,Byke)]
+05:07:2011 103430937 			[Customer(SOUTH256) Order served, Type: Byke]
+05:07:2011 103432938 			[Requested(SOUTH257,Truck)]
+05:07:2011 103432939 						Request(SOUTH257,Truck) will be served at: 05/07/2011 10:38:53 PM
+05:07:2011 103436939 			[Requested(EAST258,Car)]
+05:07:2011 103436940 						Request(EAST258,Car) will be served at: 05/07/2011 10:36:16 PM
+05:07:2011 103438940 			[Requested(EAST259,Byke)]
+05:07:2011 103438940 			[Customer(EAST259) Order served, Type: Byke]
+05:07:2011 103440941 			[Requested(EAST260,Truck)]
+05:07:2011 103440941 						Request(EAST260,Truck) will be served at: 05/07/2011 10:39:18 PM
+05:07:2011 103441544 Produced (Byke): 1
+05:07:2011 103442546 			[Customer(NORTH240) Order served, Type: Car]
+05:07:2011 103442546 Produced (Car): 1
+05:07:2011 103444562 			[Customer(EAST212) Order served, Type: Truck]
+05:07:2011 103444562 Produced (Truck): 1
+05:07:2011 103444942 			[Requested(WEST261,Car)]
+05:07:2011 103444943 						Request(WEST261,Car) will be served at: 05/07/2011 10:36:24 PM
+05:07:2011 103446943 			[Requested(WEST262,Byke)]
+05:07:2011 103446943 			[Customer(WEST262) Order served, Type: Byke]
+05:07:2011 103448944 			[Requested(WEST263,Truck)]
+05:07:2011 103448944 						Request(WEST263,Truck) will be served at: 05/07/2011 10:39:26 PM
+05:07:2011 103452545 Produced (Byke): 1
+05:07:2011 103456547 			[Customer(SOUTH243) Order served, Type: Car]
+05:07:2011 103456547 Produced (Car): 1
+05:07:2011 103500563 			[Customer(WEST215) Order served, Type: Truck]
+05:07:2011 103500563 Produced (Truck): 1
+05:07:2011 103503545 Produced (Byke): 1
+05:07:2011 103510548 			[Customer(EAST246) Order served, Type: Car]
+05:07:2011 103510548 Produced (Car): 1
+05:07:2011 103512947 			[Requested(NORTH264,Car)]
+05:07:2011 103512948 						Request(NORTH264,Car) will be served at: 05/07/2011 10:36:38 PM
+05:07:2011 103514546 Produced (Byke): 1
+05:07:2011 103514948 			[Requested(NORTH265,Byke)]
+05:07:2011 103514948 			[Customer(NORTH265) Order served, Type: Byke]
+05:07:2011 103516564 			[Customer(NORTH218) Order served, Type: Truck]
+05:07:2011 103516564 Produced (Truck): 1
+05:07:2011 103516949 			[Requested(NORTH266,Truck)]
+05:07:2011 103516950 						Request(NORTH266,Truck) will be served at: 05/07/2011 10:39:37 PM
+05:07:2011 103520950 			[Requested(SOUTH267,Car)]
+05:07:2011 103520950 						Request(SOUTH267,Car) will be served at: 05/07/2011 10:37:00 PM
+05:07:2011 103522951 			[Requested(SOUTH268,Byke)]
+05:07:2011 103522951 			[Customer(SOUTH268) Order served, Type: Byke]
+05:07:2011 103524549 			[Customer(WEST249) Order served, Type: Car]
+05:07:2011 103524549 Produced (Car): 1
+05:07:2011 103524952 			[Requested(SOUTH269,Truck)]
+05:07:2011 103524952 						Request(SOUTH269,Truck) will be served at: 05/07/2011 10:40:02 PM
+05:07:2011 103525547 Produced (Byke): 1
+05:07:2011 103528952 			[Requested(EAST270,Car)]
+05:07:2011 103528952 						Request(EAST270,Car) will be served at: 05/07/2011 10:37:08 PM
+05:07:2011 103530952 			[Requested(EAST271,Byke)]
+05:07:2011 103530952 			[Customer(EAST271) Order served, Type: Byke]
+05:07:2011 103532566 			[Customer(SOUTH221) Order served, Type: Truck]
+05:07:2011 103532566 Produced (Truck): 1
+05:07:2011 103532952 			[Requested(EAST272,Truck)]
+05:07:2011 103532952 						Request(EAST272,Truck) will be served at: 05/07/2011 10:40:10 PM
+05:07:2011 103536547 Produced (Byke): 1
+05:07:2011 103536953 			[Requested(WEST273,Car)]
+05:07:2011 103536954 						Request(WEST273,Car) will be served at: 05/07/2011 10:37:31 PM
+05:07:2011 103538549 			[Customer(NORTH252) Order served, Type: Car]
+05:07:2011 103538550 Produced (Car): 1
+05:07:2011 103538954 			[Requested(WEST274,Byke)]
+05:07:2011 103538954 			[Customer(WEST274) Order served, Type: Byke]
+05:07:2011 103540956 			[Requested(WEST275,Truck)]
+05:07:2011 103540956 						Request(WEST275,Truck) will be served at: 05/07/2011 10:40:34 PM
+05:07:2011 103547548 Produced (Byke): 1
+05:07:2011 103548567 			[Customer(EAST224) Order served, Type: Truck]
+05:07:2011 103548567 Produced (Truck): 1
+05:07:2011 103552551 			[Customer(SOUTH255) Order served, Type: Car]
+05:07:2011 103552551 Produced (Car): 1
+05:07:2011 103558549 Produced (Byke): 1
+05:07:2011 103604568 			[Customer(WEST227) Order served, Type: Truck]
+05:07:2011 103604568 Produced (Truck): 1
+05:07:2011 103604958 			[Requested(NORTH276,Car)]
+05:07:2011 103604958 						Request(NORTH276,Car) will be served at: 05/07/2011 10:37:44 PM
+05:07:2011 103606555 			[Customer(EAST258) Order served, Type: Car]
+05:07:2011 103606555 Produced (Car): 1
+05:07:2011 103606958 			[Requested(NORTH277,Byke)]
+05:07:2011 103606958 			[Customer(NORTH277) Order served, Type: Byke]
+05:07:2011 103608958 			[Requested(NORTH278,Truck)]
+05:07:2011 103608958 						Request(NORTH278,Truck) will be served at: 05/07/2011 10:40:46 PM
+05:07:2011 103609549 Produced (Byke): 1
+05:07:2011 103612959 			[Requested(SOUTH279,Car)]
+05:07:2011 103612959 						Request(SOUTH279,Car) will be served at: 05/07/2011 10:37:52 PM
+05:07:2011 103614959 			[Requested(SOUTH280,Byke)]
+05:07:2011 103614959 			[Customer(SOUTH280) Order served, Type: Byke]
+05:07:2011 103616960 			[Requested(SOUTH281,Truck)]
+05:07:2011 103616961 						Request(SOUTH281,Truck) will be served at: 05/07/2011 10:41:10 PM
+05:07:2011 103620550 Produced (Byke): 1
+05:07:2011 103620556 			[Customer(WEST261) Order served, Type: Car]
+05:07:2011 103620556 Produced (Car): 1
+05:07:2011 103620569 			[Customer(NORTH230) Order served, Type: Truck]
+05:07:2011 103620569 Produced (Truck): 1
+05:07:2011 103620961 			[Requested(EAST282,Car)]
+05:07:2011 103620961 						Request(EAST282,Car) will be served at: 05/07/2011 10:38:00 PM
+05:07:2011 103622961 			[Requested(EAST283,Byke)]
+05:07:2011 103622961 			[Customer(EAST283) Order served, Type: Byke]
+05:07:2011 103624962 			[Requested(EAST284,Truck)]
+05:07:2011 103624962 						Request(EAST284,Truck) will be served at: 05/07/2011 10:41:18 PM
+05:07:2011 103628963 			[Requested(WEST285,Car)]
+05:07:2011 103628964 						Request(WEST285,Car) will be served at: 05/07/2011 10:38:23 PM
+05:07:2011 103630964 			[Requested(WEST286,Byke)]
+05:07:2011 103630964 			[Customer(WEST286) Order served, Type: Byke]
+05:07:2011 103631550 Produced (Byke): 1
+05:07:2011 103632964 			[Requested(WEST287,Truck)]
+05:07:2011 103632964 						Request(WEST287,Truck) will be served at: 05/07/2011 10:41:42 PM
+05:07:2011 103634557 			[Customer(NORTH264) Order served, Type: Car]
+05:07:2011 103634557 Produced (Car): 1
+05:07:2011 103636570 			[Customer(SOUTH233) Order served, Type: Truck]
+05:07:2011 103636570 Produced (Truck): 1
+05:07:2011 103642551 Produced (Byke): 1
+05:07:2011 103648557 			[Customer(SOUTH267) Order served, Type: Car]
+05:07:2011 103648557 Produced (Car): 1
+05:07:2011 103652571 			[Customer(EAST236) Order served, Type: Truck]
+05:07:2011 103652571 Produced (Truck): 1
+05:07:2011 103653552 Produced (Byke): 1
+05:07:2011 103656968 			[Requested(NORTH288,Car)]
+05:07:2011 103656969 						Request(NORTH288,Car) will be served at: 05/07/2011 10:38:36 PM
+05:07:2011 103658969 			[Requested(NORTH289,Byke)]
+05:07:2011 103658969 			[Customer(NORTH289) Order served, Type: Byke]
+05:07:2011 103700970 			[Requested(NORTH290,Truck)]
+05:07:2011 103700970 						Request(NORTH290,Truck) will be served at: 05/07/2011 10:41:54 PM
+05:07:2011 103702558 			[Customer(EAST270) Order served, Type: Car]
+05:07:2011 103702558 Produced (Car): 1
+05:07:2011 103704552 Produced (Byke): 1
+05:07:2011 103704971 			[Requested(SOUTH291,Car)]
+05:07:2011 103704971 						Request(SOUTH291,Car) will be served at: 05/07/2011 10:38:44 PM
+05:07:2011 103706978 			[Requested(SOUTH292,Byke)]
+05:07:2011 103706979 			[Customer(SOUTH292) Order served, Type: Byke]
+05:07:2011 103708572 			[Customer(WEST239) Order served, Type: Truck]
+05:07:2011 103708572 Produced (Truck): 1
+05:07:2011 103708981 			[Requested(SOUTH293,Truck)]
+05:07:2011 103708982 						Request(SOUTH293,Truck) will be served at: 05/07/2011 10:42:02 PM

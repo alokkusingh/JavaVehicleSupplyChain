@@ -1,0 +1,2325 @@
+29:05:2011 11.10.55.209 Hello World
+29:05:2011 11.10.55.210 Hello World
+29:05:2011 11.10.55.210 Hello World
+29:05:2011 11.10.55.210 Hello World
+29:05:2011 11.10.55.210 Hello World
+29:05:2011 11.10.55.211 Hello World
+29:05:2011 11.10.55.211 Hello World
+29:05:2011 11.10.55.211 Hello World
+29:05:2011 11.10.55.211 Hello World
+29:05:2011 11.10.55.211 Hello World
+29:05:2011 111729779 RO(RO001):Putting order in Car queue
+29:05:2011 111731781 RO(RO001):Putting order in Byke queue
+29:05:2011 111733782 RO(RO001):Putting order in Truck queue
+29:05:2011 111740783 RO(RO002):Putting order in Car queue
+29:05:2011 111742786 RO(RO002):Putting order in Byke queue
+29:05:2011 111744787 RO(RO002):Putting order in Truck queue
+29:05:2011 111751788 RO(RO003):Putting order in Car queue
+29:05:2011 111753789 RO(RO003):Putting order in Byke queue
+29:05:2011 111755790 RO(RO003):Putting order in Truck queue
+29:05:2011 111802792 RO(RO004):Putting order in Car queue
+29:05:2011 111804793 RO(RO004):Putting order in Byke queue
+29:05:2011 111806794 RO(RO004):Putting order in Truck queue
+29:05:2011 113157252 Factory: FAC1, Car, 120
+29:05:2011 113157253 Factory: FAC2, Byke, 220
+29:05:2011 113157254 Factory: FAC3, Truck, 180
+29:05:2011 113157282 MinMaxStockVerification called: Car, 6, 20, 0
+29:05:2011 113157282 MinMaxStockVerification start processing: Car
+29:05:2011 113157283 MinMaxStockVerification started processing: Car
+29:05:2011 113157283 Going to trigger STARTCarProduction Event
+29:05:2011 113157286 MinMaxStockVerification called: Byke, 10, 30, 0
+29:05:2011 113157286 MinMaxStockVerification start processing: Byke
+29:05:2011 113157286 MinMaxStockVerification started processing: Byke
+29:05:2011 113157287 Going to trigger STARTBykeProduction Event
+29:05:2011 113157287 MinMaxStockVerification called: Truck, 1, 3, 0
+29:05:2011 113157288 MinMaxStockVerification start processing: Truck
+29:05:2011 113157288 MinMaxStockVerification started processing: Truck
+29:05:2011 113157288 Going to trigger STARTTruckProduction Event
+29:05:2011 113157302 StartCarProductionEvent Event Triggered
+29:05:2011 113157302 CarProduction Started...
+29:05:2011 113157303 StartBykeProductionEvent Event Triggered
+29:05:2011 113157303 BykeProduction Started...
+29:05:2011 113157304 StartTruckProductionEvent Event Triggered
+29:05:2011 113157304 TruckProduction Started...
+29:05:2011 113213304 AddToStock: Byke, 1
+29:05:2011 113213305 			In store: {Car=0, Truck=0, Byke=1}
+29:05:2011 113213305 Rertriving order from Byke queue
+29:05:2011 113213305 		Byke Order queue(0): []
+29:05:2011 113213306 Produced (Byke): 1
+29:05:2011 113213306 MinMaxStockVerification called: Byke, 10, 30, 1
+29:05:2011 113213306 MinMaxStockVerification start processing: Byke
+29:05:2011 113213307 MinMaxStockVerification already in process: Byke
+29:05:2011 113217305 AddToStock: Truck, 1
+29:05:2011 113217305 			In store: {Car=0, Truck=1, Byke=1}
+29:05:2011 113217305 Rertriving order from Truck queue
+29:05:2011 113217306 		Truck Order queue(0): []
+29:05:2011 113217306 Produced (Truck): 1
+29:05:2011 113217306 MinMaxStockVerification called: Truck, 1, 3, 1
+29:05:2011 113217307 MinMaxStockVerification start processing: Truck
+29:05:2011 113217307 MinMaxStockVerification already in process: Truck
+29:05:2011 113227304 AddToStock: Car, 1
+29:05:2011 113227304 			In store: {Car=1, Truck=1, Byke=1}
+29:05:2011 113227304 Rertriving order from Car queue
+29:05:2011 113227305 		Car Order queue(0): []
+29:05:2011 113227305 Produced (Car): 1
+29:05:2011 113227305 MinMaxStockVerification called: Car, 6, 20, 1
+29:05:2011 113227306 MinMaxStockVerification start processing: Car
+29:05:2011 113227306 MinMaxStockVerification already in process: Car
+29:05:2011 113229308 AddToStock: Byke, 1
+29:05:2011 113229308 			In store: {Car=1, Truck=1, Byke=2}
+29:05:2011 113229309 Rertriving order from Byke queue
+29:05:2011 113229309 		Byke Order queue(0): []
+29:05:2011 113229309 Produced (Byke): 1
+29:05:2011 113229309 MinMaxStockVerification called: Byke, 10, 30, 2
+29:05:2011 113229310 MinMaxStockVerification start processing: Byke
+29:05:2011 113229310 MinMaxStockVerification already in process: Byke
+29:05:2011 113237307 AddToStock: Truck, 1
+29:05:2011 113237307 			In store: {Car=1, Truck=2, Byke=2}
+29:05:2011 113237307 Rertriving order from Truck queue
+29:05:2011 113237308 		Truck Order queue(0): []
+29:05:2011 113237308 Produced (Truck): 1
+29:05:2011 113237309 MinMaxStockVerification called: Truck, 1, 3, 2
+29:05:2011 113245311 AddToStock: Byke, 1
+29:05:2011 113245311 			In store: {Car=1, Truck=2, Byke=3}
+29:05:2011 113245311 Rertriving order from Byke queue
+29:05:2011 113245311 		Byke Order queue(0): []
+29:05:2011 113245311 Produced (Byke): 1
+29:05:2011 113245311 MinMaxStockVerification called: Byke, 10, 30, 3
+29:05:2011 113245312 MinMaxStockVerification start processing: Byke
+29:05:2011 113245312 MinMaxStockVerification already in process: Byke
+29:05:2011 113257291 RO(RO001):Putting order in Car queue
+29:05:2011 113257292 Store:Putting order(RO001) in Car queue
+29:05:2011 113257292 Max waiting for (RO001,Car): 30 seconds
+29:05:2011 113257292 Rertriving order from Car queue
+29:05:2011 113257293 		Car Order queue(1): [RO001]
+29:05:2011 113257293 Supplied order for RO: RO001 and type: Car
+29:05:2011 113257293 			In store: {Car=0, Truck=2, Byke=3}
+29:05:2011 113257294 RO(RO001):Rertriving order from Car queue
+29:05:2011 113257294 		RO(RO001):Car Order queue(1): [NORTH0]
+29:05:2011 113257294 MinMaxStockVerification called: Car, 6, 20, 0
+29:05:2011 113257295 MinMaxStockVerification start processing: Car
+29:05:2011 113257295 MinMaxStockVerification already in process: Car
+29:05:2011 113257307 AddToStock: Car, 1
+29:05:2011 113257307 			In store: {Car=1, Truck=2, Byke=3}
+29:05:2011 113257307 Rertriving order from Car queue
+29:05:2011 113257308 		Car Order queue(0): []
+29:05:2011 113257308 Produced (Car): 1
+29:05:2011 113257308 MinMaxStockVerification called: Car, 6, 20, 1
+29:05:2011 113257309 MinMaxStockVerification start processing: Car
+29:05:2011 113257309 MinMaxStockVerification already in process: Car
+29:05:2011 113257309 AddToStock: Truck, 1
+29:05:2011 113257310 			In store: {Car=1, Truck=3, Byke=3}
+29:05:2011 113257310 Rertriving order from Truck queue
+29:05:2011 113257310 		Truck Order queue(0): []
+29:05:2011 113257314 Produced (Truck): 1
+29:05:2011 113257314 MinMaxStockVerification called: Truck, 1, 3, 3
+29:05:2011 113257314 MinMaxStockVerification stop processing: Truck
+29:05:2011 113257315 Going to trigger STOP TruckProduction Event
+29:05:2011 113257316 StopTruckProductionEvent Event Triggered
+29:05:2011 113259295 RO(RO001):Putting order in Byke queue
+29:05:2011 113259295 Store:Putting order(RO001) in Byke queue
+29:05:2011 113259296 Max waiting for (RO001,Byke): 16 seconds
+29:05:2011 113259296 Rertriving order from Byke queue
+29:05:2011 113259296 		Byke Order queue(1): [RO001]
+29:05:2011 113259296 Supplied order for RO: RO001 and type: Byke
+29:05:2011 113259297 			In store: {Car=1, Truck=3, Byke=2}
+29:05:2011 113259298 RO(RO001):Rertriving order from Byke queue
+29:05:2011 113259298 		RO(RO001):Byke Order queue(1): [NORTH1]
+29:05:2011 113259298 MinMaxStockVerification called: Byke, 10, 30, 2
+29:05:2011 113259298 MinMaxStockVerification start processing: Byke
+29:05:2011 113259299 MinMaxStockVerification already in process: Byke
+29:05:2011 113301299 RO(RO001):Putting order in Truck queue
+29:05:2011 113301299 Store:Putting order(RO001) in Truck queue
+29:05:2011 113301299 Max waiting for (RO001,Truck): 20 seconds
+29:05:2011 113301300 Rertriving order from Truck queue
+29:05:2011 113301300 		Truck Order queue(1): [RO001]
+29:05:2011 113301300 Supplied order for RO: RO001 and type: Truck
+29:05:2011 113301300 			In store: {Car=1, Truck=2, Byke=2}
+29:05:2011 113301301 RO(RO001):Rertriving order from Truck queue
+29:05:2011 113301301 		RO(RO001):Truck Order queue(1): [NORTH2]
+29:05:2011 113301301 MinMaxStockVerification called: Truck, 1, 3, 2
+29:05:2011 113301313 AddToStock: Byke, 1
+29:05:2011 113301313 			In store: {Car=1, Truck=2, Byke=3}
+29:05:2011 113301313 Rertriving order from Byke queue
+29:05:2011 113301314 		Byke Order queue(0): []
+29:05:2011 113301314 Produced (Byke): 1
+29:05:2011 113301314 MinMaxStockVerification called: Byke, 10, 30, 3
+29:05:2011 113301314 MinMaxStockVerification start processing: Byke
+29:05:2011 113301315 MinMaxStockVerification already in process: Byke
+29:05:2011 113308301 RO(RO002):Putting order in Car queue
+29:05:2011 113308301 Store:Putting order(RO002) in Car queue
+29:05:2011 113308301 Max waiting for (RO002,Car): 30 seconds
+29:05:2011 113308302 Rertriving order from Car queue
+29:05:2011 113308302 		Car Order queue(1): [RO002]
+29:05:2011 113308302 Supplied order for RO: RO002 and type: Car
+29:05:2011 113308302 			In store: {Car=0, Truck=2, Byke=3}
+29:05:2011 113308303 RO(RO002):Rertriving order from Car queue
+29:05:2011 113308303 		RO(RO002):Car Order queue(1): [SOUTH3]
+29:05:2011 113308303 MinMaxStockVerification called: Car, 6, 20, 0
+29:05:2011 113308304 MinMaxStockVerification start processing: Car
+29:05:2011 113308304 MinMaxStockVerification already in process: Car
+29:05:2011 113310306 RO(RO002):Putting order in Byke queue
+29:05:2011 113310306 Store:Putting order(RO002) in Byke queue
+29:05:2011 113310306 Max waiting for (RO002,Byke): 16 seconds
+29:05:2011 113310307 Rertriving order from Byke queue
+29:05:2011 113310307 		Byke Order queue(1): [RO002]
+29:05:2011 113310307 Supplied order for RO: RO002 and type: Byke
+29:05:2011 113310307 			In store: {Car=0, Truck=2, Byke=2}
+29:05:2011 113310308 RO(RO002):Rertriving order from Byke queue
+29:05:2011 113310308 		RO(RO002):Byke Order queue(1): [SOUTH4]
+29:05:2011 113310308 MinMaxStockVerification called: Byke, 10, 30, 2
+29:05:2011 113310308 MinMaxStockVerification start processing: Byke
+29:05:2011 113310309 MinMaxStockVerification already in process: Byke
+29:05:2011 113312309 RO(RO002):Putting order in Truck queue
+29:05:2011 113312309 Store:Putting order(RO002) in Truck queue
+29:05:2011 113312309 Max waiting for (RO002,Truck): 20 seconds
+29:05:2011 113312310 Rertriving order from Truck queue
+29:05:2011 113312310 		Truck Order queue(1): [RO002]
+29:05:2011 113312310 Supplied order for RO: RO002 and type: Truck
+29:05:2011 113312310 			In store: {Car=0, Truck=1, Byke=2}
+29:05:2011 113312311 RO(RO002):Rertriving order from Truck queue
+29:05:2011 113312311 		RO(RO002):Truck Order queue(1): [SOUTH5]
+29:05:2011 113312311 MinMaxStockVerification called: Truck, 1, 3, 1
+29:05:2011 113312311 MinMaxStockVerification start processing: Truck
+29:05:2011 113312312 MinMaxStockVerification started processing: Truck
+29:05:2011 113312312 Going to trigger STARTTruckProduction Event
+29:05:2011 113312313 StartTruckProductionEvent Event Triggered
+29:05:2011 113312313 TruckProduction Started...
+29:05:2011 113334526 Factory: FAC1, Car, 120
+29:05:2011 113334527 Factory: FAC2, Byke, 220
+29:05:2011 113334527 Factory: FAC3, Truck, 180
+29:05:2011 113334555 StartCarProductionEvent Event Triggered
+29:05:2011 113334556 CarProduction Started...
+29:05:2011 113334556 StartTruckProductionEvent Event Triggered
+29:05:2011 113334556 TruckProduction Started...
+29:05:2011 113334557 StartBykeProductionEvent Event Triggered
+29:05:2011 113334558 BykeProduction Started...
+29:05:2011 113350559 			In store: {Car=0, Truck=0, Byke=1}
+29:05:2011 113350560 Rertriving order from Byke queue
+29:05:2011 113350561 		Byke Order queue(0): []
+29:05:2011 113350561 Produced (Byke): 1
+29:05:2011 113354557 			In store: {Car=0, Truck=1, Byke=1}
+29:05:2011 113354557 Rertriving order from Truck queue
+29:05:2011 113354558 		Truck Order queue(0): []
+29:05:2011 113354558 Produced (Truck): 1
+29:05:2011 113404557 			In store: {Car=1, Truck=1, Byke=1}
+29:05:2011 113404557 Rertriving order from Car queue
+29:05:2011 113404558 		Car Order queue(0): []
+29:05:2011 113404558 Produced (Car): 1
+29:05:2011 113406562 			In store: {Car=1, Truck=1, Byke=2}
+29:05:2011 113406562 Rertriving order from Byke queue
+29:05:2011 113406563 		Byke Order queue(0): []
+29:05:2011 113406563 Produced (Byke): 1
+29:05:2011 113414558 			In store: {Car=1, Truck=2, Byke=2}
+29:05:2011 113414558 Rertriving order from Truck queue
+29:05:2011 113414560 		Truck Order queue(0): []
+29:05:2011 113414560 Produced (Truck): 1
+29:05:2011 113422564 			In store: {Car=1, Truck=2, Byke=3}
+29:05:2011 113422564 Rertriving order from Byke queue
+29:05:2011 113422565 		Byke Order queue(0): []
+29:05:2011 113422565 Produced (Byke): 1
+29:05:2011 113434547 Store:Putting order(RO001) in Car queue
+29:05:2011 113434548 Rertriving order from Car queue
+29:05:2011 113434548 		Car Order queue(1): [RO001]
+29:05:2011 113434548 Supplied order for RO: RO001 and type: Car
+29:05:2011 113434549 			In store: {Car=0, Truck=2, Byke=3}
+29:05:2011 113434549 RO(RO001):Rertriving order from Car queue
+29:05:2011 113434549 		RO(RO001):Car Order queue(1): [NORTH0]
+29:05:2011 113434558 			In store: {Car=1, Truck=2, Byke=3}
+29:05:2011 113434558 Rertriving order from Car queue
+29:05:2011 113434558 		Car Order queue(0): []
+29:05:2011 113434559 Produced (Car): 1
+29:05:2011 113434560 			In store: {Car=1, Truck=3, Byke=3}
+29:05:2011 113434560 Rertriving order from Truck queue
+29:05:2011 113434560 		Truck Order queue(0): []
+29:05:2011 113434560 Produced (Truck): 1
+29:05:2011 113434562 StopTruckProductionEvent Event Triggered
+29:05:2011 113436551 Store:Putting order(RO001) in Byke queue
+29:05:2011 113436551 Rertriving order from Byke queue
+29:05:2011 113436552 		Byke Order queue(1): [RO001]
+29:05:2011 113436552 Supplied order for RO: RO001 and type: Byke
+29:05:2011 113436552 			In store: {Car=1, Truck=3, Byke=2}
+29:05:2011 113436552 RO(RO001):Rertriving order from Byke queue
+29:05:2011 113436553 		RO(RO001):Byke Order queue(1): [NORTH1]
+29:05:2011 113438553 Store:Putting order(RO001) in Truck queue
+29:05:2011 113438553 Rertriving order from Truck queue
+29:05:2011 113438554 		Truck Order queue(1): [RO001]
+29:05:2011 113438554 Supplied order for RO: RO001 and type: Truck
+29:05:2011 113438554 			In store: {Car=1, Truck=2, Byke=2}
+29:05:2011 113438555 RO(RO001):Rertriving order from Truck queue
+29:05:2011 113438555 		RO(RO001):Truck Order queue(1): [NORTH2]
+29:05:2011 113438566 			In store: {Car=1, Truck=2, Byke=3}
+29:05:2011 113438566 Rertriving order from Byke queue
+29:05:2011 113438567 		Byke Order queue(0): []
+29:05:2011 113438567 Produced (Byke): 1
+29:05:2011 113445555 Store:Putting order(RO002) in Car queue
+29:05:2011 113445555 Rertriving order from Car queue
+29:05:2011 113445556 		Car Order queue(1): [RO002]
+29:05:2011 113445556 Supplied order for RO: RO002 and type: Car
+29:05:2011 113445556 			In store: {Car=0, Truck=2, Byke=3}
+29:05:2011 113445556 RO(RO002):Rertriving order from Car queue
+29:05:2011 113445557 		RO(RO002):Car Order queue(1): [SOUTH3]
+29:05:2011 113447557 Store:Putting order(RO002) in Byke queue
+29:05:2011 113447557 Rertriving order from Byke queue
+29:05:2011 113447558 		Byke Order queue(1): [RO002]
+29:05:2011 113447558 Supplied order for RO: RO002 and type: Byke
+29:05:2011 113447558 			In store: {Car=0, Truck=2, Byke=2}
+29:05:2011 113447558 RO(RO002):Rertriving order from Byke queue
+29:05:2011 113447559 		RO(RO002):Byke Order queue(1): [SOUTH4]
+29:05:2011 113449559 Store:Putting order(RO002) in Truck queue
+29:05:2011 113449559 Rertriving order from Truck queue
+29:05:2011 113449560 		Truck Order queue(1): [RO002]
+29:05:2011 113449560 Supplied order for RO: RO002 and type: Truck
+29:05:2011 113449560 			In store: {Car=0, Truck=1, Byke=2}
+29:05:2011 113449561 RO(RO002):Rertriving order from Truck queue
+29:05:2011 113449561 		RO(RO002):Truck Order queue(1): [SOUTH5]
+29:05:2011 113449562 StartTruckProductionEvent Event Triggered
+29:05:2011 113449563 TruckProduction Started...
+29:05:2011 113454562 			In store: {Car=0, Truck=2, Byke=2}
+29:05:2011 113454562 Rertriving order from Truck queue
+29:05:2011 113454562 		Truck Order queue(0): []
+29:05:2011 113454563 Produced (Truck): 1
+29:05:2011 113454568 			In store: {Car=0, Truck=2, Byke=3}
+29:05:2011 113454568 Rertriving order from Byke queue
+29:05:2011 113454568 		Byke Order queue(0): []
+29:05:2011 113454569 Produced (Byke): 1
+29:05:2011 113456563 Store:Putting order(RO003) in Car queue
+29:05:2011 113458564 Store:Putting order(RO003) in Byke queue
+29:05:2011 113458564 Rertriving order from Byke queue
+29:05:2011 113458564 		Byke Order queue(1): [RO003]
+29:05:2011 113458565 Supplied order for RO: RO003 and type: Byke
+29:05:2011 113458565 			In store: {Car=0, Truck=2, Byke=2}
+29:05:2011 113458565 RO(RO003):Rertriving order from Byke queue
+29:05:2011 113458565 		RO(RO003):Byke Order queue(1): [EAST7]
+29:05:2011 113500566 Store:Putting order(RO003) in Truck queue
+29:05:2011 113500566 Rertriving order from Truck queue
+29:05:2011 113500566 		Truck Order queue(1): [RO003]
+29:05:2011 113500567 Supplied order for RO: RO003 and type: Truck
+29:05:2011 113500567 			In store: {Car=0, Truck=1, Byke=2}
+29:05:2011 113500567 RO(RO003):Rertriving order from Truck queue
+29:05:2011 113500567 		RO(RO003):Truck Order queue(1): [EAST8]
+29:05:2011 113504560 			In store: {Car=1, Truck=1, Byke=2}
+29:05:2011 113504560 Rertriving order from Car queue
+29:05:2011 113504560 		Car Order queue(1): [RO003]
+29:05:2011 113504561 Supplied order for RO: RO003 and type: Car
+29:05:2011 113504561 			In store: {Car=0, Truck=1, Byke=2}
+29:05:2011 113504561 RO(RO003):Rertriving order from Car queue
+29:05:2011 113504561 		RO(RO003):Car Order queue(1): [EAST6]
+29:05:2011 113504562 Produced (Car): 1
+29:05:2011 113507568 Store:Putting order(RO004) in Car queue
+29:05:2011 113509563 			In store: {Car=0, Truck=2, Byke=2}
+29:05:2011 113509563 Rertriving order from Truck queue
+29:05:2011 113509563 		Truck Order queue(0): []
+29:05:2011 113509564 Produced (Truck): 1
+29:05:2011 113509568 Store:Putting order(RO004) in Byke queue
+29:05:2011 113509568 Rertriving order from Byke queue
+29:05:2011 113509568 		Byke Order queue(1): [RO004]
+29:05:2011 113509568 Supplied order for RO: RO004 and type: Byke
+29:05:2011 113509569 			In store: {Car=0, Truck=2, Byke=1}
+29:05:2011 113509569 RO(RO004):Rertriving order from Byke queue
+29:05:2011 113509569 		RO(RO004):Byke Order queue(1): [WEST10]
+29:05:2011 113510569 			In store: {Car=0, Truck=2, Byke=2}
+29:05:2011 113510569 Rertriving order from Byke queue
+29:05:2011 113510569 		Byke Order queue(0): []
+29:05:2011 113510570 Produced (Byke): 1
+29:05:2011 113511571 Store:Putting order(RO004) in Truck queue
+29:05:2011 113511571 Rertriving order from Truck queue
+29:05:2011 113511571 		Truck Order queue(1): [RO004]
+29:05:2011 113511572 Supplied order for RO: RO004 and type: Truck
+29:05:2011 113511572 			In store: {Car=0, Truck=1, Byke=2}
+29:05:2011 113511572 RO(RO004):Rertriving order from Truck queue
+29:05:2011 113511572 		RO(RO004):Truck Order queue(1): [WEST11]
+29:05:2011 113514563 			In store: {Car=0, Truck=2, Byke=2}
+29:05:2011 113514563 Rertriving order from Truck queue
+29:05:2011 113514563 		Truck Order queue(0): []
+29:05:2011 113514563 Produced (Truck): 1
+29:05:2011 113526571 			In store: {Car=0, Truck=2, Byke=3}
+29:05:2011 113526571 Rertriving order from Byke queue
+29:05:2011 113526571 		Byke Order queue(0): []
+29:05:2011 113526572 Produced (Byke): 1
+29:05:2011 113529565 			In store: {Car=0, Truck=3, Byke=3}
+29:05:2011 113529565 Rertriving order from Truck queue
+29:05:2011 113529565 		Truck Order queue(0): []
+29:05:2011 113529565 Produced (Truck): 1
+29:05:2011 113529566 StopTruckProductionEvent Event Triggered
+29:05:2011 113534563 			In store: {Car=1, Truck=3, Byke=3}
+29:05:2011 113534563 Rertriving order from Car queue
+29:05:2011 113534563 		Car Order queue(1): [RO004]
+29:05:2011 113534564 Supplied order for RO: RO004 and type: Car
+29:05:2011 113534564 			In store: {Car=0, Truck=3, Byke=3}
+29:05:2011 113534564 RO(RO004):Rertriving order from Car queue
+29:05:2011 113534565 		RO(RO004):Car Order queue(1): [WEST9]
+29:05:2011 113534565 Produced (Car): 1
+29:05:2011 113542573 			In store: {Car=0, Truck=3, Byke=4}
+29:05:2011 113542573 Rertriving order from Byke queue
+29:05:2011 113542573 		Byke Order queue(0): []
+29:05:2011 113542574 Produced (Byke): 1
+29:05:2011 113558575 			In store: {Car=0, Truck=3, Byke=5}
+29:05:2011 113558576 Rertriving order from Byke queue
+29:05:2011 113558576 		Byke Order queue(0): []
+29:05:2011 113558576 Produced (Byke): 1
+29:05:2011 113604566 			In store: {Car=1, Truck=3, Byke=5}
+29:05:2011 113604566 Rertriving order from Car queue
+29:05:2011 113604566 		Car Order queue(0): []
+29:05:2011 113604567 Produced (Car): 1
+29:05:2011 113614577 			In store: {Car=1, Truck=3, Byke=6}
+29:05:2011 113614577 Rertriving order from Byke queue
+29:05:2011 113614577 		Byke Order queue(0): []
+29:05:2011 113614578 Produced (Byke): 1
+29:05:2011 113618573 Store:Putting order(RO001) in Car queue
+29:05:2011 113618573 Rertriving order from Car queue
+29:05:2011 113618573 		Car Order queue(1): [RO001]
+29:05:2011 113618574 Supplied order for RO: RO001 and type: Car
+29:05:2011 113618575 			In store: {Car=0, Truck=3, Byke=6}
+29:05:2011 113618575 RO(RO001):Rertriving order from Car queue
+29:05:2011 113618576 		RO(RO001):Car Order queue(1): [NORTH12]
+29:05:2011 113620576 Store:Putting order(RO001) in Byke queue
+29:05:2011 113620576 Rertriving order from Byke queue
+29:05:2011 113620576 		Byke Order queue(1): [RO001]
+29:05:2011 113620577 Supplied order for RO: RO001 and type: Byke
+29:05:2011 113620577 			In store: {Car=0, Truck=3, Byke=5}
+29:05:2011 113620577 RO(RO001):Rertriving order from Byke queue
+29:05:2011 113620577 		RO(RO001):Byke Order queue(1): [NORTH13]
+29:05:2011 113622579 Store:Putting order(RO001) in Truck queue
+29:05:2011 113622579 Rertriving order from Truck queue
+29:05:2011 113622579 		Truck Order queue(1): [RO001]
+29:05:2011 113622580 Supplied order for RO: RO001 and type: Truck
+29:05:2011 113622580 			In store: {Car=0, Truck=2, Byke=5}
+29:05:2011 113622580 RO(RO001):Rertriving order from Truck queue
+29:05:2011 113622580 		RO(RO001):Truck Order queue(1): [NORTH14]
+29:05:2011 113629581 Store:Putting order(RO002) in Car queue
+29:05:2011 113630579 			In store: {Car=0, Truck=2, Byke=6}
+29:05:2011 113630579 Rertriving order from Byke queue
+29:05:2011 113630579 		Byke Order queue(0): []
+29:05:2011 113630580 Produced (Byke): 1
+29:05:2011 113631582 Store:Putting order(RO002) in Byke queue
+29:05:2011 113631582 Rertriving order from Byke queue
+29:05:2011 113631583 		Byke Order queue(1): [RO002]
+29:05:2011 113631584 Supplied order for RO: RO002 and type: Byke
+29:05:2011 113631584 			In store: {Car=0, Truck=2, Byke=5}
+29:05:2011 113631584 RO(RO002):Rertriving order from Byke queue
+29:05:2011 113631584 		RO(RO002):Byke Order queue(1): [SOUTH16]
+29:05:2011 113633585 Store:Putting order(RO002) in Truck queue
+29:05:2011 113633585 Rertriving order from Truck queue
+29:05:2011 113633585 		Truck Order queue(1): [RO002]
+29:05:2011 113633586 Supplied order for RO: RO002 and type: Truck
+29:05:2011 113633586 			In store: {Car=0, Truck=1, Byke=5}
+29:05:2011 113633587 RO(RO002):Rertriving order from Truck queue
+29:05:2011 113633587 		RO(RO002):Truck Order queue(1): [SOUTH17]
+29:05:2011 113633589 StartTruckProductionEvent Event Triggered
+29:05:2011 113633590 TruckProduction Started...
+29:05:2011 113634567 			In store: {Car=1, Truck=1, Byke=5}
+29:05:2011 113634567 Rertriving order from Car queue
+29:05:2011 113634567 		Car Order queue(1): [RO002]
+29:05:2011 113634568 Supplied order for RO: RO002 and type: Car
+29:05:2011 113634568 			In store: {Car=0, Truck=1, Byke=5}
+29:05:2011 113634568 RO(RO002):Rertriving order from Car queue
+29:05:2011 113634568 		RO(RO002):Car Order queue(1): [SOUTH15]
+29:05:2011 113634569 Produced (Car): 1
+29:05:2011 113640590 Store:Putting order(RO003) in Car queue
+29:05:2011 113642591 Store:Putting order(RO003) in Byke queue
+29:05:2011 113642591 Rertriving order from Byke queue
+29:05:2011 113642592 		Byke Order queue(1): [RO003]
+29:05:2011 113642592 Supplied order for RO: RO003 and type: Byke
+29:05:2011 113642592 			In store: {Car=0, Truck=1, Byke=4}
+29:05:2011 113642592 RO(RO003):Rertriving order from Byke queue
+29:05:2011 113642593 		RO(RO003):Byke Order queue(1): [EAST19]
+29:05:2011 113644593 Store:Putting order(RO003) in Truck queue
+29:05:2011 113644593 Rertriving order from Truck queue
+29:05:2011 113644593 		Truck Order queue(1): [RO003]
+29:05:2011 113644594 Supplied order for RO: RO003 and type: Truck
+29:05:2011 113644594 			In store: {Car=0, Truck=0, Byke=4}
+29:05:2011 113644594 RO(RO003):Rertriving order from Truck queue
+29:05:2011 113644594 		RO(RO003):Truck Order queue(1): [EAST20]
+29:05:2011 113646581 			In store: {Car=0, Truck=0, Byke=5}
+29:05:2011 113646581 Rertriving order from Byke queue
+29:05:2011 113646581 		Byke Order queue(0): []
+29:05:2011 113646582 Produced (Byke): 1
+29:05:2011 113651595 Store:Putting order(RO004) in Car queue
+29:05:2011 113653590 			In store: {Car=0, Truck=1, Byke=5}
+29:05:2011 113653590 Rertriving order from Truck queue
+29:05:2011 113653590 		Truck Order queue(0): []
+29:05:2011 113653591 Produced (Truck): 1
+29:05:2011 113653596 Store:Putting order(RO004) in Byke queue
+29:05:2011 113653596 Rertriving order from Byke queue
+29:05:2011 113653596 		Byke Order queue(1): [RO004]
+29:05:2011 113653597 Supplied order for RO: RO004 and type: Byke
+29:05:2011 113653597 			In store: {Car=0, Truck=1, Byke=4}
+29:05:2011 113653597 RO(RO004):Rertriving order from Byke queue
+29:05:2011 113653597 		RO(RO004):Byke Order queue(1): [WEST22]
+29:05:2011 113655598 Store:Putting order(RO004) in Truck queue
+29:05:2011 113655599 Rertriving order from Truck queue
+29:05:2011 113655599 		Truck Order queue(1): [RO004]
+29:05:2011 113655600 Supplied order for RO: RO004 and type: Truck
+29:05:2011 113655600 			In store: {Car=0, Truck=0, Byke=4}
+29:05:2011 113655600 RO(RO004):Rertriving order from Truck queue
+29:05:2011 113655600 		RO(RO004):Truck Order queue(1): [WEST23]
+29:05:2011 113702583 			In store: {Car=0, Truck=0, Byke=5}
+29:05:2011 113702583 Rertriving order from Byke queue
+29:05:2011 113702584 		Byke Order queue(0): []
+29:05:2011 113702584 Produced (Byke): 1
+29:05:2011 113704570 			In store: {Car=1, Truck=0, Byke=5}
+29:05:2011 113704570 Rertriving order from Car queue
+29:05:2011 113704570 		Car Order queue(2): [RO003, RO004]
+29:05:2011 113704571 Supplied order for RO: RO003 and type: Car
+29:05:2011 113704571 			In store: {Car=0, Truck=0, Byke=5}
+29:05:2011 113704571 RO(RO003):Rertriving order from Car queue
+29:05:2011 113704571 		RO(RO003):Car Order queue(1): [EAST18]
+29:05:2011 113704572 Produced (Car): 1
+29:05:2011 113713591 			In store: {Car=0, Truck=1, Byke=5}
+29:05:2011 113713591 Rertriving order from Truck queue
+29:05:2011 113713591 		Truck Order queue(0): []
+29:05:2011 113713592 Produced (Truck): 1
+29:05:2011 113718585 			In store: {Car=0, Truck=1, Byke=6}
+29:05:2011 113718585 Rertriving order from Byke queue
+29:05:2011 113718585 		Byke Order queue(0): []
+29:05:2011 113718586 Produced (Byke): 1
+29:05:2011 113733593 			In store: {Car=0, Truck=2, Byke=6}
+29:05:2011 113733593 Rertriving order from Truck queue
+29:05:2011 113733593 		Truck Order queue(0): []
+29:05:2011 113733594 Produced (Truck): 1
+29:05:2011 113734573 			In store: {Car=1, Truck=2, Byke=6}
+29:05:2011 113734573 Rertriving order from Car queue
+29:05:2011 113734573 		Car Order queue(1): [RO004]
+29:05:2011 113734574 Supplied order for RO: RO004 and type: Car
+29:05:2011 113734574 			In store: {Car=0, Truck=2, Byke=6}
+29:05:2011 113734574 RO(RO004):Rertriving order from Car queue
+29:05:2011 113734574 		RO(RO004):Car Order queue(1): [WEST21]
+29:05:2011 113734575 Produced (Car): 1
+29:05:2011 113734587 			In store: {Car=0, Truck=2, Byke=7}
+29:05:2011 113734587 Rertriving order from Byke queue
+29:05:2011 113734587 		Byke Order queue(0): []
+29:05:2011 113734588 Produced (Byke): 1
+29:05:2011 113750589 			In store: {Car=0, Truck=2, Byke=8}
+29:05:2011 113750589 Rertriving order from Byke queue
+29:05:2011 113750589 		Byke Order queue(0): []
+29:05:2011 113750590 Produced (Byke): 1
+29:05:2011 113753594 			In store: {Car=0, Truck=3, Byke=8}
+29:05:2011 113753594 Rertriving order from Truck queue
+29:05:2011 113753594 		Truck Order queue(0): []
+29:05:2011 113753595 Produced (Truck): 1
+29:05:2011 113753596 StopTruckProductionEvent Event Triggered
+29:05:2011 113802602 Store:Putting order(RO001) in Car queue
+29:05:2011 113804575 			In store: {Car=1, Truck=3, Byke=8}
+29:05:2011 113804576 Rertriving order from Car queue
+29:05:2011 113804576 		Car Order queue(1): [RO001]
+29:05:2011 113804576 Supplied order for RO: RO001 and type: Car
+29:05:2011 113804576 			In store: {Car=0, Truck=3, Byke=8}
+29:05:2011 113804576 RO(RO001):Rertriving order from Car queue
+29:05:2011 113804577 		RO(RO001):Car Order queue(1): [NORTH24]
+29:05:2011 113804577 Produced (Car): 1
+29:05:2011 113804603 Store:Putting order(RO001) in Byke queue
+29:05:2011 113804603 Rertriving order from Byke queue
+29:05:2011 113804603 		Byke Order queue(1): [RO001]
+29:05:2011 113804604 Supplied order for RO: RO001 and type: Byke
+29:05:2011 113804604 			In store: {Car=0, Truck=3, Byke=7}
+29:05:2011 113804604 RO(RO001):Rertriving order from Byke queue
+29:05:2011 113804604 		RO(RO001):Byke Order queue(1): [NORTH25]
+29:05:2011 113806591 			In store: {Car=0, Truck=3, Byke=8}
+29:05:2011 113806591 Rertriving order from Byke queue
+29:05:2011 113806592 		Byke Order queue(0): []
+29:05:2011 113806592 Produced (Byke): 1
+29:05:2011 113806606 Store:Putting order(RO001) in Truck queue
+29:05:2011 113806606 Rertriving order from Truck queue
+29:05:2011 113806606 		Truck Order queue(1): [RO001]
+29:05:2011 113806607 Supplied order for RO: RO001 and type: Truck
+29:05:2011 113806607 			In store: {Car=0, Truck=2, Byke=8}
+29:05:2011 113806607 RO(RO001):Rertriving order from Truck queue
+29:05:2011 113806607 		RO(RO001):Truck Order queue(1): [NORTH26]
+29:05:2011 113813608 Store:Putting order(RO002) in Car queue
+29:05:2011 113815609 Store:Putting order(RO002) in Byke queue
+29:05:2011 113815609 Rertriving order from Byke queue
+29:05:2011 113815609 		Byke Order queue(1): [RO002]
+29:05:2011 113815610 Supplied order for RO: RO002 and type: Byke
+29:05:2011 113815610 			In store: {Car=0, Truck=2, Byke=7}
+29:05:2011 113815610 RO(RO002):Rertriving order from Byke queue
+29:05:2011 113815610 		RO(RO002):Byke Order queue(1): [SOUTH28]
+29:05:2011 113817611 Store:Putting order(RO002) in Truck queue
+29:05:2011 113817611 Rertriving order from Truck queue
+29:05:2011 113817611 		Truck Order queue(1): [RO002]
+29:05:2011 113817611 Supplied order for RO: RO002 and type: Truck
+29:05:2011 113817611 			In store: {Car=0, Truck=1, Byke=7}
+29:05:2011 113817611 RO(RO002):Rertriving order from Truck queue
+29:05:2011 113817612 		RO(RO002):Truck Order queue(1): [SOUTH29]
+29:05:2011 113817612 StartTruckProductionEvent Event Triggered
+29:05:2011 113817612 TruckProduction Started...
+29:05:2011 113822593 			In store: {Car=0, Truck=1, Byke=8}
+29:05:2011 113822593 Rertriving order from Byke queue
+29:05:2011 113822593 		Byke Order queue(0): []
+29:05:2011 113822594 Produced (Byke): 1
+29:05:2011 113824613 Store:Putting order(RO003) in Car queue
+29:05:2011 113826614 Store:Putting order(RO003) in Byke queue
+29:05:2011 113826614 Rertriving order from Byke queue
+29:05:2011 113826614 		Byke Order queue(1): [RO003]
+29:05:2011 113826615 Supplied order for RO: RO003 and type: Byke
+29:05:2011 113826615 			In store: {Car=0, Truck=1, Byke=7}
+29:05:2011 113826615 RO(RO003):Rertriving order from Byke queue
+29:05:2011 113826615 		RO(RO003):Byke Order queue(1): [EAST31]
+29:05:2011 113828616 Store:Putting order(RO003) in Truck queue
+29:05:2011 113828616 Rertriving order from Truck queue
+29:05:2011 113828616 		Truck Order queue(1): [RO003]
+29:05:2011 113828617 Supplied order for RO: RO003 and type: Truck
+29:05:2011 113828617 			In store: {Car=0, Truck=0, Byke=7}
+29:05:2011 113828617 RO(RO003):Rertriving order from Truck queue
+29:05:2011 113828617 		RO(RO003):Truck Order queue(1): [EAST32]
+29:05:2011 113834578 			In store: {Car=1, Truck=0, Byke=7}
+29:05:2011 113834578 Rertriving order from Car queue
+29:05:2011 113834578 		Car Order queue(2): [RO002, RO003]
+29:05:2011 113834579 Supplied order for RO: RO002 and type: Car
+29:05:2011 113834579 			In store: {Car=0, Truck=0, Byke=7}
+29:05:2011 113834579 RO(RO002):Rertriving order from Car queue
+29:05:2011 113834579 		RO(RO002):Car Order queue(1): [SOUTH27]
+29:05:2011 113834580 Produced (Car): 1
+29:05:2011 113835618 Store:Putting order(RO004) in Car queue
+29:05:2011 113837613 			In store: {Car=0, Truck=1, Byke=7}
+29:05:2011 113837613 Rertriving order from Truck queue
+29:05:2011 113837613 		Truck Order queue(0): []
+29:05:2011 113837614 Produced (Truck): 1
+29:05:2011 113837619 Store:Putting order(RO004) in Byke queue
+29:05:2011 113837619 Rertriving order from Byke queue
+29:05:2011 113837620 		Byke Order queue(1): [RO004]
+29:05:2011 113837620 Supplied order for RO: RO004 and type: Byke
+29:05:2011 113837620 			In store: {Car=0, Truck=1, Byke=6}
+29:05:2011 113837620 RO(RO004):Rertriving order from Byke queue
+29:05:2011 113837620 		RO(RO004):Byke Order queue(1): [WEST34]
+29:05:2011 113838595 			In store: {Car=0, Truck=1, Byke=7}
+29:05:2011 113838595 Rertriving order from Byke queue
+29:05:2011 113838595 		Byke Order queue(0): []
+29:05:2011 113838596 Produced (Byke): 1
+29:05:2011 113839621 Store:Putting order(RO004) in Truck queue
+29:05:2011 113839621 Rertriving order from Truck queue
+29:05:2011 113839621 		Truck Order queue(1): [RO004]
+29:05:2011 113839622 Supplied order for RO: RO004 and type: Truck
+29:05:2011 113839622 			In store: {Car=0, Truck=0, Byke=7}
+29:05:2011 113839622 RO(RO004):Rertriving order from Truck queue
+29:05:2011 113839622 		RO(RO004):Truck Order queue(1): [WEST35]
+29:05:2011 113854597 			In store: {Car=0, Truck=0, Byke=8}
+29:05:2011 113854597 Rertriving order from Byke queue
+29:05:2011 113854598 		Byke Order queue(0): []
+29:05:2011 113854599 Produced (Byke): 1
+29:05:2011 113857614 			In store: {Car=0, Truck=1, Byke=8}
+29:05:2011 113857615 Rertriving order from Truck queue
+29:05:2011 113857615 		Truck Order queue(0): []
+29:05:2011 113857615 Produced (Truck): 1
+29:05:2011 113904581 			In store: {Car=1, Truck=1, Byke=8}
+29:05:2011 113904581 Rertriving order from Car queue
+29:05:2011 113904581 		Car Order queue(2): [RO003, RO004]
+29:05:2011 113904582 Supplied order for RO: RO003 and type: Car
+29:05:2011 113904582 			In store: {Car=0, Truck=1, Byke=8}
+29:05:2011 113904582 RO(RO003):Rertriving order from Car queue
+29:05:2011 113904582 		RO(RO003):Car Order queue(1): [EAST30]
+29:05:2011 113904583 Produced (Car): 1
+29:05:2011 113910600 			In store: {Car=0, Truck=1, Byke=9}
+29:05:2011 113910600 Rertriving order from Byke queue
+29:05:2011 113910600 		Byke Order queue(0): []
+29:05:2011 113910601 Produced (Byke): 1
+29:05:2011 113917617 			In store: {Car=0, Truck=2, Byke=9}
+29:05:2011 113917617 Rertriving order from Truck queue
+29:05:2011 113917617 		Truck Order queue(0): []
+29:05:2011 113917618 Produced (Truck): 1
+29:05:2011 113926602 			In store: {Car=0, Truck=2, Byke=10}
+29:05:2011 113926602 Rertriving order from Byke queue
+29:05:2011 113926602 		Byke Order queue(0): []
+29:05:2011 113926603 Produced (Byke): 1
+29:05:2011 113934584 			In store: {Car=1, Truck=2, Byke=10}
+29:05:2011 113934584 Rertriving order from Car queue
+29:05:2011 113934585 		Car Order queue(1): [RO004]
+29:05:2011 113934585 Supplied order for RO: RO004 and type: Car
+29:05:2011 113934585 			In store: {Car=0, Truck=2, Byke=10}
+29:05:2011 113934586 RO(RO004):Rertriving order from Car queue
+29:05:2011 113934586 		RO(RO004):Car Order queue(1): [WEST33]
+29:05:2011 113934586 Produced (Car): 1
+29:05:2011 113937618 			In store: {Car=0, Truck=3, Byke=10}
+29:05:2011 113937618 Rertriving order from Truck queue
+29:05:2011 113937619 		Truck Order queue(0): []
+29:05:2011 113937619 Produced (Truck): 1
+29:05:2011 113937620 StopTruckProductionEvent Event Triggered
+29:05:2011 113942604 			In store: {Car=0, Truck=3, Byke=11}
+29:05:2011 113942605 Rertriving order from Byke queue
+29:05:2011 113942605 		Byke Order queue(0): []
+29:05:2011 113942605 Produced (Byke): 1
+29:05:2011 113946624 Store:Putting order(RO001) in Car queue
+29:05:2011 113948625 Store:Putting order(RO001) in Byke queue
+29:05:2011 113948625 Rertriving order from Byke queue
+29:05:2011 113948625 		Byke Order queue(1): [RO001]
+29:05:2011 113948626 Supplied order for RO: RO001 and type: Byke
+29:05:2011 113948626 			In store: {Car=0, Truck=3, Byke=10}
+29:05:2011 113948626 RO(RO001):Rertriving order from Byke queue
+29:05:2011 113948626 		RO(RO001):Byke Order queue(1): [NORTH37]
+29:05:2011 113950627 Store:Putting order(RO001) in Truck queue
+29:05:2011 113950627 Rertriving order from Truck queue
+29:05:2011 113950628 		Truck Order queue(1): [RO001]
+29:05:2011 113950628 Supplied order for RO: RO001 and type: Truck
+29:05:2011 113950628 			In store: {Car=0, Truck=2, Byke=10}
+29:05:2011 113950628 RO(RO001):Rertriving order from Truck queue
+29:05:2011 113950629 		RO(RO001):Truck Order queue(1): [NORTH38]
+29:05:2011 113957630 Store:Putting order(RO002) in Car queue
+29:05:2011 113958606 			In store: {Car=0, Truck=2, Byke=11}
+29:05:2011 113958606 Rertriving order from Byke queue
+29:05:2011 113958606 		Byke Order queue(0): []
+29:05:2011 113958607 Produced (Byke): 1
+29:05:2011 113959630 Store:Putting order(RO002) in Byke queue
+29:05:2011 113959630 Rertriving order from Byke queue
+29:05:2011 113959630 		Byke Order queue(1): [RO002]
+29:05:2011 113959631 Supplied order for RO: RO002 and type: Byke
+29:05:2011 113959631 			In store: {Car=0, Truck=2, Byke=10}
+29:05:2011 113959631 RO(RO002):Rertriving order from Byke queue
+29:05:2011 113959631 		RO(RO002):Byke Order queue(1): [SOUTH40]
+29:05:2011 114001632 Store:Putting order(RO002) in Truck queue
+29:05:2011 114001632 Rertriving order from Truck queue
+29:05:2011 114001632 		Truck Order queue(1): [RO002]
+29:05:2011 114001632 Supplied order for RO: RO002 and type: Truck
+29:05:2011 114001633 			In store: {Car=0, Truck=1, Byke=10}
+29:05:2011 114001633 RO(RO002):Rertriving order from Truck queue
+29:05:2011 114001633 		RO(RO002):Truck Order queue(1): [SOUTH41]
+29:05:2011 114001634 StartTruckProductionEvent Event Triggered
+29:05:2011 114001634 TruckProduction Started...
+29:05:2011 114004586 			In store: {Car=1, Truck=1, Byke=10}
+29:05:2011 114004586 Rertriving order from Car queue
+29:05:2011 114004586 		Car Order queue(2): [RO001, RO002]
+29:05:2011 114004587 Supplied order for RO: RO001 and type: Car
+29:05:2011 114004587 			In store: {Car=0, Truck=1, Byke=10}
+29:05:2011 114004587 RO(RO001):Rertriving order from Car queue
+29:05:2011 114004587 		RO(RO001):Car Order queue(1): [NORTH36]
+29:05:2011 114004588 Produced (Car): 1
+29:05:2011 114008635 Store:Putting order(RO003) in Car queue
+29:05:2011 114010636 Store:Putting order(RO003) in Byke queue
+29:05:2011 114010636 Rertriving order from Byke queue
+29:05:2011 114010636 		Byke Order queue(1): [RO003]
+29:05:2011 114010637 Supplied order for RO: RO003 and type: Byke
+29:05:2011 114010638 			In store: {Car=0, Truck=1, Byke=9}
+29:05:2011 114010638 RO(RO003):Rertriving order from Byke queue
+29:05:2011 114010638 		RO(RO003):Byke Order queue(1): [EAST43]
+29:05:2011 114012638 Store:Putting order(RO003) in Truck queue
+29:05:2011 114012638 Rertriving order from Truck queue
+29:05:2011 114012638 		Truck Order queue(1): [RO003]
+29:05:2011 114012638 Supplied order for RO: RO003 and type: Truck
+29:05:2011 114012639 			In store: {Car=0, Truck=0, Byke=9}
+29:05:2011 114012639 RO(RO003):Rertriving order from Truck queue
+29:05:2011 114012639 		RO(RO003):Truck Order queue(1): [EAST44]
+29:05:2011 114014609 			In store: {Car=0, Truck=0, Byke=10}
+29:05:2011 114014609 Rertriving order from Byke queue
+29:05:2011 114014609 		Byke Order queue(0): []
+29:05:2011 114014610 Produced (Byke): 1
+29:05:2011 114019640 Store:Putting order(RO004) in Car queue
+29:05:2011 114021635 			In store: {Car=0, Truck=1, Byke=10}
+29:05:2011 114021635 Rertriving order from Truck queue
+29:05:2011 114021635 		Truck Order queue(0): []
+29:05:2011 114021636 Produced (Truck): 1
+29:05:2011 114021641 Store:Putting order(RO004) in Byke queue
+29:05:2011 114021641 Rertriving order from Byke queue
+29:05:2011 114021641 		Byke Order queue(1): [RO004]
+29:05:2011 114021642 Supplied order for RO: RO004 and type: Byke
+29:05:2011 114021642 			In store: {Car=0, Truck=1, Byke=9}
+29:05:2011 114021642 RO(RO004):Rertriving order from Byke queue
+29:05:2011 114021642 		RO(RO004):Byke Order queue(1): [WEST46]
+29:05:2011 114023643 Store:Putting order(RO004) in Truck queue
+29:05:2011 114023643 Rertriving order from Truck queue
+29:05:2011 114023643 		Truck Order queue(1): [RO004]
+29:05:2011 114023644 Supplied order for RO: RO004 and type: Truck
+29:05:2011 114023644 			In store: {Car=0, Truck=0, Byke=9}
+29:05:2011 114023644 RO(RO004):Rertriving order from Truck queue
+29:05:2011 114023644 		RO(RO004):Truck Order queue(1): [WEST47]
+29:05:2011 114030611 			In store: {Car=0, Truck=0, Byke=10}
+29:05:2011 114030611 Rertriving order from Byke queue
+29:05:2011 114030611 		Byke Order queue(0): []
+29:05:2011 114030612 Produced (Byke): 1
+29:05:2011 114034589 			In store: {Car=1, Truck=0, Byke=10}
+29:05:2011 114034589 Rertriving order from Car queue
+29:05:2011 114034589 		Car Order queue(3): [RO002, RO003, RO004]
+29:05:2011 114034590 Supplied order for RO: RO002 and type: Car
+29:05:2011 114034590 			In store: {Car=0, Truck=0, Byke=10}
+29:05:2011 114034590 RO(RO002):Rertriving order from Car queue
+29:05:2011 114034590 		RO(RO002):Car Order queue(1): [SOUTH39]
+29:05:2011 114034591 Produced (Car): 1
+29:05:2011 114041636 			In store: {Car=0, Truck=1, Byke=10}
+29:05:2011 114041636 Rertriving order from Truck queue
+29:05:2011 114041637 		Truck Order queue(0): []
+29:05:2011 114041637 Produced (Truck): 1
+29:05:2011 114046613 			In store: {Car=0, Truck=1, Byke=11}
+29:05:2011 114046613 Rertriving order from Byke queue
+29:05:2011 114046613 		Byke Order queue(0): []
+29:05:2011 114046614 Produced (Byke): 1
+29:05:2011 114101638 			In store: {Car=0, Truck=2, Byke=11}
+29:05:2011 114101638 Rertriving order from Truck queue
+29:05:2011 114101638 		Truck Order queue(0): []
+29:05:2011 114101638 Produced (Truck): 1
+29:05:2011 114102615 			In store: {Car=0, Truck=2, Byke=12}
+29:05:2011 114102615 Rertriving order from Byke queue
+29:05:2011 114102615 		Byke Order queue(0): []
+29:05:2011 114102616 Produced (Byke): 1
+29:05:2011 114104592 			In store: {Car=1, Truck=2, Byke=12}
+29:05:2011 114104592 Rertriving order from Car queue
+29:05:2011 114104593 		Car Order queue(2): [RO003, RO004]
+29:05:2011 114104593 Supplied order for RO: RO003 and type: Car
+29:05:2011 114104593 			In store: {Car=0, Truck=2, Byke=12}
+29:05:2011 114104593 RO(RO003):Rertriving order from Car queue
+29:05:2011 114104594 		RO(RO003):Car Order queue(1): [EAST42]
+29:05:2011 114104594 Produced (Car): 1
+29:05:2011 114118617 			In store: {Car=0, Truck=2, Byke=13}
+29:05:2011 114118617 Rertriving order from Byke queue
+29:05:2011 114118617 		Byke Order queue(0): []
+29:05:2011 114118618 Produced (Byke): 1
+29:05:2011 114121639 			In store: {Car=0, Truck=3, Byke=13}
+29:05:2011 114121639 Rertriving order from Truck queue
+29:05:2011 114121639 		Truck Order queue(0): []
+29:05:2011 114121640 Produced (Truck): 1
+29:05:2011 114121641 StopTruckProductionEvent Event Triggered
+29:05:2011 114130646 Store:Putting order(RO001) in Car queue
+29:05:2011 114132647 Store:Putting order(RO001) in Byke queue
+29:05:2011 114132647 Rertriving order from Byke queue
+29:05:2011 114132647 		Byke Order queue(1): [RO001]
+29:05:2011 114132648 Supplied order for RO: RO001 and type: Byke
+29:05:2011 114132648 			In store: {Car=0, Truck=3, Byke=12}
+29:05:2011 114132648 RO(RO001):Rertriving order from Byke queue
+29:05:2011 114132649 		RO(RO001):Byke Order queue(1): [NORTH49]
+29:05:2011 114134594 			In store: {Car=1, Truck=3, Byke=12}
+29:05:2011 114134594 Rertriving order from Car queue
+29:05:2011 114134594 		Car Order queue(2): [RO004, RO001]
+29:05:2011 114134595 Supplied order for RO: RO004 and type: Car
+29:05:2011 114134595 			In store: {Car=0, Truck=3, Byke=12}
+29:05:2011 114134595 RO(RO004):Rertriving order from Car queue
+29:05:2011 114134595 		RO(RO004):Car Order queue(1): [WEST45]
+29:05:2011 114134596 Produced (Car): 1
+29:05:2011 114134618 			In store: {Car=0, Truck=3, Byke=13}
+29:05:2011 114134618 Rertriving order from Byke queue
+29:05:2011 114134618 		Byke Order queue(0): []
+29:05:2011 114134619 Produced (Byke): 1
+29:05:2011 114134649 Store:Putting order(RO001) in Truck queue
+29:05:2011 114134649 Rertriving order from Truck queue
+29:05:2011 114134650 		Truck Order queue(1): [RO001]
+29:05:2011 114134650 Supplied order for RO: RO001 and type: Truck
+29:05:2011 114134650 			In store: {Car=0, Truck=2, Byke=13}
+29:05:2011 114134651 RO(RO001):Rertriving order from Truck queue
+29:05:2011 114134651 		RO(RO001):Truck Order queue(1): [NORTH50]
+29:05:2011 114141652 Store:Putting order(RO002) in Car queue
+29:05:2011 114143653 Store:Putting order(RO002) in Byke queue
+29:05:2011 114143653 Rertriving order from Byke queue
+29:05:2011 114143654 		Byke Order queue(1): [RO002]
+29:05:2011 114143654 Supplied order for RO: RO002 and type: Byke
+29:05:2011 114143654 			In store: {Car=0, Truck=2, Byke=12}
+29:05:2011 114143654 RO(RO002):Rertriving order from Byke queue
+29:05:2011 114143654 		RO(RO002):Byke Order queue(1): [SOUTH52]
+29:05:2011 114145655 Store:Putting order(RO002) in Truck queue
+29:05:2011 114145655 Rertriving order from Truck queue
+29:05:2011 114145655 		Truck Order queue(1): [RO002]
+29:05:2011 114145656 Supplied order for RO: RO002 and type: Truck
+29:05:2011 114145656 			In store: {Car=0, Truck=1, Byke=12}
+29:05:2011 114145656 RO(RO002):Rertriving order from Truck queue
+29:05:2011 114145656 		RO(RO002):Truck Order queue(1): [SOUTH53]
+29:05:2011 114145657 StartTruckProductionEvent Event Triggered
+29:05:2011 114145658 TruckProduction Started...
+29:05:2011 114150620 			In store: {Car=0, Truck=1, Byke=13}
+29:05:2011 114150620 Rertriving order from Byke queue
+29:05:2011 114150620 		Byke Order queue(0): []
+29:05:2011 114150621 Produced (Byke): 1
+29:05:2011 114152657 Store:Putting order(RO003) in Car queue
+29:05:2011 114154659 Store:Putting order(RO003) in Byke queue
+29:05:2011 114154659 Rertriving order from Byke queue
+29:05:2011 114154659 		Byke Order queue(1): [RO003]
+29:05:2011 114154660 Supplied order for RO: RO003 and type: Byke
+29:05:2011 114154660 			In store: {Car=0, Truck=1, Byke=12}
+29:05:2011 114154660 RO(RO003):Rertriving order from Byke queue
+29:05:2011 114154660 		RO(RO003):Byke Order queue(1): [EAST55]
+29:05:2011 114156661 Store:Putting order(RO003) in Truck queue
+29:05:2011 114156661 Rertriving order from Truck queue
+29:05:2011 114156661 		Truck Order queue(1): [RO003]
+29:05:2011 114156662 Supplied order for RO: RO003 and type: Truck
+29:05:2011 114156662 			In store: {Car=0, Truck=0, Byke=12}
+29:05:2011 114156662 RO(RO003):Rertriving order from Truck queue
+29:05:2011 114156662 		RO(RO003):Truck Order queue(1): [EAST56]
+29:05:2011 114203663 Store:Putting order(RO004) in Car queue
+29:05:2011 114204597 			In store: {Car=1, Truck=0, Byke=12}
+29:05:2011 114204597 Rertriving order from Car queue
+29:05:2011 114204597 		Car Order queue(4): [RO001, RO002, RO003, RO004]
+29:05:2011 114204598 Supplied order for RO: RO001 and type: Car
+29:05:2011 114204598 			In store: {Car=0, Truck=0, Byke=12}
+29:05:2011 114204598 RO(RO001):Rertriving order from Car queue
+29:05:2011 114204598 		RO(RO001):Car Order queue(1): [NORTH48]
+29:05:2011 114204599 Produced (Car): 1
+29:05:2011 114205658 			In store: {Car=0, Truck=1, Byke=12}
+29:05:2011 114205658 Rertriving order from Truck queue
+29:05:2011 114205658 		Truck Order queue(0): []
+29:05:2011 114205659 Produced (Truck): 1
+29:05:2011 114205664 Store:Putting order(RO004) in Byke queue
+29:05:2011 114205664 Rertriving order from Byke queue
+29:05:2011 114205664 		Byke Order queue(1): [RO004]
+29:05:2011 114205664 Supplied order for RO: RO004 and type: Byke
+29:05:2011 114205665 			In store: {Car=0, Truck=1, Byke=11}
+29:05:2011 114205665 RO(RO004):Rertriving order from Byke queue
+29:05:2011 114205665 		RO(RO004):Byke Order queue(1): [WEST58]
+29:05:2011 114206622 			In store: {Car=0, Truck=1, Byke=12}
+29:05:2011 114206622 Rertriving order from Byke queue
+29:05:2011 114206622 		Byke Order queue(0): []
+29:05:2011 114206623 Produced (Byke): 1
+29:05:2011 114207665 Store:Putting order(RO004) in Truck queue
+29:05:2011 114207665 Rertriving order from Truck queue
+29:05:2011 114207665 		Truck Order queue(1): [RO004]
+29:05:2011 114207665 Supplied order for RO: RO004 and type: Truck
+29:05:2011 114207666 			In store: {Car=0, Truck=0, Byke=12}
+29:05:2011 114207666 RO(RO004):Rertriving order from Truck queue
+29:05:2011 114207666 		RO(RO004):Truck Order queue(1): [WEST59]
+29:05:2011 114222624 			In store: {Car=0, Truck=0, Byke=13}
+29:05:2011 114222624 Rertriving order from Byke queue
+29:05:2011 114222624 		Byke Order queue(0): []
+29:05:2011 114222624 Produced (Byke): 1
+29:05:2011 114225659 			In store: {Car=0, Truck=1, Byke=13}
+29:05:2011 114225659 Rertriving order from Truck queue
+29:05:2011 114225659 		Truck Order queue(0): []
+29:05:2011 114225660 Produced (Truck): 1
+29:05:2011 114234600 			In store: {Car=1, Truck=1, Byke=13}
+29:05:2011 114234600 Rertriving order from Car queue
+29:05:2011 114234600 		Car Order queue(3): [RO002, RO003, RO004]
+29:05:2011 114234601 Supplied order for RO: RO002 and type: Car
+29:05:2011 114234601 			In store: {Car=0, Truck=1, Byke=13}
+29:05:2011 114234601 RO(RO002):Rertriving order from Car queue
+29:05:2011 114234601 		RO(RO002):Car Order queue(1): [SOUTH51]
+29:05:2011 114234601 Produced (Car): 1
+29:05:2011 114238626 			In store: {Car=0, Truck=1, Byke=14}
+29:05:2011 114238626 Rertriving order from Byke queue
+29:05:2011 114238626 		Byke Order queue(0): []
+29:05:2011 114238627 Produced (Byke): 1
+29:05:2011 114245660 			In store: {Car=0, Truck=2, Byke=14}
+29:05:2011 114245660 Rertriving order from Truck queue
+29:05:2011 114245660 		Truck Order queue(0): []
+29:05:2011 114245661 Produced (Truck): 1
+29:05:2011 114254628 			In store: {Car=0, Truck=2, Byke=15}
+29:05:2011 114254628 Rertriving order from Byke queue
+29:05:2011 114254628 		Byke Order queue(0): []
+29:05:2011 114254629 Produced (Byke): 1
+29:05:2011 114304603 			In store: {Car=1, Truck=2, Byke=15}
+29:05:2011 114304604 Rertriving order from Car queue
+29:05:2011 114304604 		Car Order queue(2): [RO003, RO004]
+29:05:2011 114304605 Supplied order for RO: RO003 and type: Car
+29:05:2011 114304613 			In store: {Car=0, Truck=2, Byke=15}
+29:05:2011 114304628 RO(RO003):Rertriving order from Car queue
+29:05:2011 114304629 		RO(RO003):Car Order queue(1): [EAST54]
+29:05:2011 114304629 Produced (Car): 1
+29:05:2011 114305662 			In store: {Car=0, Truck=3, Byke=15}
+29:05:2011 114305662 Rertriving order from Truck queue
+29:05:2011 114305662 		Truck Order queue(0): []
+29:05:2011 114305663 Produced (Truck): 1
+29:05:2011 114305664 StopTruckProductionEvent Event Triggered
+29:05:2011 114310630 			In store: {Car=0, Truck=3, Byke=16}
+29:05:2011 114310630 Rertriving order from Byke queue
+29:05:2011 114310631 		Byke Order queue(0): []
+29:05:2011 114310631 Produced (Byke): 1
+29:05:2011 114314667 Store:Putting order(RO001) in Car queue
+29:05:2011 114316668 Store:Putting order(RO001) in Byke queue
+29:05:2011 114316668 Rertriving order from Byke queue
+29:05:2011 114316668 		Byke Order queue(1): [RO001]
+29:05:2011 114316668 Supplied order for RO: RO001 and type: Byke
+29:05:2011 114316669 			In store: {Car=0, Truck=3, Byke=15}
+29:05:2011 114316669 RO(RO001):Rertriving order from Byke queue
+29:05:2011 114316669 		RO(RO001):Byke Order queue(1): [NORTH61]
+29:05:2011 114318669 Store:Putting order(RO001) in Truck queue
+29:05:2011 114318669 Rertriving order from Truck queue
+29:05:2011 114318669 		Truck Order queue(1): [RO001]
+29:05:2011 114318670 Supplied order for RO: RO001 and type: Truck
+29:05:2011 114318670 			In store: {Car=0, Truck=2, Byke=15}
+29:05:2011 114318670 RO(RO001):Rertriving order from Truck queue
+29:05:2011 114318670 		RO(RO001):Truck Order queue(1): [NORTH62]
+29:05:2011 114325671 Store:Putting order(RO002) in Car queue
+29:05:2011 114326632 			In store: {Car=0, Truck=2, Byke=16}
+29:05:2011 114326632 Rertriving order from Byke queue
+29:05:2011 114326632 		Byke Order queue(0): []
+29:05:2011 114326633 Produced (Byke): 1
+29:05:2011 114327672 Store:Putting order(RO002) in Byke queue
+29:05:2011 114327672 Rertriving order from Byke queue
+29:05:2011 114327672 		Byke Order queue(1): [RO002]
+29:05:2011 114327673 Supplied order for RO: RO002 and type: Byke
+29:05:2011 114327673 			In store: {Car=0, Truck=2, Byke=15}
+29:05:2011 114327673 RO(RO002):Rertriving order from Byke queue
+29:05:2011 114327673 		RO(RO002):Byke Order queue(1): [SOUTH64]
+29:05:2011 114329673 Store:Putting order(RO002) in Truck queue
+29:05:2011 114329673 Rertriving order from Truck queue
+29:05:2011 114329673 		Truck Order queue(1): [RO002]
+29:05:2011 114329673 Supplied order for RO: RO002 and type: Truck
+29:05:2011 114329674 			In store: {Car=0, Truck=1, Byke=15}
+29:05:2011 114329674 RO(RO002):Rertriving order from Truck queue
+29:05:2011 114329674 		RO(RO002):Truck Order queue(1): [SOUTH65]
+29:05:2011 114329675 StartTruckProductionEvent Event Triggered
+29:05:2011 114329675 TruckProduction Started...
+29:05:2011 114334630 			In store: {Car=1, Truck=1, Byke=15}
+29:05:2011 114334630 Rertriving order from Car queue
+29:05:2011 114334630 		Car Order queue(3): [RO004, RO001, RO002]
+29:05:2011 114334631 Supplied order for RO: RO004 and type: Car
+29:05:2011 114334631 			In store: {Car=0, Truck=1, Byke=15}
+29:05:2011 114334631 RO(RO004):Rertriving order from Car queue
+29:05:2011 114334631 		RO(RO004):Car Order queue(1): [WEST57]
+29:05:2011 114334631 Produced (Car): 1
+29:05:2011 114336675 Store:Putting order(RO003) in Car queue
+29:05:2011 114338677 Store:Putting order(RO003) in Byke queue
+29:05:2011 114338677 Rertriving order from Byke queue
+29:05:2011 114338677 		Byke Order queue(1): [RO003]
+29:05:2011 114338678 Supplied order for RO: RO003 and type: Byke
+29:05:2011 114338678 			In store: {Car=0, Truck=1, Byke=14}
+29:05:2011 114338678 RO(RO003):Rertriving order from Byke queue
+29:05:2011 114338678 		RO(RO003):Byke Order queue(1): [EAST67]
+29:05:2011 114340678 Store:Putting order(RO003) in Truck queue
+29:05:2011 114340678 Rertriving order from Truck queue
+29:05:2011 114340678 		Truck Order queue(1): [RO003]
+29:05:2011 114340679 Supplied order for RO: RO003 and type: Truck
+29:05:2011 114340679 			In store: {Car=0, Truck=0, Byke=14}
+29:05:2011 114340679 RO(RO003):Rertriving order from Truck queue
+29:05:2011 114340679 		RO(RO003):Truck Order queue(1): [EAST68]
+29:05:2011 114342634 			In store: {Car=0, Truck=0, Byke=15}
+29:05:2011 114342634 Rertriving order from Byke queue
+29:05:2011 114342634 		Byke Order queue(0): []
+29:05:2011 114342635 Produced (Byke): 1
+29:05:2011 114347679 Store:Putting order(RO004) in Car queue
+29:05:2011 114349675 			In store: {Car=0, Truck=1, Byke=15}
+29:05:2011 114349675 Rertriving order from Truck queue
+29:05:2011 114349675 		Truck Order queue(0): []
+29:05:2011 114349675 Produced (Truck): 1
+29:05:2011 114349680 Store:Putting order(RO004) in Byke queue
+29:05:2011 114349680 Rertriving order from Byke queue
+29:05:2011 114349680 		Byke Order queue(1): [RO004]
+29:05:2011 114349680 Supplied order for RO: RO004 and type: Byke
+29:05:2011 114349681 			In store: {Car=0, Truck=1, Byke=14}
+29:05:2011 114349681 RO(RO004):Rertriving order from Byke queue
+29:05:2011 114349681 		RO(RO004):Byke Order queue(1): [WEST70]
+29:05:2011 114351681 Store:Putting order(RO004) in Truck queue
+29:05:2011 114351681 Rertriving order from Truck queue
+29:05:2011 114351681 		Truck Order queue(1): [RO004]
+29:05:2011 114351682 Supplied order for RO: RO004 and type: Truck
+29:05:2011 114351682 			In store: {Car=0, Truck=0, Byke=14}
+29:05:2011 114351682 RO(RO004):Rertriving order from Truck queue
+29:05:2011 114351682 		RO(RO004):Truck Order queue(1): [WEST71]
+29:05:2011 114358636 			In store: {Car=0, Truck=0, Byke=15}
+29:05:2011 114358636 Rertriving order from Byke queue
+29:05:2011 114358636 		Byke Order queue(0): []
+29:05:2011 114358637 Produced (Byke): 1
+29:05:2011 114404633 			In store: {Car=1, Truck=0, Byke=15}
+29:05:2011 114404633 Rertriving order from Car queue
+29:05:2011 114404633 		Car Order queue(4): [RO001, RO002, RO003, RO004]
+29:05:2011 114404634 Supplied order for RO: RO001 and type: Car
+29:05:2011 114404634 			In store: {Car=0, Truck=0, Byke=15}
+29:05:2011 114404634 RO(RO001):Rertriving order from Car queue
+29:05:2011 114404634 		RO(RO001):Car Order queue(1): [NORTH60]
+29:05:2011 114404634 Produced (Car): 1
+29:05:2011 114409675 			In store: {Car=0, Truck=1, Byke=15}
+29:05:2011 114409675 Rertriving order from Truck queue
+29:05:2011 114409675 		Truck Order queue(0): []
+29:05:2011 114409676 Produced (Truck): 1
+29:05:2011 114414639 			In store: {Car=0, Truck=1, Byke=16}
+29:05:2011 114414639 Rertriving order from Byke queue
+29:05:2011 114414639 		Byke Order queue(0): []
+29:05:2011 114414640 Produced (Byke): 1
+29:05:2011 114429676 			In store: {Car=0, Truck=2, Byke=16}
+29:05:2011 114429676 Rertriving order from Truck queue
+29:05:2011 114429676 		Truck Order queue(0): []
+29:05:2011 114429677 Produced (Truck): 1
+29:05:2011 114430640 			In store: {Car=0, Truck=2, Byke=17}
+29:05:2011 114430640 Rertriving order from Byke queue
+29:05:2011 114430640 		Byke Order queue(0): []
+29:05:2011 114430641 Produced (Byke): 1
+29:05:2011 114434636 			In store: {Car=1, Truck=2, Byke=17}
+29:05:2011 114434637 Rertriving order from Car queue
+29:05:2011 114434637 		Car Order queue(3): [RO002, RO003, RO004]
+29:05:2011 114434637 Supplied order for RO: RO002 and type: Car
+29:05:2011 114434637 			In store: {Car=0, Truck=2, Byke=17}
+29:05:2011 114434638 RO(RO002):Rertriving order from Car queue
+29:05:2011 114434638 		RO(RO002):Car Order queue(1): [SOUTH63]
+29:05:2011 114434638 Produced (Car): 1
+29:05:2011 114446642 			In store: {Car=0, Truck=2, Byke=18}
+29:05:2011 114446642 Rertriving order from Byke queue
+29:05:2011 114446642 		Byke Order queue(0): []
+29:05:2011 114446643 Produced (Byke): 1
+29:05:2011 114449678 			In store: {Car=0, Truck=3, Byke=18}
+29:05:2011 114449678 Rertriving order from Truck queue
+29:05:2011 114449679 		Truck Order queue(0): []
+29:05:2011 114449679 Produced (Truck): 1
+29:05:2011 114449680 StopTruckProductionEvent Event Triggered
+29:05:2011 114458683 Store:Putting order(RO001) in Car queue
+29:05:2011 114500684 Store:Putting order(RO001) in Byke queue
+29:05:2011 114500684 Rertriving order from Byke queue
+29:05:2011 114500684 		Byke Order queue(1): [RO001]
+29:05:2011 114500685 Supplied order for RO: RO001 and type: Byke
+29:05:2011 114500685 			In store: {Car=0, Truck=3, Byke=17}
+29:05:2011 114500685 RO(RO001):Rertriving order from Byke queue
+29:05:2011 114500685 		RO(RO001):Byke Order queue(1): [NORTH73]
+29:05:2011 114502644 			In store: {Car=0, Truck=3, Byke=18}
+29:05:2011 114502644 Rertriving order from Byke queue
+29:05:2011 114502644 		Byke Order queue(0): []
+29:05:2011 114502645 Produced (Byke): 1
+29:05:2011 114502685 Store:Putting order(RO001) in Truck queue
+29:05:2011 114502685 Rertriving order from Truck queue
+29:05:2011 114502685 		Truck Order queue(1): [RO001]
+29:05:2011 114502685 Supplied order for RO: RO001 and type: Truck
+29:05:2011 114502685 			In store: {Car=0, Truck=2, Byke=18}
+29:05:2011 114502686 RO(RO001):Rertriving order from Truck queue
+29:05:2011 114502686 		RO(RO001):Truck Order queue(1): [NORTH74]
+29:05:2011 114504638 			In store: {Car=1, Truck=2, Byke=18}
+29:05:2011 114504638 Rertriving order from Car queue
+29:05:2011 114504639 		Car Order queue(3): [RO003, RO004, RO001]
+29:05:2011 114504639 Supplied order for RO: RO003 and type: Car
+29:05:2011 114504639 			In store: {Car=0, Truck=2, Byke=18}
+29:05:2011 114504639 RO(RO003):Rertriving order from Car queue
+29:05:2011 114504639 		RO(RO003):Car Order queue(1): [EAST66]
+29:05:2011 114504639 Produced (Car): 1
+29:05:2011 114509688 Store:Putting order(RO002) in Car queue
+29:05:2011 114511689 Store:Putting order(RO002) in Byke queue
+29:05:2011 114511689 Rertriving order from Byke queue
+29:05:2011 114511689 		Byke Order queue(1): [RO002]
+29:05:2011 114511690 Supplied order for RO: RO002 and type: Byke
+29:05:2011 114511690 			In store: {Car=0, Truck=2, Byke=17}
+29:05:2011 114511690 RO(RO002):Rertriving order from Byke queue
+29:05:2011 114511690 		RO(RO002):Byke Order queue(1): [SOUTH76]
+29:05:2011 114513690 Store:Putting order(RO002) in Truck queue
+29:05:2011 114513690 Rertriving order from Truck queue
+29:05:2011 114513690 		Truck Order queue(1): [RO002]
+29:05:2011 114513691 Supplied order for RO: RO002 and type: Truck
+29:05:2011 114513691 			In store: {Car=0, Truck=1, Byke=17}
+29:05:2011 114513691 RO(RO002):Rertriving order from Truck queue
+29:05:2011 114513691 		RO(RO002):Truck Order queue(1): [SOUTH77]
+29:05:2011 114513692 StartTruckProductionEvent Event Triggered
+29:05:2011 114513693 TruckProduction Started...
+29:05:2011 114518646 			In store: {Car=0, Truck=1, Byke=18}
+29:05:2011 114518646 Rertriving order from Byke queue
+29:05:2011 114518646 		Byke Order queue(0): []
+29:05:2011 114518647 Produced (Byke): 1
+29:05:2011 114520692 Store:Putting order(RO003) in Car queue
+29:05:2011 114522693 Store:Putting order(RO003) in Byke queue
+29:05:2011 114522693 Rertriving order from Byke queue
+29:05:2011 114522693 		Byke Order queue(1): [RO003]
+29:05:2011 114522694 Supplied order for RO: RO003 and type: Byke
+29:05:2011 114522694 			In store: {Car=0, Truck=1, Byke=17}
+29:05:2011 114522694 RO(RO003):Rertriving order from Byke queue
+29:05:2011 114522694 		RO(RO003):Byke Order queue(1): [EAST79]
+29:05:2011 114524695 Store:Putting order(RO003) in Truck queue
+29:05:2011 114524695 Rertriving order from Truck queue
+29:05:2011 114524695 		Truck Order queue(1): [RO003]
+29:05:2011 114524696 Supplied order for RO: RO003 and type: Truck
+29:05:2011 114524696 			In store: {Car=0, Truck=0, Byke=17}
+29:05:2011 114524696 RO(RO003):Rertriving order from Truck queue
+29:05:2011 114524696 		RO(RO003):Truck Order queue(1): [EAST80]
+29:05:2011 114531696 Store:Putting order(RO004) in Car queue
+29:05:2011 114533693 			In store: {Car=0, Truck=1, Byke=17}
+29:05:2011 114533693 Rertriving order from Truck queue
+29:05:2011 114533693 		Truck Order queue(0): []
+29:05:2011 114533694 Produced (Truck): 1
+29:05:2011 114533696 Store:Putting order(RO004) in Byke queue
+29:05:2011 114533696 Rertriving order from Byke queue
+29:05:2011 114533696 		Byke Order queue(1): [RO004]
+29:05:2011 114533697 Supplied order for RO: RO004 and type: Byke
+29:05:2011 114533697 			In store: {Car=0, Truck=1, Byke=16}
+29:05:2011 114533697 RO(RO004):Rertriving order from Byke queue
+29:05:2011 114533697 		RO(RO004):Byke Order queue(1): [WEST82]
+29:05:2011 114534641 			In store: {Car=1, Truck=1, Byke=16}
+29:05:2011 114534641 Rertriving order from Car queue
+29:05:2011 114534641 		Car Order queue(5): [RO004, RO001, RO002, RO003, RO004]
+29:05:2011 114534642 Supplied order for RO: RO004 and type: Car
+29:05:2011 114534642 			In store: {Car=0, Truck=1, Byke=16}
+29:05:2011 114534642 RO(RO004):Rertriving order from Car queue
+29:05:2011 114534642 		RO(RO004):Car Order queue(2): [WEST69, WEST81]
+29:05:2011 114534642 Produced (Car): 1
+29:05:2011 114534648 			In store: {Car=0, Truck=1, Byke=17}
+29:05:2011 114534648 Rertriving order from Byke queue
+29:05:2011 114534648 		Byke Order queue(0): []
+29:05:2011 114534649 Produced (Byke): 1
+29:05:2011 114535697 Store:Putting order(RO004) in Truck queue
+29:05:2011 114535697 Rertriving order from Truck queue
+29:05:2011 114535697 		Truck Order queue(1): [RO004]
+29:05:2011 114535698 Supplied order for RO: RO004 and type: Truck
+29:05:2011 114535698 			In store: {Car=0, Truck=0, Byke=17}
+29:05:2011 114535698 RO(RO004):Rertriving order from Truck queue
+29:05:2011 114535698 		RO(RO004):Truck Order queue(1): [WEST83]
+29:05:2011 114550650 			In store: {Car=0, Truck=0, Byke=18}
+29:05:2011 114550650 Rertriving order from Byke queue
+29:05:2011 114550650 		Byke Order queue(0): []
+29:05:2011 114550651 Produced (Byke): 1
+29:05:2011 114553694 			In store: {Car=0, Truck=1, Byke=18}
+29:05:2011 114553694 Rertriving order from Truck queue
+29:05:2011 114553694 		Truck Order queue(0): []
+29:05:2011 114553695 Produced (Truck): 1
+29:05:2011 114604644 			In store: {Car=1, Truck=1, Byke=18}
+29:05:2011 114604644 Rertriving order from Car queue
+29:05:2011 114604644 		Car Order queue(4): [RO001, RO002, RO003, RO004]
+29:05:2011 114604645 Supplied order for RO: RO001 and type: Car
+29:05:2011 114604645 			In store: {Car=0, Truck=1, Byke=18}
+29:05:2011 114604645 RO(RO001):Rertriving order from Car queue
+29:05:2011 114604645 		RO(RO001):Car Order queue(1): [NORTH72]
+29:05:2011 114604645 Produced (Car): 1
+29:05:2011 114606652 			In store: {Car=0, Truck=1, Byke=19}
+29:05:2011 114606652 Rertriving order from Byke queue
+29:05:2011 114606652 		Byke Order queue(0): []
+29:05:2011 114606653 Produced (Byke): 1
+29:05:2011 114613695 			In store: {Car=0, Truck=2, Byke=19}
+29:05:2011 114613695 Rertriving order from Truck queue
+29:05:2011 114613695 		Truck Order queue(0): []
+29:05:2011 114613695 Produced (Truck): 1
+29:05:2011 114622654 			In store: {Car=0, Truck=2, Byke=20}
+29:05:2011 114622654 Rertriving order from Byke queue
+29:05:2011 114622654 		Byke Order queue(0): []
+29:05:2011 114622655 Produced (Byke): 1
+29:05:2011 114633696 			In store: {Car=0, Truck=3, Byke=20}
+29:05:2011 114633696 Rertriving order from Truck queue
+29:05:2011 114633696 		Truck Order queue(0): []
+29:05:2011 114633696 Produced (Truck): 1
+29:05:2011 114633697 StopTruckProductionEvent Event Triggered
+29:05:2011 114634647 			In store: {Car=1, Truck=3, Byke=20}
+29:05:2011 114634647 Rertriving order from Car queue
+29:05:2011 114634647 		Car Order queue(3): [RO002, RO003, RO004]
+29:05:2011 114634648 Supplied order for RO: RO002 and type: Car
+29:05:2011 114634648 			In store: {Car=0, Truck=3, Byke=20}
+29:05:2011 114634648 RO(RO002):Rertriving order from Car queue
+29:05:2011 114634648 		RO(RO002):Car Order queue(1): [SOUTH75]
+29:05:2011 114634648 Produced (Car): 1
+29:05:2011 114638656 			In store: {Car=0, Truck=3, Byke=21}
+29:05:2011 114638656 Rertriving order from Byke queue
+29:05:2011 114638656 		Byke Order queue(0): []
+29:05:2011 114638656 Produced (Byke): 1
+29:05:2011 114642699 Store:Putting order(RO001) in Car queue
+29:05:2011 114644700 Store:Putting order(RO001) in Byke queue
+29:05:2011 114644700 Rertriving order from Byke queue
+29:05:2011 114644700 		Byke Order queue(1): [RO001]
+29:05:2011 114644701 Supplied order for RO: RO001 and type: Byke
+29:05:2011 114644701 			In store: {Car=0, Truck=3, Byke=20}
+29:05:2011 114644701 RO(RO001):Rertriving order from Byke queue
+29:05:2011 114644701 		RO(RO001):Byke Order queue(1): [NORTH85]
+29:05:2011 114646701 Store:Putting order(RO001) in Truck queue
+29:05:2011 114646701 Rertriving order from Truck queue
+29:05:2011 114646701 		Truck Order queue(1): [RO001]
+29:05:2011 114646702 Supplied order for RO: RO001 and type: Truck
+29:05:2011 114646702 			In store: {Car=0, Truck=2, Byke=20}
+29:05:2011 114646702 RO(RO001):Rertriving order from Truck queue
+29:05:2011 114646702 		RO(RO001):Truck Order queue(1): [NORTH86]
+29:05:2011 114653703 Store:Putting order(RO002) in Car queue
+29:05:2011 114654658 			In store: {Car=0, Truck=2, Byke=21}
+29:05:2011 114654658 Rertriving order from Byke queue
+29:05:2011 114654658 		Byke Order queue(0): []
+29:05:2011 114654659 Produced (Byke): 1
+29:05:2011 114655704 Store:Putting order(RO002) in Byke queue
+29:05:2011 114655704 Rertriving order from Byke queue
+29:05:2011 114655704 		Byke Order queue(1): [RO002]
+29:05:2011 114655705 Supplied order for RO: RO002 and type: Byke
+29:05:2011 114655705 			In store: {Car=0, Truck=2, Byke=20}
+29:05:2011 114655705 RO(RO002):Rertriving order from Byke queue
+29:05:2011 114655705 		RO(RO002):Byke Order queue(1): [SOUTH88]
+29:05:2011 114657705 Store:Putting order(RO002) in Truck queue
+29:05:2011 114657705 Rertriving order from Truck queue
+29:05:2011 114657705 		Truck Order queue(1): [RO002]
+29:05:2011 114657706 Supplied order for RO: RO002 and type: Truck
+29:05:2011 114657706 			In store: {Car=0, Truck=1, Byke=20}
+29:05:2011 114657706 RO(RO002):Rertriving order from Truck queue
+29:05:2011 114657706 		RO(RO002):Truck Order queue(1): [SOUTH89]
+29:05:2011 114657708 StartTruckProductionEvent Event Triggered
+29:05:2011 114657708 TruckProduction Started...
+29:05:2011 114704649 			In store: {Car=1, Truck=1, Byke=20}
+29:05:2011 114704649 Rertriving order from Car queue
+29:05:2011 114704649 		Car Order queue(4): [RO003, RO004, RO001, RO002]
+29:05:2011 114704650 Supplied order for RO: RO003 and type: Car
+29:05:2011 114704650 			In store: {Car=0, Truck=1, Byke=20}
+29:05:2011 114704650 RO(RO003):Rertriving order from Car queue
+29:05:2011 114704650 		RO(RO003):Car Order queue(1): [EAST78]
+29:05:2011 114704651 Produced (Car): 1
+29:05:2011 114704707 Store:Putting order(RO003) in Car queue
+29:05:2011 114706707 Store:Putting order(RO003) in Byke queue
+29:05:2011 114706707 Rertriving order from Byke queue
+29:05:2011 114706707 		Byke Order queue(1): [RO003]
+29:05:2011 114706708 Supplied order for RO: RO003 and type: Byke
+29:05:2011 114706708 			In store: {Car=0, Truck=1, Byke=19}
+29:05:2011 114706708 RO(RO003):Rertriving order from Byke queue
+29:05:2011 114706708 		RO(RO003):Byke Order queue(1): [EAST91]
+29:05:2011 114708709 Store:Putting order(RO003) in Truck queue
+29:05:2011 114708709 Rertriving order from Truck queue
+29:05:2011 114708709 		Truck Order queue(1): [RO003]
+29:05:2011 114708710 Supplied order for RO: RO003 and type: Truck
+29:05:2011 114708710 			In store: {Car=0, Truck=0, Byke=19}
+29:05:2011 114708710 RO(RO003):Rertriving order from Truck queue
+29:05:2011 114708710 		RO(RO003):Truck Order queue(1): [EAST92]
+29:05:2011 114710660 			In store: {Car=0, Truck=0, Byke=20}
+29:05:2011 114710660 Rertriving order from Byke queue
+29:05:2011 114710660 		Byke Order queue(0): []
+29:05:2011 114710661 Produced (Byke): 1
+29:05:2011 114715710 Store:Putting order(RO004) in Car queue
+29:05:2011 114717708 			In store: {Car=0, Truck=1, Byke=20}
+29:05:2011 114717708 Rertriving order from Truck queue
+29:05:2011 114717708 		Truck Order queue(0): []
+29:05:2011 114717709 Produced (Truck): 1
+29:05:2011 114717711 Store:Putting order(RO004) in Byke queue
+29:05:2011 114717711 Rertriving order from Byke queue
+29:05:2011 114717711 		Byke Order queue(1): [RO004]
+29:05:2011 114717711 Supplied order for RO: RO004 and type: Byke
+29:05:2011 114717711 			In store: {Car=0, Truck=1, Byke=19}
+29:05:2011 114717712 RO(RO004):Rertriving order from Byke queue
+29:05:2011 114717712 		RO(RO004):Byke Order queue(1): [WEST94]
+29:05:2011 114719712 Store:Putting order(RO004) in Truck queue
+29:05:2011 114719712 Rertriving order from Truck queue
+29:05:2011 114719712 		Truck Order queue(1): [RO004]
+29:05:2011 114719712 Supplied order for RO: RO004 and type: Truck
+29:05:2011 114719713 			In store: {Car=0, Truck=0, Byke=19}
+29:05:2011 114719713 RO(RO004):Rertriving order from Truck queue
+29:05:2011 114719713 		RO(RO004):Truck Order queue(1): [WEST95]
+29:05:2011 114726662 			In store: {Car=0, Truck=0, Byke=20}
+29:05:2011 114726662 Rertriving order from Byke queue
+29:05:2011 114726662 		Byke Order queue(0): []
+29:05:2011 114726663 Produced (Byke): 1
+29:05:2011 114734652 			In store: {Car=1, Truck=0, Byke=20}
+29:05:2011 114734652 Rertriving order from Car queue
+29:05:2011 114734652 		Car Order queue(5): [RO004, RO001, RO002, RO003, RO004]
+29:05:2011 114734653 Supplied order for RO: RO004 and type: Car
+29:05:2011 114734653 			In store: {Car=0, Truck=0, Byke=20}
+29:05:2011 114734653 RO(RO004):Rertriving order from Car queue
+29:05:2011 114734653 		RO(RO004):Car Order queue(2): [WEST81, WEST93]
+29:05:2011 114734653 Produced (Car): 1
+29:05:2011 114737709 			In store: {Car=0, Truck=1, Byke=20}
+29:05:2011 114737710 Rertriving order from Truck queue
+29:05:2011 114737711 		Truck Order queue(0): []
+29:05:2011 114737711 Produced (Truck): 1
+29:05:2011 114742663 			In store: {Car=0, Truck=1, Byke=21}
+29:05:2011 114742663 Rertriving order from Byke queue
+29:05:2011 114742663 		Byke Order queue(0): []
+29:05:2011 114742664 Produced (Byke): 1
+29:05:2011 114757712 			In store: {Car=0, Truck=2, Byke=21}
+29:05:2011 114757712 Rertriving order from Truck queue
+29:05:2011 114757712 		Truck Order queue(0): []
+29:05:2011 114757712 Produced (Truck): 1
+29:05:2011 114758665 			In store: {Car=0, Truck=2, Byke=22}
+29:05:2011 114758665 Rertriving order from Byke queue
+29:05:2011 114758665 		Byke Order queue(0): []
+29:05:2011 114758666 Produced (Byke): 1
+29:05:2011 114804655 			In store: {Car=1, Truck=2, Byke=22}
+29:05:2011 114804655 Rertriving order from Car queue
+29:05:2011 114804655 		Car Order queue(4): [RO001, RO002, RO003, RO004]
+29:05:2011 114804656 Supplied order for RO: RO001 and type: Car
+29:05:2011 114804656 			In store: {Car=0, Truck=2, Byke=22}
+29:05:2011 114804656 RO(RO001):Rertriving order from Car queue
+29:05:2011 114804656 		RO(RO001):Car Order queue(1): [NORTH84]
+29:05:2011 114804656 Produced (Car): 1
+29:05:2011 114814667 			In store: {Car=0, Truck=2, Byke=23}
+29:05:2011 114814667 Rertriving order from Byke queue
+29:05:2011 114814667 		Byke Order queue(0): []
+29:05:2011 114814668 Produced (Byke): 1
+29:05:2011 114817713 			In store: {Car=0, Truck=3, Byke=23}
+29:05:2011 114817713 Rertriving order from Truck queue
+29:05:2011 114817713 		Truck Order queue(0): []
+29:05:2011 114817713 Produced (Truck): 1
+29:05:2011 114817715 StopTruckProductionEvent Event Triggered
+29:05:2011 114826714 Store:Putting order(RO001) in Car queue
+29:05:2011 114828715 Store:Putting order(RO001) in Byke queue
+29:05:2011 114828715 Rertriving order from Byke queue
+29:05:2011 114828715 		Byke Order queue(1): [RO001]
+29:05:2011 114828716 Supplied order for RO: RO001 and type: Byke
+29:05:2011 114828716 			In store: {Car=0, Truck=3, Byke=22}
+29:05:2011 114828716 RO(RO001):Rertriving order from Byke queue
+29:05:2011 114828716 		RO(RO001):Byke Order queue(1): [NORTH97]
+29:05:2011 114830669 			In store: {Car=0, Truck=3, Byke=23}
+29:05:2011 114830669 Rertriving order from Byke queue
+29:05:2011 114830669 		Byke Order queue(0): []
+29:05:2011 114830670 Produced (Byke): 1
+29:05:2011 114830716 Store:Putting order(RO001) in Truck queue
+29:05:2011 114830716 Rertriving order from Truck queue
+29:05:2011 114830716 		Truck Order queue(1): [RO001]
+29:05:2011 114830717 Supplied order for RO: RO001 and type: Truck
+29:05:2011 114830717 			In store: {Car=0, Truck=2, Byke=23}
+29:05:2011 114830717 RO(RO001):Rertriving order from Truck queue
+29:05:2011 114830717 		RO(RO001):Truck Order queue(1): [NORTH98]
+29:05:2011 114834657 			In store: {Car=1, Truck=2, Byke=23}
+29:05:2011 114834657 Rertriving order from Car queue
+29:05:2011 114834657 		Car Order queue(4): [RO002, RO003, RO004, RO001]
+29:05:2011 114834658 Supplied order for RO: RO002 and type: Car
+29:05:2011 114834658 			In store: {Car=0, Truck=2, Byke=23}
+29:05:2011 114834658 RO(RO002):Rertriving order from Car queue
+29:05:2011 114834658 		RO(RO002):Car Order queue(1): [SOUTH87]
+29:05:2011 114834658 Produced (Car): 1
+29:05:2011 114837718 Store:Putting order(RO002) in Car queue
+29:05:2011 114839719 Store:Putting order(RO002) in Byke queue
+29:05:2011 114839719 Rertriving order from Byke queue
+29:05:2011 114839719 		Byke Order queue(1): [RO002]
+29:05:2011 114839720 Supplied order for RO: RO002 and type: Byke
+29:05:2011 114839720 			In store: {Car=0, Truck=2, Byke=22}
+29:05:2011 114839720 RO(RO002):Rertriving order from Byke queue
+29:05:2011 114839720 		RO(RO002):Byke Order queue(1): [SOUTH100]
+29:05:2011 114841720 Store:Putting order(RO002) in Truck queue
+29:05:2011 114841720 Rertriving order from Truck queue
+29:05:2011 114841720 		Truck Order queue(1): [RO002]
+29:05:2011 114841721 Supplied order for RO: RO002 and type: Truck
+29:05:2011 114841721 			In store: {Car=0, Truck=1, Byke=22}
+29:05:2011 114841721 RO(RO002):Rertriving order from Truck queue
+29:05:2011 114841721 		RO(RO002):Truck Order queue(1): [SOUTH101]
+29:05:2011 114841722 StartTruckProductionEvent Event Triggered
+29:05:2011 114841722 TruckProduction Started...
+29:05:2011 114846671 			In store: {Car=0, Truck=1, Byke=23}
+29:05:2011 114846671 Rertriving order from Byke queue
+29:05:2011 114846671 		Byke Order queue(0): []
+29:05:2011 114846671 Produced (Byke): 1
+29:05:2011 114848722 Store:Putting order(RO003) in Car queue
+29:05:2011 114850723 Store:Putting order(RO003) in Byke queue
+29:05:2011 114850723 Rertriving order from Byke queue
+29:05:2011 114850723 		Byke Order queue(1): [RO003]
+29:05:2011 114850724 Supplied order for RO: RO003 and type: Byke
+29:05:2011 114850724 			In store: {Car=0, Truck=1, Byke=22}
+29:05:2011 114850724 RO(RO003):Rertriving order from Byke queue
+29:05:2011 114850724 		RO(RO003):Byke Order queue(1): [EAST103]
+29:05:2011 114852724 Store:Putting order(RO003) in Truck queue
+29:05:2011 114852724 Rertriving order from Truck queue
+29:05:2011 114852724 		Truck Order queue(1): [RO003]
+29:05:2011 114852725 Supplied order for RO: RO003 and type: Truck
+29:05:2011 114852725 			In store: {Car=0, Truck=0, Byke=22}
+29:05:2011 114852725 RO(RO003):Rertriving order from Truck queue
+29:05:2011 114852725 		RO(RO003):Truck Order queue(1): [EAST104]
+29:05:2011 114859726 Store:Putting order(RO004) in Car queue
+29:05:2011 114901723 			In store: {Car=0, Truck=1, Byke=22}
+29:05:2011 114901723 Rertriving order from Truck queue
+29:05:2011 114901723 		Truck Order queue(0): []
+29:05:2011 114901724 Produced (Truck): 1
+29:05:2011 114901727 Store:Putting order(RO004) in Byke queue
+29:05:2011 114901727 Rertriving order from Byke queue
+29:05:2011 114901727 		Byke Order queue(1): [RO004]
+29:05:2011 114901727 Supplied order for RO: RO004 and type: Byke
+29:05:2011 114901728 			In store: {Car=0, Truck=1, Byke=21}
+29:05:2011 114901728 RO(RO004):Rertriving order from Byke queue
+29:05:2011 114901729 		RO(RO004):Byke Order queue(1): [WEST106]
+29:05:2011 114902672 			In store: {Car=0, Truck=1, Byke=22}
+29:05:2011 114902672 Rertriving order from Byke queue
+29:05:2011 114902672 		Byke Order queue(0): []
+29:05:2011 114902673 Produced (Byke): 1
+29:05:2011 114903729 Store:Putting order(RO004) in Truck queue
+29:05:2011 114903729 Rertriving order from Truck queue
+29:05:2011 114903729 		Truck Order queue(1): [RO004]
+29:05:2011 114903730 Supplied order for RO: RO004 and type: Truck
+29:05:2011 114903730 			In store: {Car=0, Truck=0, Byke=22}
+29:05:2011 114903730 RO(RO004):Rertriving order from Truck queue
+29:05:2011 114903730 		RO(RO004):Truck Order queue(1): [WEST107]
+29:05:2011 114904660 			In store: {Car=1, Truck=0, Byke=22}
+29:05:2011 114904660 Rertriving order from Car queue
+29:05:2011 114904660 		Car Order queue(6): [RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 114904661 Supplied order for RO: RO003 and type: Car
+29:05:2011 114904661 			In store: {Car=0, Truck=0, Byke=22}
+29:05:2011 114904661 RO(RO003):Rertriving order from Car queue
+29:05:2011 114904661 		RO(RO003):Car Order queue(2): [EAST90, EAST102]
+29:05:2011 114904662 Produced (Car): 1
+29:05:2011 114918674 			In store: {Car=0, Truck=0, Byke=23}
+29:05:2011 114918674 Rertriving order from Byke queue
+29:05:2011 114918674 		Byke Order queue(0): []
+29:05:2011 114918674 Produced (Byke): 1
+29:05:2011 114921724 			In store: {Car=0, Truck=1, Byke=23}
+29:05:2011 114921724 Rertriving order from Truck queue
+29:05:2011 114921724 		Truck Order queue(0): []
+29:05:2011 114921725 Produced (Truck): 1
+29:05:2011 114934663 			In store: {Car=1, Truck=1, Byke=23}
+29:05:2011 114934663 Rertriving order from Car queue
+29:05:2011 114934663 		Car Order queue(5): [RO004, RO001, RO002, RO003, RO004]
+29:05:2011 114934664 Supplied order for RO: RO004 and type: Car
+29:05:2011 114934664 			In store: {Car=0, Truck=1, Byke=23}
+29:05:2011 114934664 RO(RO004):Rertriving order from Car queue
+29:05:2011 114934664 		RO(RO004):Car Order queue(2): [WEST93, WEST105]
+29:05:2011 114934664 Produced (Car): 1
+29:05:2011 114934675 			In store: {Car=0, Truck=1, Byke=24}
+29:05:2011 114934675 Rertriving order from Byke queue
+29:05:2011 114934675 		Byke Order queue(0): []
+29:05:2011 114934676 Produced (Byke): 1
+29:05:2011 114941725 			In store: {Car=0, Truck=2, Byke=24}
+29:05:2011 114941725 Rertriving order from Truck queue
+29:05:2011 114941725 		Truck Order queue(0): []
+29:05:2011 114941726 Produced (Truck): 1
+29:05:2011 114950677 			In store: {Car=0, Truck=2, Byke=25}
+29:05:2011 114950677 Rertriving order from Byke queue
+29:05:2011 114950677 		Byke Order queue(0): []
+29:05:2011 114950678 Produced (Byke): 1
+29:05:2011 115001726 			In store: {Car=0, Truck=3, Byke=25}
+29:05:2011 115001726 Rertriving order from Truck queue
+29:05:2011 115001726 		Truck Order queue(0): []
+29:05:2011 115001727 Produced (Truck): 1
+29:05:2011 115001728 StopTruckProductionEvent Event Triggered
+29:05:2011 115004666 			In store: {Car=1, Truck=3, Byke=25}
+29:05:2011 115004666 Rertriving order from Car queue
+29:05:2011 115004666 		Car Order queue(4): [RO001, RO002, RO003, RO004]
+29:05:2011 115004667 Supplied order for RO: RO001 and type: Car
+29:05:2011 115004667 			In store: {Car=0, Truck=3, Byke=25}
+29:05:2011 115004667 RO(RO001):Rertriving order from Car queue
+29:05:2011 115004667 		RO(RO001):Car Order queue(1): [NORTH96]
+29:05:2011 115004667 Produced (Car): 1
+29:05:2011 115006679 			In store: {Car=0, Truck=3, Byke=26}
+29:05:2011 115006679 Rertriving order from Byke queue
+29:05:2011 115006679 		Byke Order queue(0): []
+29:05:2011 115006680 Produced (Byke): 1
+29:05:2011 115010731 Store:Putting order(RO001) in Car queue
+29:05:2011 115012732 Store:Putting order(RO001) in Byke queue
+29:05:2011 115012732 Rertriving order from Byke queue
+29:05:2011 115012732 		Byke Order queue(1): [RO001]
+29:05:2011 115012733 Supplied order for RO: RO001 and type: Byke
+29:05:2011 115012733 			In store: {Car=0, Truck=3, Byke=25}
+29:05:2011 115012733 RO(RO001):Rertriving order from Byke queue
+29:05:2011 115012733 		RO(RO001):Byke Order queue(1): [NORTH109]
+29:05:2011 115014733 Store:Putting order(RO001) in Truck queue
+29:05:2011 115014733 Rertriving order from Truck queue
+29:05:2011 115014733 		Truck Order queue(1): [RO001]
+29:05:2011 115014734 Supplied order for RO: RO001 and type: Truck
+29:05:2011 115014734 			In store: {Car=0, Truck=2, Byke=25}
+29:05:2011 115014734 RO(RO001):Rertriving order from Truck queue
+29:05:2011 115014735 		RO(RO001):Truck Order queue(1): [NORTH110]
+29:05:2011 115021736 Store:Putting order(RO002) in Car queue
+29:05:2011 115022681 			In store: {Car=0, Truck=2, Byke=26}
+29:05:2011 115022681 Rertriving order from Byke queue
+29:05:2011 115022681 		Byke Order queue(0): []
+29:05:2011 115022682 Produced (Byke): 1
+29:05:2011 115023736 Store:Putting order(RO002) in Byke queue
+29:05:2011 115023736 Rertriving order from Byke queue
+29:05:2011 115023736 		Byke Order queue(1): [RO002]
+29:05:2011 115023737 Supplied order for RO: RO002 and type: Byke
+29:05:2011 115023737 			In store: {Car=0, Truck=2, Byke=25}
+29:05:2011 115023737 RO(RO002):Rertriving order from Byke queue
+29:05:2011 115023737 		RO(RO002):Byke Order queue(1): [SOUTH112]
+29:05:2011 115025737 Store:Putting order(RO002) in Truck queue
+29:05:2011 115025737 Rertriving order from Truck queue
+29:05:2011 115025737 		Truck Order queue(1): [RO002]
+29:05:2011 115025738 Supplied order for RO: RO002 and type: Truck
+29:05:2011 115025738 			In store: {Car=0, Truck=1, Byke=25}
+29:05:2011 115025738 RO(RO002):Rertriving order from Truck queue
+29:05:2011 115025738 		RO(RO002):Truck Order queue(1): [SOUTH113]
+29:05:2011 115025739 StartTruckProductionEvent Event Triggered
+29:05:2011 115025739 TruckProduction Started...
+29:05:2011 115032739 Store:Putting order(RO003) in Car queue
+29:05:2011 115034668 			In store: {Car=1, Truck=1, Byke=25}
+29:05:2011 115034668 Rertriving order from Car queue
+29:05:2011 115034668 		Car Order queue(6): [RO002, RO003, RO004, RO001, RO002, RO003]
+29:05:2011 115034669 Supplied order for RO: RO002 and type: Car
+29:05:2011 115034669 			In store: {Car=0, Truck=1, Byke=25}
+29:05:2011 115034669 RO(RO002):Rertriving order from Car queue
+29:05:2011 115034669 		RO(RO002):Car Order queue(2): [SOUTH99, SOUTH111]
+29:05:2011 115034669 Produced (Car): 1
+29:05:2011 115034739 Store:Putting order(RO003) in Byke queue
+29:05:2011 115034739 Rertriving order from Byke queue
+29:05:2011 115034739 		Byke Order queue(1): [RO003]
+29:05:2011 115034740 Supplied order for RO: RO003 and type: Byke
+29:05:2011 115034740 			In store: {Car=0, Truck=1, Byke=24}
+29:05:2011 115034740 RO(RO003):Rertriving order from Byke queue
+29:05:2011 115034740 		RO(RO003):Byke Order queue(1): [EAST115]
+29:05:2011 115036740 Store:Putting order(RO003) in Truck queue
+29:05:2011 115036740 Rertriving order from Truck queue
+29:05:2011 115036740 		Truck Order queue(1): [RO003]
+29:05:2011 115036741 Supplied order for RO: RO003 and type: Truck
+29:05:2011 115036741 			In store: {Car=0, Truck=0, Byke=24}
+29:05:2011 115036741 RO(RO003):Rertriving order from Truck queue
+29:05:2011 115036741 		RO(RO003):Truck Order queue(1): [EAST116]
+29:05:2011 115038683 			In store: {Car=0, Truck=0, Byke=25}
+29:05:2011 115038683 Rertriving order from Byke queue
+29:05:2011 115038683 		Byke Order queue(0): []
+29:05:2011 115038684 Produced (Byke): 1
+29:05:2011 115043742 Store:Putting order(RO004) in Car queue
+29:05:2011 115045739 			In store: {Car=0, Truck=1, Byke=25}
+29:05:2011 115045739 Rertriving order from Truck queue
+29:05:2011 115045739 		Truck Order queue(0): []
+29:05:2011 115045740 Produced (Truck): 1
+29:05:2011 115045743 Store:Putting order(RO004) in Byke queue
+29:05:2011 115045743 Rertriving order from Byke queue
+29:05:2011 115045743 		Byke Order queue(1): [RO004]
+29:05:2011 115045743 Supplied order for RO: RO004 and type: Byke
+29:05:2011 115045743 			In store: {Car=0, Truck=1, Byke=24}
+29:05:2011 115045743 RO(RO004):Rertriving order from Byke queue
+29:05:2011 115045744 		RO(RO004):Byke Order queue(1): [WEST118]
+29:05:2011 115047744 Store:Putting order(RO004) in Truck queue
+29:05:2011 115047744 Rertriving order from Truck queue
+29:05:2011 115047744 		Truck Order queue(1): [RO004]
+29:05:2011 115047745 Supplied order for RO: RO004 and type: Truck
+29:05:2011 115047745 			In store: {Car=0, Truck=0, Byke=24}
+29:05:2011 115047745 RO(RO004):Rertriving order from Truck queue
+29:05:2011 115047745 		RO(RO004):Truck Order queue(1): [WEST119]
+29:05:2011 115054684 			In store: {Car=0, Truck=0, Byke=25}
+29:05:2011 115054684 Rertriving order from Byke queue
+29:05:2011 115054684 		Byke Order queue(0): []
+29:05:2011 115054685 Produced (Byke): 1
+29:05:2011 115104670 			In store: {Car=1, Truck=0, Byke=25}
+29:05:2011 115104671 Rertriving order from Car queue
+29:05:2011 115104671 		Car Order queue(6): [RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115104671 Supplied order for RO: RO003 and type: Car
+29:05:2011 115104671 			In store: {Car=0, Truck=0, Byke=25}
+29:05:2011 115104671 RO(RO003):Rertriving order from Car queue
+29:05:2011 115104672 		RO(RO003):Car Order queue(2): [EAST102, EAST114]
+29:05:2011 115104672 Produced (Car): 1
+29:05:2011 115105740 			In store: {Car=0, Truck=1, Byke=25}
+29:05:2011 115105740 Rertriving order from Truck queue
+29:05:2011 115105740 		Truck Order queue(0): []
+29:05:2011 115105740 Produced (Truck): 1
+29:05:2011 115110686 			In store: {Car=0, Truck=1, Byke=26}
+29:05:2011 115110687 Rertriving order from Byke queue
+29:05:2011 115110687 		Byke Order queue(0): []
+29:05:2011 115110687 Produced (Byke): 1
+29:05:2011 115125740 			In store: {Car=0, Truck=2, Byke=26}
+29:05:2011 115125740 Rertriving order from Truck queue
+29:05:2011 115125740 		Truck Order queue(0): []
+29:05:2011 115125741 Produced (Truck): 1
+29:05:2011 115126688 			In store: {Car=0, Truck=2, Byke=27}
+29:05:2011 115126688 Rertriving order from Byke queue
+29:05:2011 115126688 		Byke Order queue(0): []
+29:05:2011 115126688 Produced (Byke): 1
+29:05:2011 115134673 			In store: {Car=1, Truck=2, Byke=27}
+29:05:2011 115134673 Rertriving order from Car queue
+29:05:2011 115134673 		Car Order queue(5): [RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115134674 Supplied order for RO: RO004 and type: Car
+29:05:2011 115134674 			In store: {Car=0, Truck=2, Byke=27}
+29:05:2011 115134674 RO(RO004):Rertriving order from Car queue
+29:05:2011 115134674 		RO(RO004):Car Order queue(2): [WEST105, WEST117]
+29:05:2011 115134674 Produced (Car): 1
+29:05:2011 115142690 			In store: {Car=0, Truck=2, Byke=28}
+29:05:2011 115142690 Rertriving order from Byke queue
+29:05:2011 115142690 		Byke Order queue(0): []
+29:05:2011 115142691 Produced (Byke): 1
+29:05:2011 115145741 			In store: {Car=0, Truck=3, Byke=28}
+29:05:2011 115145741 Rertriving order from Truck queue
+29:05:2011 115145741 		Truck Order queue(0): []
+29:05:2011 115145742 Produced (Truck): 1
+29:05:2011 115145744 StopTruckProductionEvent Event Triggered
+29:05:2011 115154746 Store:Putting order(RO001) in Car queue
+29:05:2011 115156747 Store:Putting order(RO001) in Byke queue
+29:05:2011 115156747 Rertriving order from Byke queue
+29:05:2011 115156747 		Byke Order queue(1): [RO001]
+29:05:2011 115156748 Supplied order for RO: RO001 and type: Byke
+29:05:2011 115156748 			In store: {Car=0, Truck=3, Byke=27}
+29:05:2011 115156748 RO(RO001):Rertriving order from Byke queue
+29:05:2011 115156748 		RO(RO001):Byke Order queue(1): [NORTH121]
+29:05:2011 115158692 			In store: {Car=0, Truck=3, Byke=28}
+29:05:2011 115158692 Rertriving order from Byke queue
+29:05:2011 115158692 		Byke Order queue(0): []
+29:05:2011 115158693 Produced (Byke): 1
+29:05:2011 115158748 Store:Putting order(RO001) in Truck queue
+29:05:2011 115158748 Rertriving order from Truck queue
+29:05:2011 115158748 		Truck Order queue(1): [RO001]
+29:05:2011 115158749 Supplied order for RO: RO001 and type: Truck
+29:05:2011 115158749 			In store: {Car=0, Truck=2, Byke=28}
+29:05:2011 115158749 RO(RO001):Rertriving order from Truck queue
+29:05:2011 115158749 		RO(RO001):Truck Order queue(1): [NORTH122]
+29:05:2011 115204674 			In store: {Car=1, Truck=2, Byke=28}
+29:05:2011 115204674 Rertriving order from Car queue
+29:05:2011 115204674 		Car Order queue(5): [RO001, RO002, RO003, RO004, RO001]
+29:05:2011 115204675 Supplied order for RO: RO001 and type: Car
+29:05:2011 115204675 			In store: {Car=0, Truck=2, Byke=28}
+29:05:2011 115204675 RO(RO001):Rertriving order from Car queue
+29:05:2011 115204675 		RO(RO001):Car Order queue(2): [NORTH108, NORTH120]
+29:05:2011 115204675 Produced (Car): 1
+29:05:2011 115205750 Store:Putting order(RO002) in Car queue
+29:05:2011 115207751 Store:Putting order(RO002) in Byke queue
+29:05:2011 115207751 Rertriving order from Byke queue
+29:05:2011 115207751 		Byke Order queue(1): [RO002]
+29:05:2011 115207752 Supplied order for RO: RO002 and type: Byke
+29:05:2011 115207752 			In store: {Car=0, Truck=2, Byke=27}
+29:05:2011 115207752 RO(RO002):Rertriving order from Byke queue
+29:05:2011 115207752 		RO(RO002):Byke Order queue(1): [SOUTH124]
+29:05:2011 115209752 Store:Putting order(RO002) in Truck queue
+29:05:2011 115209752 Rertriving order from Truck queue
+29:05:2011 115209752 		Truck Order queue(1): [RO002]
+29:05:2011 115209753 Supplied order for RO: RO002 and type: Truck
+29:05:2011 115209753 			In store: {Car=0, Truck=1, Byke=27}
+29:05:2011 115209753 RO(RO002):Rertriving order from Truck queue
+29:05:2011 115209753 		RO(RO002):Truck Order queue(1): [SOUTH125]
+29:05:2011 115209754 StartTruckProductionEvent Event Triggered
+29:05:2011 115209754 TruckProduction Started...
+29:05:2011 115214694 			In store: {Car=0, Truck=1, Byke=28}
+29:05:2011 115214694 Rertriving order from Byke queue
+29:05:2011 115214694 		Byke Order queue(0): []
+29:05:2011 115214695 Produced (Byke): 1
+29:05:2011 115216754 Store:Putting order(RO003) in Car queue
+29:05:2011 115218755 Store:Putting order(RO003) in Byke queue
+29:05:2011 115218755 Rertriving order from Byke queue
+29:05:2011 115218755 		Byke Order queue(1): [RO003]
+29:05:2011 115218756 Supplied order for RO: RO003 and type: Byke
+29:05:2011 115218756 			In store: {Car=0, Truck=1, Byke=27}
+29:05:2011 115218756 RO(RO003):Rertriving order from Byke queue
+29:05:2011 115218756 		RO(RO003):Byke Order queue(1): [EAST127]
+29:05:2011 115220756 Store:Putting order(RO003) in Truck queue
+29:05:2011 115220756 Rertriving order from Truck queue
+29:05:2011 115220756 		Truck Order queue(1): [RO003]
+29:05:2011 115220757 Supplied order for RO: RO003 and type: Truck
+29:05:2011 115220757 			In store: {Car=0, Truck=0, Byke=27}
+29:05:2011 115220757 RO(RO003):Rertriving order from Truck queue
+29:05:2011 115220757 		RO(RO003):Truck Order queue(1): [EAST128]
+29:05:2011 115227758 Store:Putting order(RO004) in Car queue
+29:05:2011 115229754 			In store: {Car=0, Truck=1, Byke=27}
+29:05:2011 115229754 Rertriving order from Truck queue
+29:05:2011 115229754 		Truck Order queue(0): []
+29:05:2011 115229754 Produced (Truck): 1
+29:05:2011 115229759 Store:Putting order(RO004) in Byke queue
+29:05:2011 115229759 Rertriving order from Byke queue
+29:05:2011 115229759 		Byke Order queue(1): [RO004]
+29:05:2011 115229759 Supplied order for RO: RO004 and type: Byke
+29:05:2011 115229759 			In store: {Car=0, Truck=1, Byke=26}
+29:05:2011 115229760 RO(RO004):Rertriving order from Byke queue
+29:05:2011 115229760 		RO(RO004):Byke Order queue(1): [WEST130]
+29:05:2011 115230696 			In store: {Car=0, Truck=1, Byke=27}
+29:05:2011 115230696 Rertriving order from Byke queue
+29:05:2011 115230696 		Byke Order queue(0): []
+29:05:2011 115230697 Produced (Byke): 1
+29:05:2011 115231760 Store:Putting order(RO004) in Truck queue
+29:05:2011 115231760 Rertriving order from Truck queue
+29:05:2011 115231760 		Truck Order queue(1): [RO004]
+29:05:2011 115231760 Supplied order for RO: RO004 and type: Truck
+29:05:2011 115231760 			In store: {Car=0, Truck=0, Byke=27}
+29:05:2011 115231761 RO(RO004):Rertriving order from Truck queue
+29:05:2011 115231761 		RO(RO004):Truck Order queue(1): [WEST131]
+29:05:2011 115234677 			In store: {Car=1, Truck=0, Byke=27}
+29:05:2011 115234677 Rertriving order from Car queue
+29:05:2011 115234677 		Car Order queue(7): [RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115234678 Supplied order for RO: RO002 and type: Car
+29:05:2011 115234678 			In store: {Car=0, Truck=0, Byke=27}
+29:05:2011 115234678 RO(RO002):Rertriving order from Car queue
+29:05:2011 115234678 		RO(RO002):Car Order queue(2): [SOUTH111, SOUTH123]
+29:05:2011 115234678 Produced (Car): 1
+29:05:2011 115246698 			In store: {Car=0, Truck=0, Byke=28}
+29:05:2011 115246698 Rertriving order from Byke queue
+29:05:2011 115246698 		Byke Order queue(0): []
+29:05:2011 115246698 Produced (Byke): 1
+29:05:2011 115249755 			In store: {Car=0, Truck=1, Byke=28}
+29:05:2011 115249755 Rertriving order from Truck queue
+29:05:2011 115249755 		Truck Order queue(0): []
+29:05:2011 115249756 Produced (Truck): 1
+29:05:2011 115302699 			In store: {Car=0, Truck=1, Byke=29}
+29:05:2011 115302699 Rertriving order from Byke queue
+29:05:2011 115302699 		Byke Order queue(0): []
+29:05:2011 115302700 Produced (Byke): 1
+29:05:2011 115304680 			In store: {Car=1, Truck=1, Byke=29}
+29:05:2011 115304680 Rertriving order from Car queue
+29:05:2011 115304680 		Car Order queue(6): [RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115304681 Supplied order for RO: RO003 and type: Car
+29:05:2011 115304681 			In store: {Car=0, Truck=1, Byke=29}
+29:05:2011 115304681 RO(RO003):Rertriving order from Car queue
+29:05:2011 115304681 		RO(RO003):Car Order queue(2): [EAST114, EAST126]
+29:05:2011 115304681 Produced (Car): 1
+29:05:2011 115309762 			In store: {Car=0, Truck=2, Byke=29}
+29:05:2011 115309762 Rertriving order from Truck queue
+29:05:2011 115309762 		Truck Order queue(0): []
+29:05:2011 115309763 Produced (Truck): 1
+29:05:2011 115318701 			In store: {Car=0, Truck=2, Byke=30}
+29:05:2011 115318701 Rertriving order from Byke queue
+29:05:2011 115318701 		Byke Order queue(0): []
+29:05:2011 115318701 Produced (Byke): 1
+29:05:2011 115318703 StopBykeProductionEvent Event Triggered
+29:05:2011 115329763 			In store: {Car=0, Truck=3, Byke=30}
+29:05:2011 115329764 Rertriving order from Truck queue
+29:05:2011 115329764 		Truck Order queue(0): []
+29:05:2011 115329764 Produced (Truck): 1
+29:05:2011 115329765 StopTruckProductionEvent Event Triggered
+29:05:2011 115334682 			In store: {Car=1, Truck=3, Byke=30}
+29:05:2011 115334682 Rertriving order from Car queue
+29:05:2011 115334682 		Car Order queue(5): [RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115334682 Supplied order for RO: RO004 and type: Car
+29:05:2011 115334683 			In store: {Car=0, Truck=3, Byke=30}
+29:05:2011 115334683 RO(RO004):Rertriving order from Car queue
+29:05:2011 115334683 		RO(RO004):Car Order queue(2): [WEST117, WEST129]
+29:05:2011 115334683 Produced (Car): 1
+29:05:2011 115338762 Store:Putting order(RO001) in Car queue
+29:05:2011 115340762 Store:Putting order(RO001) in Byke queue
+29:05:2011 115340762 Rertriving order from Byke queue
+29:05:2011 115340762 		Byke Order queue(1): [RO001]
+29:05:2011 115340762 Supplied order for RO: RO001 and type: Byke
+29:05:2011 115340763 			In store: {Car=0, Truck=3, Byke=29}
+29:05:2011 115340763 RO(RO001):Rertriving order from Byke queue
+29:05:2011 115340763 		RO(RO001):Byke Order queue(1): [NORTH133]
+29:05:2011 115342763 Store:Putting order(RO001) in Truck queue
+29:05:2011 115342763 Rertriving order from Truck queue
+29:05:2011 115342763 		Truck Order queue(1): [RO001]
+29:05:2011 115342763 Supplied order for RO: RO001 and type: Truck
+29:05:2011 115342764 			In store: {Car=0, Truck=2, Byke=29}
+29:05:2011 115342764 RO(RO001):Rertriving order from Truck queue
+29:05:2011 115342764 		RO(RO001):Truck Order queue(1): [NORTH134]
+29:05:2011 115349764 Store:Putting order(RO002) in Car queue
+29:05:2011 115351766 Store:Putting order(RO002) in Byke queue
+29:05:2011 115351766 Rertriving order from Byke queue
+29:05:2011 115351766 		Byke Order queue(1): [RO002]
+29:05:2011 115351767 Supplied order for RO: RO002 and type: Byke
+29:05:2011 115351767 			In store: {Car=0, Truck=2, Byke=28}
+29:05:2011 115351767 RO(RO002):Rertriving order from Byke queue
+29:05:2011 115351767 		RO(RO002):Byke Order queue(1): [SOUTH136]
+29:05:2011 115353767 Store:Putting order(RO002) in Truck queue
+29:05:2011 115353767 Rertriving order from Truck queue
+29:05:2011 115353767 		Truck Order queue(1): [RO002]
+29:05:2011 115353767 Supplied order for RO: RO002 and type: Truck
+29:05:2011 115353768 			In store: {Car=0, Truck=1, Byke=28}
+29:05:2011 115353768 RO(RO002):Rertriving order from Truck queue
+29:05:2011 115353768 		RO(RO002):Truck Order queue(1): [SOUTH137]
+29:05:2011 115353769 StartTruckProductionEvent Event Triggered
+29:05:2011 115353770 TruckProduction Started...
+29:05:2011 115400769 Store:Putting order(RO003) in Car queue
+29:05:2011 115402769 Store:Putting order(RO003) in Byke queue
+29:05:2011 115402769 Rertriving order from Byke queue
+29:05:2011 115402769 		Byke Order queue(1): [RO003]
+29:05:2011 115402769 Supplied order for RO: RO003 and type: Byke
+29:05:2011 115402769 			In store: {Car=0, Truck=1, Byke=27}
+29:05:2011 115402769 RO(RO003):Rertriving order from Byke queue
+29:05:2011 115402770 		RO(RO003):Byke Order queue(1): [EAST139]
+29:05:2011 115404683 			In store: {Car=1, Truck=1, Byke=27}
+29:05:2011 115404683 Rertriving order from Car queue
+29:05:2011 115404683 		Car Order queue(7): [RO001, RO002, RO003, RO004, RO001, RO002, RO003]
+29:05:2011 115404683 Supplied order for RO: RO001 and type: Car
+29:05:2011 115404684 			In store: {Car=0, Truck=1, Byke=27}
+29:05:2011 115404684 RO(RO001):Rertriving order from Car queue
+29:05:2011 115404684 		RO(RO001):Car Order queue(2): [NORTH120, NORTH132]
+29:05:2011 115404684 Produced (Car): 1
+29:05:2011 115404770 Store:Putting order(RO003) in Truck queue
+29:05:2011 115404770 Rertriving order from Truck queue
+29:05:2011 115404770 		Truck Order queue(1): [RO003]
+29:05:2011 115404771 Supplied order for RO: RO003 and type: Truck
+29:05:2011 115404771 			In store: {Car=0, Truck=0, Byke=27}
+29:05:2011 115404771 RO(RO003):Rertriving order from Truck queue
+29:05:2011 115404771 		RO(RO003):Truck Order queue(1): [EAST140]
+29:05:2011 115411772 Store:Putting order(RO004) in Car queue
+29:05:2011 115413770 			In store: {Car=0, Truck=1, Byke=27}
+29:05:2011 115413770 Rertriving order from Truck queue
+29:05:2011 115413770 		Truck Order queue(0): []
+29:05:2011 115413770 Produced (Truck): 1
+29:05:2011 115413773 Store:Putting order(RO004) in Byke queue
+29:05:2011 115413773 Rertriving order from Byke queue
+29:05:2011 115413773 		Byke Order queue(1): [RO004]
+29:05:2011 115413773 Supplied order for RO: RO004 and type: Byke
+29:05:2011 115413773 			In store: {Car=0, Truck=1, Byke=26}
+29:05:2011 115413773 RO(RO004):Rertriving order from Byke queue
+29:05:2011 115413774 		RO(RO004):Byke Order queue(1): [WEST142]
+29:05:2011 115415774 Store:Putting order(RO004) in Truck queue
+29:05:2011 115415774 Rertriving order from Truck queue
+29:05:2011 115415774 		Truck Order queue(1): [RO004]
+29:05:2011 115415774 Supplied order for RO: RO004 and type: Truck
+29:05:2011 115415775 			In store: {Car=0, Truck=0, Byke=26}
+29:05:2011 115415775 RO(RO004):Rertriving order from Truck queue
+29:05:2011 115415775 		RO(RO004):Truck Order queue(1): [WEST143]
+29:05:2011 115433771 			In store: {Car=0, Truck=1, Byke=26}
+29:05:2011 115433771 Rertriving order from Truck queue
+29:05:2011 115433771 		Truck Order queue(0): []
+29:05:2011 115433771 Produced (Truck): 1
+29:05:2011 115434685 			In store: {Car=1, Truck=1, Byke=26}
+29:05:2011 115434686 Rertriving order from Car queue
+29:05:2011 115434686 		Car Order queue(7): [RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115434686 Supplied order for RO: RO002 and type: Car
+29:05:2011 115434686 			In store: {Car=0, Truck=1, Byke=26}
+29:05:2011 115434686 RO(RO002):Rertriving order from Car queue
+29:05:2011 115434686 		RO(RO002):Car Order queue(2): [SOUTH123, SOUTH135]
+29:05:2011 115434687 Produced (Car): 1
+29:05:2011 115453771 			In store: {Car=0, Truck=2, Byke=26}
+29:05:2011 115453771 Rertriving order from Truck queue
+29:05:2011 115453771 		Truck Order queue(0): []
+29:05:2011 115453771 Produced (Truck): 1
+29:05:2011 115504688 			In store: {Car=1, Truck=2, Byke=26}
+29:05:2011 115504688 Rertriving order from Car queue
+29:05:2011 115504688 		Car Order queue(6): [RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115504688 Supplied order for RO: RO003 and type: Car
+29:05:2011 115504689 			In store: {Car=0, Truck=2, Byke=26}
+29:05:2011 115504689 RO(RO003):Rertriving order from Car queue
+29:05:2011 115504689 		RO(RO003):Car Order queue(2): [EAST126, EAST138]
+29:05:2011 115504689 Produced (Car): 1
+29:05:2011 115513772 			In store: {Car=0, Truck=3, Byke=26}
+29:05:2011 115513772 Rertriving order from Truck queue
+29:05:2011 115513772 		Truck Order queue(0): []
+29:05:2011 115513772 Produced (Truck): 1
+29:05:2011 115513774 StopTruckProductionEvent Event Triggered
+29:05:2011 115522776 Store:Putting order(RO001) in Car queue
+29:05:2011 115524777 Store:Putting order(RO001) in Byke queue
+29:05:2011 115524777 Rertriving order from Byke queue
+29:05:2011 115524777 		Byke Order queue(1): [RO001]
+29:05:2011 115524778 Supplied order for RO: RO001 and type: Byke
+29:05:2011 115524778 			In store: {Car=0, Truck=3, Byke=25}
+29:05:2011 115524778 RO(RO001):Rertriving order from Byke queue
+29:05:2011 115524778 		RO(RO001):Byke Order queue(1): [NORTH145]
+29:05:2011 115526778 Store:Putting order(RO001) in Truck queue
+29:05:2011 115526778 Rertriving order from Truck queue
+29:05:2011 115526778 		Truck Order queue(1): [RO001]
+29:05:2011 115526778 Supplied order for RO: RO001 and type: Truck
+29:05:2011 115526779 			In store: {Car=0, Truck=2, Byke=25}
+29:05:2011 115526779 RO(RO001):Rertriving order from Truck queue
+29:05:2011 115526779 		RO(RO001):Truck Order queue(1): [NORTH146]
+29:05:2011 115533779 Store:Putting order(RO002) in Car queue
+29:05:2011 115534689 			In store: {Car=1, Truck=2, Byke=25}
+29:05:2011 115534689 Rertriving order from Car queue
+29:05:2011 115534689 		Car Order queue(7): [RO004, RO001, RO002, RO003, RO004, RO001, RO002]
+29:05:2011 115534690 Supplied order for RO: RO004 and type: Car
+29:05:2011 115534690 			In store: {Car=0, Truck=2, Byke=25}
+29:05:2011 115534690 RO(RO004):Rertriving order from Car queue
+29:05:2011 115534690 		RO(RO004):Car Order queue(2): [WEST129, WEST141]
+29:05:2011 115534690 Produced (Car): 1
+29:05:2011 115535780 Store:Putting order(RO002) in Byke queue
+29:05:2011 115535780 Rertriving order from Byke queue
+29:05:2011 115535780 		Byke Order queue(1): [RO002]
+29:05:2011 115535781 Supplied order for RO: RO002 and type: Byke
+29:05:2011 115535781 			In store: {Car=0, Truck=2, Byke=24}
+29:05:2011 115535781 RO(RO002):Rertriving order from Byke queue
+29:05:2011 115535781 		RO(RO002):Byke Order queue(1): [SOUTH148]
+29:05:2011 115537781 Store:Putting order(RO002) in Truck queue
+29:05:2011 115537781 Rertriving order from Truck queue
+29:05:2011 115537781 		Truck Order queue(1): [RO002]
+29:05:2011 115537782 Supplied order for RO: RO002 and type: Truck
+29:05:2011 115537782 			In store: {Car=0, Truck=1, Byke=24}
+29:05:2011 115537782 RO(RO002):Rertriving order from Truck queue
+29:05:2011 115537782 		RO(RO002):Truck Order queue(1): [SOUTH149]
+29:05:2011 115537788 StartTruckProductionEvent Event Triggered
+29:05:2011 115537788 TruckProduction Started...
+29:05:2011 115544783 Store:Putting order(RO003) in Car queue
+29:05:2011 115546783 Store:Putting order(RO003) in Byke queue
+29:05:2011 115546783 Rertriving order from Byke queue
+29:05:2011 115546783 		Byke Order queue(1): [RO003]
+29:05:2011 115546783 Supplied order for RO: RO003 and type: Byke
+29:05:2011 115546784 			In store: {Car=0, Truck=1, Byke=23}
+29:05:2011 115546784 RO(RO003):Rertriving order from Byke queue
+29:05:2011 115546784 		RO(RO003):Byke Order queue(1): [EAST151]
+29:05:2011 115548784 Store:Putting order(RO003) in Truck queue
+29:05:2011 115548784 Rertriving order from Truck queue
+29:05:2011 115548784 		Truck Order queue(1): [RO003]
+29:05:2011 115548785 Supplied order for RO: RO003 and type: Truck
+29:05:2011 115548785 			In store: {Car=0, Truck=0, Byke=23}
+29:05:2011 115548785 RO(RO003):Rertriving order from Truck queue
+29:05:2011 115548785 		RO(RO003):Truck Order queue(1): [EAST152]
+29:05:2011 115555786 Store:Putting order(RO004) in Car queue
+29:05:2011 115557786 Store:Putting order(RO004) in Byke queue
+29:05:2011 115557786 Rertriving order from Byke queue
+29:05:2011 115557786 		Byke Order queue(1): [RO004]
+29:05:2011 115557787 Supplied order for RO: RO004 and type: Byke
+29:05:2011 115557787 			In store: {Car=0, Truck=0, Byke=22}
+29:05:2011 115557787 RO(RO004):Rertriving order from Byke queue
+29:05:2011 115557787 		RO(RO004):Byke Order queue(1): [WEST154]
+29:05:2011 115557788 			In store: {Car=0, Truck=1, Byke=22}
+29:05:2011 115557788 Rertriving order from Truck queue
+29:05:2011 115557788 		Truck Order queue(0): []
+29:05:2011 115557788 Produced (Truck): 1
+29:05:2011 115559787 Store:Putting order(RO004) in Truck queue
+29:05:2011 115559787 Rertriving order from Truck queue
+29:05:2011 115559787 		Truck Order queue(1): [RO004]
+29:05:2011 115559787 Supplied order for RO: RO004 and type: Truck
+29:05:2011 115559788 			In store: {Car=0, Truck=0, Byke=22}
+29:05:2011 115559788 RO(RO004):Rertriving order from Truck queue
+29:05:2011 115559788 		RO(RO004):Truck Order queue(1): [WEST155]
+29:05:2011 115604691 			In store: {Car=1, Truck=0, Byke=22}
+29:05:2011 115604691 Rertriving order from Car queue
+29:05:2011 115604691 		Car Order queue(8): [RO001, RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115604691 Supplied order for RO: RO001 and type: Car
+29:05:2011 115604692 			In store: {Car=0, Truck=0, Byke=22}
+29:05:2011 115604692 RO(RO001):Rertriving order from Car queue
+29:05:2011 115604692 		RO(RO001):Car Order queue(2): [NORTH132, NORTH144]
+29:05:2011 115604692 Produced (Car): 1
+29:05:2011 115617788 			In store: {Car=0, Truck=1, Byke=22}
+29:05:2011 115617788 Rertriving order from Truck queue
+29:05:2011 115617788 		Truck Order queue(0): []
+29:05:2011 115617788 Produced (Truck): 1
+29:05:2011 115634693 			In store: {Car=1, Truck=1, Byke=22}
+29:05:2011 115634693 Rertriving order from Car queue
+29:05:2011 115634693 		Car Order queue(7): [RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115634693 Supplied order for RO: RO002 and type: Car
+29:05:2011 115634694 			In store: {Car=0, Truck=1, Byke=22}
+29:05:2011 115634694 RO(RO002):Rertriving order from Car queue
+29:05:2011 115634694 		RO(RO002):Car Order queue(2): [SOUTH135, SOUTH147]
+29:05:2011 115634694 Produced (Car): 1
+29:05:2011 115637789 			In store: {Car=0, Truck=2, Byke=22}
+29:05:2011 115637789 Rertriving order from Truck queue
+29:05:2011 115637789 		Truck Order queue(0): []
+29:05:2011 115637790 Produced (Truck): 1
+29:05:2011 115657790 			In store: {Car=0, Truck=3, Byke=22}
+29:05:2011 115657790 Rertriving order from Truck queue
+29:05:2011 115657790 		Truck Order queue(0): []
+29:05:2011 115657790 Produced (Truck): 1
+29:05:2011 115657791 StopTruckProductionEvent Event Triggered
+29:05:2011 115704695 			In store: {Car=1, Truck=3, Byke=22}
+29:05:2011 115704695 Rertriving order from Car queue
+29:05:2011 115704695 		Car Order queue(6): [RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115704696 Supplied order for RO: RO003 and type: Car
+29:05:2011 115704696 			In store: {Car=0, Truck=3, Byke=22}
+29:05:2011 115704696 RO(RO003):Rertriving order from Car queue
+29:05:2011 115704696 		RO(RO003):Car Order queue(2): [EAST138, EAST150]
+29:05:2011 115704696 Produced (Car): 1
+29:05:2011 115706789 Store:Putting order(RO001) in Car queue
+29:05:2011 115708790 Store:Putting order(RO001) in Byke queue
+29:05:2011 115708790 Rertriving order from Byke queue
+29:05:2011 115708790 		Byke Order queue(1): [RO001]
+29:05:2011 115708790 Supplied order for RO: RO001 and type: Byke
+29:05:2011 115708791 			In store: {Car=0, Truck=3, Byke=21}
+29:05:2011 115708791 RO(RO001):Rertriving order from Byke queue
+29:05:2011 115708791 		RO(RO001):Byke Order queue(1): [NORTH157]
+29:05:2011 115710791 Store:Putting order(RO001) in Truck queue
+29:05:2011 115710791 Rertriving order from Truck queue
+29:05:2011 115710791 		Truck Order queue(1): [RO001]
+29:05:2011 115710791 Supplied order for RO: RO001 and type: Truck
+29:05:2011 115710792 			In store: {Car=0, Truck=2, Byke=21}
+29:05:2011 115710792 RO(RO001):Rertriving order from Truck queue
+29:05:2011 115710792 		RO(RO001):Truck Order queue(1): [NORTH158]
+29:05:2011 115717792 Store:Putting order(RO002) in Car queue
+29:05:2011 115719792 Store:Putting order(RO002) in Byke queue
+29:05:2011 115719792 Rertriving order from Byke queue
+29:05:2011 115719792 		Byke Order queue(1): [RO002]
+29:05:2011 115719792 Supplied order for RO: RO002 and type: Byke
+29:05:2011 115719793 			In store: {Car=0, Truck=2, Byke=20}
+29:05:2011 115719793 RO(RO002):Rertriving order from Byke queue
+29:05:2011 115719793 		RO(RO002):Byke Order queue(1): [SOUTH160]
+29:05:2011 115721794 Store:Putting order(RO002) in Truck queue
+29:05:2011 115721794 Rertriving order from Truck queue
+29:05:2011 115721794 		Truck Order queue(1): [RO002]
+29:05:2011 115721794 Supplied order for RO: RO002 and type: Truck
+29:05:2011 115721795 			In store: {Car=0, Truck=1, Byke=20}
+29:05:2011 115721795 RO(RO002):Rertriving order from Truck queue
+29:05:2011 115721795 		RO(RO002):Truck Order queue(1): [SOUTH161]
+29:05:2011 115721796 StartTruckProductionEvent Event Triggered
+29:05:2011 115721796 TruckProduction Started...
+29:05:2011 115728796 Store:Putting order(RO003) in Car queue
+29:05:2011 115730796 Store:Putting order(RO003) in Byke queue
+29:05:2011 115730796 Rertriving order from Byke queue
+29:05:2011 115730796 		Byke Order queue(1): [RO003]
+29:05:2011 115730796 Supplied order for RO: RO003 and type: Byke
+29:05:2011 115730797 			In store: {Car=0, Truck=1, Byke=19}
+29:05:2011 115730797 RO(RO003):Rertriving order from Byke queue
+29:05:2011 115730797 		RO(RO003):Byke Order queue(1): [EAST163]
+29:05:2011 115732797 Store:Putting order(RO003) in Truck queue
+29:05:2011 115732797 Rertriving order from Truck queue
+29:05:2011 115732797 		Truck Order queue(1): [RO003]
+29:05:2011 115732797 Supplied order for RO: RO003 and type: Truck
+29:05:2011 115732798 			In store: {Car=0, Truck=0, Byke=19}
+29:05:2011 115732798 RO(RO003):Rertriving order from Truck queue
+29:05:2011 115732798 		RO(RO003):Truck Order queue(1): [EAST164]
+29:05:2011 115734696 			In store: {Car=1, Truck=0, Byke=19}
+29:05:2011 115734696 Rertriving order from Car queue
+29:05:2011 115734696 		Car Order queue(8): [RO004, RO001, RO002, RO003, RO004, RO001, RO002, RO003]
+29:05:2011 115734696 Supplied order for RO: RO004 and type: Car
+29:05:2011 115734697 			In store: {Car=0, Truck=0, Byke=19}
+29:05:2011 115734697 RO(RO004):Rertriving order from Car queue
+29:05:2011 115734697 		RO(RO004):Car Order queue(2): [WEST141, WEST153]
+29:05:2011 115734697 Produced (Car): 1
+29:05:2011 115739799 Store:Putting order(RO004) in Car queue
+29:05:2011 115741796 			In store: {Car=0, Truck=1, Byke=19}
+29:05:2011 115741796 Rertriving order from Truck queue
+29:05:2011 115741796 		Truck Order queue(0): []
+29:05:2011 115741796 Produced (Truck): 1
+29:05:2011 115741799 Store:Putting order(RO004) in Byke queue
+29:05:2011 115741799 Rertriving order from Byke queue
+29:05:2011 115741799 		Byke Order queue(1): [RO004]
+29:05:2011 115741799 Supplied order for RO: RO004 and type: Byke
+29:05:2011 115741799 			In store: {Car=0, Truck=1, Byke=18}
+29:05:2011 115741799 RO(RO004):Rertriving order from Byke queue
+29:05:2011 115741800 		RO(RO004):Byke Order queue(1): [WEST166]
+29:05:2011 115743800 Store:Putting order(RO004) in Truck queue
+29:05:2011 115743800 Rertriving order from Truck queue
+29:05:2011 115743800 		Truck Order queue(1): [RO004]
+29:05:2011 115743800 Supplied order for RO: RO004 and type: Truck
+29:05:2011 115743801 			In store: {Car=0, Truck=0, Byke=18}
+29:05:2011 115743801 RO(RO004):Rertriving order from Truck queue
+29:05:2011 115743801 		RO(RO004):Truck Order queue(1): [WEST167]
+29:05:2011 115801797 			In store: {Car=0, Truck=1, Byke=18}
+29:05:2011 115801797 Rertriving order from Truck queue
+29:05:2011 115801797 		Truck Order queue(0): []
+29:05:2011 115801797 Produced (Truck): 1
+29:05:2011 115804698 			In store: {Car=1, Truck=1, Byke=18}
+29:05:2011 115804698 Rertriving order from Car queue
+29:05:2011 115804698 		Car Order queue(8): [RO001, RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115804699 Supplied order for RO: RO001 and type: Car
+29:05:2011 115804699 			In store: {Car=0, Truck=1, Byke=18}
+29:05:2011 115804699 RO(RO001):Rertriving order from Car queue
+29:05:2011 115804699 		RO(RO001):Car Order queue(2): [NORTH144, NORTH156]
+29:05:2011 115804699 Produced (Car): 1
+29:05:2011 115821798 			In store: {Car=0, Truck=2, Byke=18}
+29:05:2011 115821798 Rertriving order from Truck queue
+29:05:2011 115821798 		Truck Order queue(0): []
+29:05:2011 115821798 Produced (Truck): 1
+29:05:2011 115834700 			In store: {Car=1, Truck=2, Byke=18}
+29:05:2011 115834700 Rertriving order from Car queue
+29:05:2011 115834700 		Car Order queue(7): [RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115834700 Supplied order for RO: RO002 and type: Car
+29:05:2011 115834701 			In store: {Car=0, Truck=2, Byke=18}
+29:05:2011 115834701 RO(RO002):Rertriving order from Car queue
+29:05:2011 115834701 		RO(RO002):Car Order queue(2): [SOUTH147, SOUTH159]
+29:05:2011 115834701 Produced (Car): 1
+29:05:2011 115841799 			In store: {Car=0, Truck=3, Byke=18}
+29:05:2011 115841799 Rertriving order from Truck queue
+29:05:2011 115841799 		Truck Order queue(0): []
+29:05:2011 115841799 Produced (Truck): 1
+29:05:2011 115841800 StopTruckProductionEvent Event Triggered
+29:05:2011 115850802 Store:Putting order(RO001) in Car queue
+29:05:2011 115852803 Store:Putting order(RO001) in Byke queue
+29:05:2011 115852803 Rertriving order from Byke queue
+29:05:2011 115852803 		Byke Order queue(1): [RO001]
+29:05:2011 115852803 Supplied order for RO: RO001 and type: Byke
+29:05:2011 115852804 			In store: {Car=0, Truck=3, Byke=17}
+29:05:2011 115852804 RO(RO001):Rertriving order from Byke queue
+29:05:2011 115852804 		RO(RO001):Byke Order queue(1): [NORTH169]
+29:05:2011 115854804 Store:Putting order(RO001) in Truck queue
+29:05:2011 115854804 Rertriving order from Truck queue
+29:05:2011 115854804 		Truck Order queue(1): [RO001]
+29:05:2011 115854804 Supplied order for RO: RO001 and type: Truck
+29:05:2011 115854805 			In store: {Car=0, Truck=2, Byke=17}
+29:05:2011 115854805 RO(RO001):Rertriving order from Truck queue
+29:05:2011 115854805 		RO(RO001):Truck Order queue(1): [NORTH170]
+29:05:2011 115901805 Store:Putting order(RO002) in Car queue
+29:05:2011 115903806 Store:Putting order(RO002) in Byke queue
+29:05:2011 115903806 Rertriving order from Byke queue
+29:05:2011 115903806 		Byke Order queue(1): [RO002]
+29:05:2011 115903806 Supplied order for RO: RO002 and type: Byke
+29:05:2011 115903806 			In store: {Car=0, Truck=2, Byke=16}
+29:05:2011 115903806 RO(RO002):Rertriving order from Byke queue
+29:05:2011 115903807 		RO(RO002):Byke Order queue(1): [SOUTH172]
+29:05:2011 115904701 			In store: {Car=1, Truck=2, Byke=16}
+29:05:2011 115904701 Rertriving order from Car queue
+29:05:2011 115904702 		Car Order queue(8): [RO003, RO004, RO001, RO002, RO003, RO004, RO001, RO002]
+29:05:2011 115904702 Supplied order for RO: RO003 and type: Car
+29:05:2011 115904702 			In store: {Car=0, Truck=2, Byke=16}
+29:05:2011 115904702 RO(RO003):Rertriving order from Car queue
+29:05:2011 115904702 		RO(RO003):Car Order queue(2): [EAST150, EAST162]
+29:05:2011 115904702 Produced (Car): 1
+29:05:2011 115905808 Store:Putting order(RO002) in Truck queue
+29:05:2011 115905808 Rertriving order from Truck queue
+29:05:2011 115905808 		Truck Order queue(1): [RO002]
+29:05:2011 115905808 Supplied order for RO: RO002 and type: Truck
+29:05:2011 115905809 			In store: {Car=0, Truck=1, Byke=16}
+29:05:2011 115905809 RO(RO002):Rertriving order from Truck queue
+29:05:2011 115905809 		RO(RO002):Truck Order queue(1): [SOUTH173]
+29:05:2011 115905810 StartTruckProductionEvent Event Triggered
+29:05:2011 115905810 TruckProduction Started...
+29:05:2011 115912810 Store:Putting order(RO003) in Car queue
+29:05:2011 115914810 Store:Putting order(RO003) in Byke queue
+29:05:2011 115914810 Rertriving order from Byke queue
+29:05:2011 115914810 		Byke Order queue(1): [RO003]
+29:05:2011 115914811 Supplied order for RO: RO003 and type: Byke
+29:05:2011 115914811 			In store: {Car=0, Truck=1, Byke=15}
+29:05:2011 115914811 RO(RO003):Rertriving order from Byke queue
+29:05:2011 115914811 		RO(RO003):Byke Order queue(1): [EAST175]
+29:05:2011 115916811 Store:Putting order(RO003) in Truck queue
+29:05:2011 115916811 Rertriving order from Truck queue
+29:05:2011 115916811 		Truck Order queue(1): [RO003]
+29:05:2011 115916811 Supplied order for RO: RO003 and type: Truck
+29:05:2011 115916812 			In store: {Car=0, Truck=0, Byke=15}
+29:05:2011 115916812 RO(RO003):Rertriving order from Truck queue
+29:05:2011 115916812 		RO(RO003):Truck Order queue(1): [EAST176]
+29:05:2011 115923813 Store:Putting order(RO004) in Car queue
+29:05:2011 115925810 			In store: {Car=0, Truck=1, Byke=15}
+29:05:2011 115925810 Rertriving order from Truck queue
+29:05:2011 115925810 		Truck Order queue(0): []
+29:05:2011 115925810 Produced (Truck): 1
+29:05:2011 115925813 Store:Putting order(RO004) in Byke queue
+29:05:2011 115925813 Rertriving order from Byke queue
+29:05:2011 115925813 		Byke Order queue(1): [RO004]
+29:05:2011 115925813 Supplied order for RO: RO004 and type: Byke
+29:05:2011 115925813 			In store: {Car=0, Truck=1, Byke=14}
+29:05:2011 115925813 RO(RO004):Rertriving order from Byke queue
+29:05:2011 115925814 		RO(RO004):Byke Order queue(1): [WEST178]
+29:05:2011 115927814 Store:Putting order(RO004) in Truck queue
+29:05:2011 115927814 Rertriving order from Truck queue
+29:05:2011 115927814 		Truck Order queue(1): [RO004]
+29:05:2011 115927814 Supplied order for RO: RO004 and type: Truck
+29:05:2011 115927815 			In store: {Car=0, Truck=0, Byke=14}
+29:05:2011 115927815 RO(RO004):Rertriving order from Truck queue
+29:05:2011 115927815 		RO(RO004):Truck Order queue(1): [WEST179]
+29:05:2011 115934704 			In store: {Car=1, Truck=0, Byke=14}
+29:05:2011 115934704 Rertriving order from Car queue
+29:05:2011 115934704 		Car Order queue(9): [RO004, RO001, RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+29:05:2011 115934705 Supplied order for RO: RO004 and type: Car
+29:05:2011 115934705 			In store: {Car=0, Truck=0, Byke=14}
+29:05:2011 115934705 RO(RO004):Rertriving order from Car queue
+29:05:2011 115934705 		RO(RO004):Car Order queue(3): [WEST153, WEST165, WEST177]
+29:05:2011 115934705 Produced (Car): 1
+29:05:2011 115945811 			In store: {Car=0, Truck=1, Byke=14}
+29:05:2011 115945811 Rertriving order from Truck queue
+29:05:2011 115945811 		Truck Order queue(0): []
+29:05:2011 115945812 Produced (Truck): 1
+30:05:2011 120004706 			In store: {Car=1, Truck=1, Byke=14}
+30:05:2011 120004706 Rertriving order from Car queue
+30:05:2011 120004706 		Car Order queue(8): [RO001, RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+30:05:2011 120004707 Supplied order for RO: RO001 and type: Car
+30:05:2011 120004707 			In store: {Car=0, Truck=1, Byke=14}
+30:05:2011 120004707 RO(RO001):Rertriving order from Car queue
+30:05:2011 120004707 		RO(RO001):Car Order queue(2): [NORTH156, NORTH168]
+30:05:2011 120004707 Produced (Car): 1
+30:05:2011 120005812 			In store: {Car=0, Truck=2, Byke=14}
+30:05:2011 120005812 Rertriving order from Truck queue
+30:05:2011 120005812 		Truck Order queue(0): []
+30:05:2011 120005812 Produced (Truck): 1
+30:05:2011 120025813 			In store: {Car=0, Truck=3, Byke=14}
+30:05:2011 120025813 Rertriving order from Truck queue
+30:05:2011 120025813 		Truck Order queue(0): []
+30:05:2011 120025814 Produced (Truck): 1
+30:05:2011 120025815 StopTruckProductionEvent Event Triggered
+30:05:2011 120034708 			In store: {Car=1, Truck=3, Byke=14}
+30:05:2011 120034708 Rertriving order from Car queue
+30:05:2011 120034708 		Car Order queue(7): [RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+30:05:2011 120034709 Supplied order for RO: RO002 and type: Car
+30:05:2011 120034709 			In store: {Car=0, Truck=3, Byke=14}
+30:05:2011 120034709 RO(RO002):Rertriving order from Car queue
+30:05:2011 120034709 		RO(RO002):Car Order queue(2): [SOUTH159, SOUTH171]
+30:05:2011 120034709 Produced (Car): 1
+30:05:2011 120034816 Store:Putting order(RO001) in Car queue
+30:05:2011 120036816 Store:Putting order(RO001) in Byke queue
+30:05:2011 120036816 Rertriving order from Byke queue
+30:05:2011 120036816 		Byke Order queue(1): [RO001]
+30:05:2011 120036817 Supplied order for RO: RO001 and type: Byke
+30:05:2011 120036817 			In store: {Car=0, Truck=3, Byke=13}
+30:05:2011 120036817 RO(RO001):Rertriving order from Byke queue
+30:05:2011 120036817 		RO(RO001):Byke Order queue(1): [NORTH181]
+30:05:2011 120038817 Store:Putting order(RO001) in Truck queue
+30:05:2011 120038817 Rertriving order from Truck queue
+30:05:2011 120038817 		Truck Order queue(1): [RO001]
+30:05:2011 120038817 Supplied order for RO: RO001 and type: Truck
+30:05:2011 120038818 			In store: {Car=0, Truck=2, Byke=13}
+30:05:2011 120038818 RO(RO001):Rertriving order from Truck queue
+30:05:2011 120038818 		RO(RO001):Truck Order queue(1): [NORTH182]
+30:05:2011 120045818 Store:Putting order(RO002) in Car queue
+30:05:2011 120047818 Store:Putting order(RO002) in Byke queue
+30:05:2011 120047818 Rertriving order from Byke queue
+30:05:2011 120047818 		Byke Order queue(1): [RO002]
+30:05:2011 120047819 Supplied order for RO: RO002 and type: Byke
+30:05:2011 120047819 			In store: {Car=0, Truck=2, Byke=12}
+30:05:2011 120047819 RO(RO002):Rertriving order from Byke queue
+30:05:2011 120047819 		RO(RO002):Byke Order queue(1): [SOUTH184]
+30:05:2011 120049819 Store:Putting order(RO002) in Truck queue
+30:05:2011 120049819 Rertriving order from Truck queue
+30:05:2011 120049819 		Truck Order queue(1): [RO002]
+30:05:2011 120049820 Supplied order for RO: RO002 and type: Truck
+30:05:2011 120049820 			In store: {Car=0, Truck=1, Byke=12}
+30:05:2011 120049820 RO(RO002):Rertriving order from Truck queue
+30:05:2011 120049820 		RO(RO002):Truck Order queue(1): [SOUTH185]
+30:05:2011 120049822 StartTruckProductionEvent Event Triggered
+30:05:2011 120049822 TruckProduction Started...
+30:05:2011 120056822 Store:Putting order(RO003) in Car queue
+30:05:2011 120058823 Store:Putting order(RO003) in Byke queue
+30:05:2011 120058823 Rertriving order from Byke queue
+30:05:2011 120058823 		Byke Order queue(1): [RO003]
+30:05:2011 120058824 Supplied order for RO: RO003 and type: Byke
+30:05:2011 120058824 			In store: {Car=0, Truck=1, Byke=11}
+30:05:2011 120058824 RO(RO003):Rertriving order from Byke queue
+30:05:2011 120058824 		RO(RO003):Byke Order queue(1): [EAST187]
+30:05:2011 120100824 Store:Putting order(RO003) in Truck queue
+30:05:2011 120100824 Rertriving order from Truck queue
+30:05:2011 120100824 		Truck Order queue(1): [RO003]
+30:05:2011 120100824 Supplied order for RO: RO003 and type: Truck
+30:05:2011 120100824 			In store: {Car=0, Truck=0, Byke=11}
+30:05:2011 120100824 RO(RO003):Rertriving order from Truck queue
+30:05:2011 120100825 		RO(RO003):Truck Order queue(1): [EAST188]
+30:05:2011 120104709 			In store: {Car=1, Truck=0, Byke=11}
+30:05:2011 120104709 Rertriving order from Car queue
+30:05:2011 120104709 		Car Order queue(9): [RO003, RO004, RO001, RO002, RO003, RO004, RO001, RO002, RO003]
+30:05:2011 120104710 Supplied order for RO: RO003 and type: Car
+30:05:2011 120104710 			In store: {Car=0, Truck=0, Byke=11}
+30:05:2011 120104710 RO(RO003):Rertriving order from Car queue
+30:05:2011 120104710 		RO(RO003):Car Order queue(3): [EAST162, EAST174, EAST186]
+30:05:2011 120104710 Produced (Car): 1
+30:05:2011 120107826 Store:Putting order(RO004) in Car queue
+30:05:2011 120109823 			In store: {Car=0, Truck=1, Byke=11}
+30:05:2011 120109823 Rertriving order from Truck queue
+30:05:2011 120109823 		Truck Order queue(0): []
+30:05:2011 120109823 Produced (Truck): 1
+30:05:2011 120109826 Store:Putting order(RO004) in Byke queue
+30:05:2011 120109826 Rertriving order from Byke queue
+30:05:2011 120109826 		Byke Order queue(1): [RO004]
+30:05:2011 120109826 Supplied order for RO: RO004 and type: Byke
+30:05:2011 120109827 			In store: {Car=0, Truck=1, Byke=10}
+30:05:2011 120109827 RO(RO004):Rertriving order from Byke queue
+30:05:2011 120109827 		RO(RO004):Byke Order queue(1): [WEST190]
+30:05:2011 120109828 StartBykeProductionEvent Event Triggered
+30:05:2011 120109828 BykeProduction Started...
+30:05:2011 120111828 Store:Putting order(RO004) in Truck queue
+30:05:2011 120111828 Rertriving order from Truck queue
+30:05:2011 120111828 		Truck Order queue(1): [RO004]
+30:05:2011 120111828 Supplied order for RO: RO004 and type: Truck
+30:05:2011 120111829 			In store: {Car=0, Truck=0, Byke=10}
+30:05:2011 120111829 RO(RO004):Rertriving order from Truck queue
+30:05:2011 120111829 		RO(RO004):Truck Order queue(1): [WEST191]
+30:05:2011 120125829 			In store: {Car=0, Truck=0, Byke=11}
+30:05:2011 120125829 Rertriving order from Byke queue
+30:05:2011 120125829 		Byke Order queue(0): []
+30:05:2011 120125829 Produced (Byke): 1
+30:05:2011 120129823 			In store: {Car=0, Truck=1, Byke=11}
+30:05:2011 120129823 Rertriving order from Truck queue
+30:05:2011 120129823 		Truck Order queue(0): []
+30:05:2011 120129823 Produced (Truck): 1
+30:05:2011 120134711 			In store: {Car=1, Truck=1, Byke=11}
+30:05:2011 120134711 Rertriving order from Car queue
+30:05:2011 120134711 		Car Order queue(9): [RO004, RO001, RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+30:05:2011 120134712 Supplied order for RO: RO004 and type: Car
+30:05:2011 120134712 			In store: {Car=0, Truck=1, Byke=11}
+30:05:2011 120134712 RO(RO004):Rertriving order from Car queue
+30:05:2011 120134712 		RO(RO004):Car Order queue(3): [WEST165, WEST177, WEST189]
+30:05:2011 120134712 Produced (Car): 1
+30:05:2011 120141830 			In store: {Car=0, Truck=1, Byke=12}
+30:05:2011 120141830 Rertriving order from Byke queue
+30:05:2011 120141830 		Byke Order queue(0): []
+30:05:2011 120141830 Produced (Byke): 1
+30:05:2011 120149823 			In store: {Car=0, Truck=2, Byke=12}
+30:05:2011 120149823 Rertriving order from Truck queue
+30:05:2011 120149823 		Truck Order queue(0): []
+30:05:2011 120149823 Produced (Truck): 1
+30:05:2011 120157832 			In store: {Car=0, Truck=2, Byke=13}
+30:05:2011 120157832 Rertriving order from Byke queue
+30:05:2011 120157832 		Byke Order queue(0): []
+30:05:2011 120157833 Produced (Byke): 1
+30:05:2011 120204713 			In store: {Car=1, Truck=2, Byke=13}
+30:05:2011 120204713 Rertriving order from Car queue
+30:05:2011 120204713 		Car Order queue(8): [RO001, RO002, RO003, RO004, RO001, RO002, RO003, RO004]
+30:05:2011 120204714 Supplied order for RO: RO001 and type: Car
+30:05:2011 120204714 			In store: {Car=0, Truck=2, Byke=13}
+30:05:2011 120204714 RO(RO001):Rertriving order from Car queue
+30:05:2011 120204714 		RO(RO001):Car Order queue(2): [NORTH168, NORTH180]
+30:05:2011 120204714 Produced (Car): 1
+30:05:2011 120209824 			In store: {Car=0, Truck=3, Byke=13}
+30:05:2011 120209824 Rertriving order from Truck queue
+30:05:2011 120209824 		Truck Order queue(0): []
+30:05:2011 120209824 Produced (Truck): 1
+30:05:2011 120209826 StopTruckProductionEvent Event Triggered
+30:05:2011 120213834 			In store: {Car=0, Truck=3, Byke=14}
+30:05:2011 120213834 Rertriving order from Byke queue
+30:05:2011 120213834 		Byke Order queue(0): []
+30:05:2011 120213834 Produced (Byke): 1
+30:05:2011 120218830 Store:Putting order(RO001) in Car queue
+30:05:2011 120220831 Store:Putting order(RO001) in Byke queue
+30:05:2011 120220831 Rertriving order from Byke queue
+30:05:2011 120220831 		Byke Order queue(1): [RO001]
+30:05:2011 120220831 Supplied order for RO: RO001 and type: Byke
+30:05:2011 120220831 			In store: {Car=0, Truck=3, Byke=13}
+30:05:2011 120220832 RO(RO001):Rertriving order from Byke queue
+30:05:2011 120220832 		RO(RO001):Byke Order queue(1): [NORTH193]
+30:05:2011 120222832 Store:Putting order(RO001) in Truck queue
+30:05:2011 120222832 Rertriving order from Truck queue
+30:05:2011 120222832 		Truck Order queue(1): [RO001]
+30:05:2011 120222832 Supplied order for RO: RO001 and type: Truck
+30:05:2011 120222833 			In store: {Car=0, Truck=2, Byke=13}
+30:05:2011 120222833 RO(RO001):Rertriving order from Truck queue
+30:05:2011 120222833 		RO(RO001):Truck Order queue(1): [NORTH194]
+30:05:2011 120229833 Store:Putting order(RO002) in Car queue
+30:05:2011 120229836 			In store: {Car=0, Truck=2, Byke=14}
+30:05:2011 120229836 Rertriving order from Byke queue
+30:05:2011 120229836 		Byke Order queue(0): []
+30:05:2011 120229836 Produced (Byke): 1
+30:05:2011 120231834 Store:Putting order(RO002) in Byke queue
+30:05:2011 120231834 Rertriving order from Byke queue
+30:05:2011 120231834 		Byke Order queue(1): [RO002]
+30:05:2011 120231834 Supplied order for RO: RO002 and type: Byke
+30:05:2011 120231835 			In store: {Car=0, Truck=2, Byke=13}
+30:05:2011 120231835 RO(RO002):Rertriving order from Byke queue
+30:05:2011 120231835 		RO(RO002):Byke Order queue(1): [SOUTH196]
+30:05:2011 120233835 Store:Putting order(RO002) in Truck queue
+30:05:2011 120233835 Rertriving order from Truck queue
+30:05:2011 120233835 		Truck Order queue(1): [RO002]
+30:05:2011 120233836 Supplied order for RO: RO002 and type: Truck
+30:05:2011 120233836 			In store: {Car=0, Truck=1, Byke=13}
+30:05:2011 120233836 RO(RO002):Rertriving order from Truck queue
+30:05:2011 120233836 		RO(RO002):Truck Order queue(1): [SOUTH197]
+30:05:2011 120233837 StartTruckProductionEvent Event Triggered
+30:05:2011 120233837 TruckProduction Started...
+30:05:2011 120234714 			In store: {Car=1, Truck=1, Byke=13}
+30:05:2011 120234714 Rertriving order from Car queue
+30:05:2011 120234714 		Car Order queue(9): [RO002, RO003, RO004, RO001, RO002, RO003, RO004, RO001, RO002]
+30:05:2011 120234714 Supplied order for RO: RO002 and type: Car
+30:05:2011 120234715 			In store: {Car=0, Truck=1, Byke=13}
+30:05:2011 120234715 RO(RO002):Rertriving order from Car queue
+30:05:2011 120234715 		RO(RO002):Car Order queue(3): [SOUTH171, SOUTH183, SOUTH195]
+30:05:2011 120234715 Produced (Car): 1
+30:05:2011 120240838 Store:Putting order(RO003) in Car queue
+30:05:2011 120242838 Store:Putting order(RO003) in Byke queue
+30:05:2011 120242838 Rertriving order from Byke queue
+30:05:2011 120242838 		Byke Order queue(1): [RO003]
+30:05:2011 120242839 Supplied order for RO: RO003 and type: Byke
+30:05:2011 120242839 			In store: {Car=0, Truck=1, Byke=12}
+30:05:2011 120242839 RO(RO003):Rertriving order from Byke queue
+30:05:2011 120242839 		RO(RO003):Byke Order queue(1): [EAST199]
+30:05:2011 120244839 Store:Putting order(RO003) in Truck queue
+30:05:2011 120244839 Rertriving order from Truck queue
+30:05:2011 120244839 		Truck Order queue(1): [RO003]
+30:05:2011 120244840 Supplied order for RO: RO003 and type: Truck
+30:05:2011 120244840 			In store: {Car=0, Truck=0, Byke=12}
+30:05:2011 120244840 RO(RO003):Rertriving order from Truck queue
+30:05:2011 120244840 		RO(RO003):Truck Order queue(1): [EAST200]
+30:05:2011 120245837 			In store: {Car=0, Truck=0, Byke=13}
+30:05:2011 120245837 Rertriving order from Byke queue
+30:05:2011 120245837 		Byke Order queue(0): []
+30:05:2011 120245837 Produced (Byke): 1
+30:05:2011 120251840 Store:Putting order(RO004) in Car queue
+30:05:2011 120253839 			In store: {Car=0, Truck=1, Byke=13}
+30:05:2011 120253839 Rertriving order from Truck queue
+30:05:2011 120253839 		Truck Order queue(0): []
+30:05:2011 120253839 Produced (Truck): 1
+30:05:2011 120253841 Store:Putting order(RO004) in Byke queue
+30:05:2011 120253841 Rertriving order from Byke queue
+30:05:2011 120253841 		Byke Order queue(1): [RO004]
+30:05:2011 120253841 Supplied order for RO: RO004 and type: Byke
+30:05:2011 120253842 			In store: {Car=0, Truck=1, Byke=12}
+30:05:2011 120253842 RO(RO004):Rertriving order from Byke queue
+30:05:2011 120253842 		RO(RO004):Byke Order queue(1): [WEST202]

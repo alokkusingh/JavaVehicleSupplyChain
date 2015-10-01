@@ -1,0 +1,11 @@
+12:07:2011 121419366 CarProduction Started...
+12:07:2011 121419367 TruckProduction Started...
+12:07:2011 121419367 BykeProduction Started...
+12:07:2011 121430369 Produced (Byke): 1
+12:07:2011 121433367 Produced (Car): 1
+12:07:2011 121435368 Produced (Truck): 1
+12:07:2011 121439364 			[Requested(NORTH0,Car)]
+12:07:2011 121439365 			[Customer(NORTH0) Order served, Type: Car]
+12:07:2011 121441366 			[Requested(NORTH1,Byke)]
+12:07:2011 121441367 			[Customer(NORTH1) Order served, Type: Byke]
+12:07:2011 121441370 Produced (Byke): 1

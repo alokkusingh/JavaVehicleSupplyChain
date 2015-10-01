@@ -1,0 +1,344 @@
+31:05:2011 01:11:02 RO (RO001) total received Order till now: 0
+31:05:2011 01:11:02 RO (RO001) total served Order till now:   0
+31:05:2011 01:11:02 RO (RO001) Car order queue:               [NORTH0]
+31:05:2011 01:11:02 RO (RO001) Byke order queue:              []
+31:05:2011 01:11:02 RO (RO001) Truck order queue:             []
+31:05:2011 01:11:02 RO (RO002) total received Order till now: 0
+31:05:2011 01:11:02 RO (RO002) total served Order till now:   0
+31:05:2011 01:11:02 RO (RO002) Car order queue:               []
+31:05:2011 01:11:02 RO (RO002) Byke order queue:              []
+31:05:2011 01:11:02 RO (RO002) Truck order queue:             []
+31:05:2011 01:11:02 RO (RO003) total received Order till now: 0
+31:05:2011 01:11:02 RO (RO003) total served Order till now:   0
+31:05:2011 01:11:02 RO (RO003) Car order queue:               []
+31:05:2011 01:11:02 RO (RO003) Byke order queue:              []
+31:05:2011 01:11:02 RO (RO003) Truck order queue:             []
+31:05:2011 01:11:02 RO (RO004) total received Order till now: 0
+31:05:2011 01:11:02 RO (RO004) total served Order till now:   0
+31:05:2011 01:11:02 RO (RO004) Car order queue:               []
+31:05:2011 01:11:02 RO (RO004) Byke order queue:              []
+31:05:2011 01:11:02 RO (RO004) Truck order queue:             []
+31:05:2011 01:11:02 Store in stock: {Car=0, Truck=1, Byke=3}
+31:05:2011 01:11:02 CarFactory total prodution till now: 0
+31:05:2011 01:11:02 BykeFactory total prodution till now: 4
+31:05:2011 01:11:02 TruckFactory total prodution till now: 2
+31:05:2011 01:11:13 RO (RO001) total received Order till now: 0
+31:05:2011 01:11:13 RO (RO001) total served Order till now:   0
+31:05:2011 01:11:13 RO (RO001) Car order queue:               [NORTH0]
+31:05:2011 01:11:13 RO (RO001) Byke order queue:              []
+31:05:2011 01:11:13 RO (RO001) Truck order queue:             []
+31:05:2011 01:11:13 RO (RO002) total received Order till now: 0
+31:05:2011 01:11:13 RO (RO002) total served Order till now:   0
+31:05:2011 01:11:13 RO (RO002) Car order queue:               [SOUTH3]
+31:05:2011 01:11:13 RO (RO002) Byke order queue:              []
+31:05:2011 01:11:13 RO (RO002) Truck order queue:             []
+31:05:2011 01:11:13 RO (RO003) total received Order till now: 0
+31:05:2011 01:11:13 RO (RO003) total served Order till now:   0
+31:05:2011 01:11:13 RO (RO003) Car order queue:               []
+31:05:2011 01:11:13 RO (RO003) Byke order queue:              []
+31:05:2011 01:11:13 RO (RO003) Truck order queue:             []
+31:05:2011 01:11:13 RO (RO004) total received Order till now: 0
+31:05:2011 01:11:13 RO (RO004) total served Order till now:   0
+31:05:2011 01:11:13 RO (RO004) Car order queue:               []
+31:05:2011 01:11:13 RO (RO004) Byke order queue:              []
+31:05:2011 01:11:13 RO (RO004) Truck order queue:             []
+31:05:2011 01:11:13 Store in stock: {Car=0, Truck=0, Byke=3}
+31:05:2011 01:11:13 CarFactory total prodution till now: 0
+31:05:2011 01:11:13 BykeFactory total prodution till now: 5
+31:05:2011 01:11:13 TruckFactory total prodution till now: 2
+31:05:2011 01:11:24 RO (RO001) total received Order till now: 0
+31:05:2011 01:11:24 RO (RO001) total served Order till now:   0
+31:05:2011 01:11:24 RO (RO001) Car order queue:               [NORTH0]
+31:05:2011 01:11:24 RO (RO001) Byke order queue:              []
+31:05:2011 01:11:24 RO (RO001) Truck order queue:             []
+31:05:2011 01:11:24 RO (RO002) total received Order till now: 0
+31:05:2011 01:11:24 RO (RO002) total served Order till now:   0
+31:05:2011 01:11:24 RO (RO002) Car order queue:               [SOUTH3]
+31:05:2011 01:11:24 RO (RO002) Byke order queue:              []
+31:05:2011 01:11:24 RO (RO002) Truck order queue:             []
+31:05:2011 01:11:24 RO (RO003) total received Order till now: 0
+31:05:2011 01:11:24 RO (RO003) total served Order till now:   0
+31:05:2011 01:11:24 RO (RO003) Car order queue:               [EAST6]
+31:05:2011 01:11:24 RO (RO003) Byke order queue:              []
+31:05:2011 01:11:24 RO (RO003) Truck order queue:             []
+31:05:2011 01:11:24 RO (RO004) total received Order till now: 0
+31:05:2011 01:11:24 RO (RO004) total served Order till now:   0
+31:05:2011 01:11:24 RO (RO004) Car order queue:               []
+31:05:2011 01:11:24 RO (RO004) Byke order queue:              []
+31:05:2011 01:11:24 RO (RO004) Truck order queue:             []
+31:05:2011 01:11:24 Store in stock: {Car=0, Truck=0, Byke=2}
+31:05:2011 01:11:24 CarFactory total prodution till now: 0
+31:05:2011 01:11:24 BykeFactory total prodution till now: 5
+31:05:2011 01:11:24 TruckFactory total prodution till now: 3
+31:05:2011 01:11:35 RO (RO001) total received Order till now: 0
+31:05:2011 01:11:35 RO (RO001) total served Order till now:   0
+31:05:2011 01:11:35 RO (RO001) Car order queue:               [NORTH0]
+31:05:2011 01:11:35 RO (RO001) Byke order queue:              []
+31:05:2011 01:11:35 RO (RO001) Truck order queue:             []
+31:05:2011 01:11:35 RO (RO002) total received Order till now: 0
+31:05:2011 01:11:35 RO (RO002) total served Order till now:   0
+31:05:2011 01:11:35 RO (RO002) Car order queue:               [SOUTH3]
+31:05:2011 01:11:35 RO (RO002) Byke order queue:              []
+31:05:2011 01:11:35 RO (RO002) Truck order queue:             []
+31:05:2011 01:11:35 RO (RO003) total received Order till now: 0
+31:05:2011 01:11:35 RO (RO003) total served Order till now:   0
+31:05:2011 01:11:35 RO (RO003) Car order queue:               [EAST6]
+31:05:2011 01:11:35 RO (RO003) Byke order queue:              []
+31:05:2011 01:11:35 RO (RO003) Truck order queue:             []
+31:05:2011 01:11:35 RO (RO004) total received Order till now: 0
+31:05:2011 01:11:35 RO (RO004) total served Order till now:   0
+31:05:2011 01:11:35 RO (RO004) Car order queue:               [WEST9]
+31:05:2011 01:11:35 RO (RO004) Byke order queue:              []
+31:05:2011 01:11:35 RO (RO004) Truck order queue:             [WEST11]
+31:05:2011 01:11:35 Store in stock: {Car=0, Truck=0, Byke=2}
+31:05:2011 01:11:35 CarFactory total prodution till now: 0
+31:05:2011 01:11:35 BykeFactory total prodution till now: 6
+31:05:2011 01:11:35 TruckFactory total prodution till now: 3
+31:05:2011 01:14:22 RO (RO001) total received Order till now: 3
+31:05:2011 01:14:22 RO (RO001) total served Order till now:   2
+31:05:2011 01:14:22 RO (RO001) Car order queue:               [NORTH0]
+31:05:2011 01:14:22 RO (RO001) Byke order queue:              []
+31:05:2011 01:14:22 RO (RO001) Truck order queue:             []
+31:05:2011 01:14:22 RO (RO002) total received Order till now: 0
+31:05:2011 01:14:22 RO (RO002) total served Order till now:   0
+31:05:2011 01:14:22 RO (RO002) Car order queue:               []
+31:05:2011 01:14:22 RO (RO002) Byke order queue:              []
+31:05:2011 01:14:22 RO (RO002) Truck order queue:             []
+31:05:2011 01:14:22 RO (RO003) total received Order till now: 0
+31:05:2011 01:14:22 RO (RO003) total served Order till now:   0
+31:05:2011 01:14:22 RO (RO003) Car order queue:               []
+31:05:2011 01:14:22 RO (RO003) Byke order queue:              []
+31:05:2011 01:14:22 RO (RO003) Truck order queue:             []
+31:05:2011 01:14:22 RO (RO004) total received Order till now: 0
+31:05:2011 01:14:22 RO (RO004) total served Order till now:   0
+31:05:2011 01:14:22 RO (RO004) Car order queue:               []
+31:05:2011 01:14:22 RO (RO004) Byke order queue:              []
+31:05:2011 01:14:22 RO (RO004) Truck order queue:             []
+31:05:2011 01:14:22 Store in stock: {Car=0, Truck=1, Byke=3}
+31:05:2011 01:14:22 CarFactory total prodution till now: 0
+31:05:2011 01:14:22 BykeFactory total prodution till now: 4
+31:05:2011 01:14:22 TruckFactory total prodution till now: 2
+31:05:2011 01:14:33 RO (RO001) total received Order till now: 3
+31:05:2011 01:14:33 RO (RO001) total served Order till now:   2
+31:05:2011 01:14:33 RO (RO001) Car order queue:               [NORTH0]
+31:05:2011 01:14:33 RO (RO001) Byke order queue:              []
+31:05:2011 01:14:33 RO (RO001) Truck order queue:             []
+31:05:2011 01:14:33 RO (RO002) total received Order till now: 3
+31:05:2011 01:14:33 RO (RO002) total served Order till now:   2
+31:05:2011 01:14:33 RO (RO002) Car order queue:               [SOUTH3]
+31:05:2011 01:14:33 RO (RO002) Byke order queue:              []
+31:05:2011 01:14:33 RO (RO002) Truck order queue:             []
+31:05:2011 01:14:33 RO (RO003) total received Order till now: 0
+31:05:2011 01:14:33 RO (RO003) total served Order till now:   0
+31:05:2011 01:14:33 RO (RO003) Car order queue:               []
+31:05:2011 01:14:33 RO (RO003) Byke order queue:              []
+31:05:2011 01:14:33 RO (RO003) Truck order queue:             []
+31:05:2011 01:14:33 RO (RO004) total received Order till now: 0
+31:05:2011 01:14:33 RO (RO004) total served Order till now:   0
+31:05:2011 01:14:33 RO (RO004) Car order queue:               []
+31:05:2011 01:14:33 RO (RO004) Byke order queue:              []
+31:05:2011 01:14:33 RO (RO004) Truck order queue:             []
+31:05:2011 01:14:33 Store in stock: {Car=0, Truck=0, Byke=3}
+31:05:2011 01:14:33 CarFactory total prodution till now: 0
+31:05:2011 01:14:33 BykeFactory total prodution till now: 5
+31:05:2011 01:14:33 TruckFactory total prodution till now: 2
+31:05:2011 01:14:44 RO (RO001) total received Order till now: 3
+31:05:2011 01:14:44 RO (RO001) total served Order till now:   2
+31:05:2011 01:14:44 RO (RO001) Car order queue:               [NORTH0]
+31:05:2011 01:14:44 RO (RO001) Byke order queue:              []
+31:05:2011 01:14:44 RO (RO001) Truck order queue:             []
+31:05:2011 01:14:44 RO (RO002) total received Order till now: 3
+31:05:2011 01:14:44 RO (RO002) total served Order till now:   2
+31:05:2011 01:14:44 RO (RO002) Car order queue:               [SOUTH3]
+31:05:2011 01:14:44 RO (RO002) Byke order queue:              []
+31:05:2011 01:14:44 RO (RO002) Truck order queue:             []
+31:05:2011 01:14:44 RO (RO003) total received Order till now: 3
+31:05:2011 01:14:44 RO (RO003) total served Order till now:   2
+31:05:2011 01:14:44 RO (RO003) Car order queue:               [EAST6]
+31:05:2011 01:14:44 RO (RO003) Byke order queue:              []
+31:05:2011 01:14:44 RO (RO003) Truck order queue:             []
+31:05:2011 01:14:44 RO (RO004) total received Order till now: 0
+31:05:2011 01:14:44 RO (RO004) total served Order till now:   0
+31:05:2011 01:14:44 RO (RO004) Car order queue:               []
+31:05:2011 01:14:44 RO (RO004) Byke order queue:              []
+31:05:2011 01:14:44 RO (RO004) Truck order queue:             []
+31:05:2011 01:14:44 Store in stock: {Car=0, Truck=0, Byke=2}
+31:05:2011 01:14:44 CarFactory total prodution till now: 0
+31:05:2011 01:14:44 BykeFactory total prodution till now: 5
+31:05:2011 01:14:44 TruckFactory total prodution till now: 3
+31:05:2011 01:26:29 --------------------------- RO(RO001) report ---------------------------
+31:05:2011 01:26:29 RO (RO001) total received Order till now: 3
+31:05:2011 01:26:29 RO (RO001) total served Order till now:   2
+31:05:2011 01:26:29 RO (RO001) Car order queue:               [NORTH0]
+31:05:2011 01:26:29 RO (RO001) Byke order queue:              []
+31:05:2011 01:26:29 RO (RO001) Truck order queue:             []
+31:05:2011 01:26:29 -------------------------------------------------------------------------------
+31:05:2011 01:26:29 --------------------------- RO(RO002) report ---------------------------
+31:05:2011 01:26:29 RO (RO002) total received Order till now: 3
+31:05:2011 01:26:29 RO (RO002) total served Order till now:   2
+31:05:2011 01:26:29 RO (RO002) Car order queue:               [SOUTH3]
+31:05:2011 01:26:29 RO (RO002) Byke order queue:              []
+31:05:2011 01:26:29 RO (RO002) Truck order queue:             []
+31:05:2011 01:26:29 -------------------------------------------------------------------------------
+31:05:2011 01:26:29 --------------------------- RO(RO003) report ---------------------------
+31:05:2011 01:26:29 RO (RO003) total received Order till now: 3
+31:05:2011 01:26:29 RO (RO003) total served Order till now:   2
+31:05:2011 01:26:29 RO (RO003) Car order queue:               [EAST6]
+31:05:2011 01:26:29 RO (RO003) Byke order queue:              []
+31:05:2011 01:26:29 RO (RO003) Truck order queue:             []
+31:05:2011 01:26:29 -------------------------------------------------------------------------------
+31:05:2011 01:26:29 --------------------------- RO(RO004) report ---------------------------
+31:05:2011 01:26:29 RO (RO004) total received Order till now: 3
+31:05:2011 01:26:29 RO (RO004) total served Order till now:   1
+31:05:2011 01:26:29 RO (RO004) Car order queue:               [WEST9]
+31:05:2011 01:26:29 RO (RO004) Byke order queue:              []
+31:05:2011 01:26:29 RO (RO004) Truck order queue:             [WEST11]
+31:05:2011 01:26:29 -------------------------------------------------------------------------------
+31:05:2011 01:26:29 --------------------------------- Store report ---------------------------------
+31:05:2011 01:26:29 Store in stock:                                   {Car=0, Truck=0, Byke=2}
+31:05:2011 01:26:29 ---------------------------------------------------------------------------------
+31:05:2011 01:26:29 ---------------------------Car Factory report ---------------------------
+31:05:2011 01:26:29 Car Factory total prodution till now:    0
+31:05:2011 01:26:29 ---------------------------------------------------------------------------------
+31:05:2011 01:26:29 ---------------------------Byke Factory report ---------------------------
+31:05:2011 01:26:29 Byke Factory total prodution till now:    6
+31:05:2011 01:26:29 ---------------------------------------------------------------------------------
+31:05:2011 01:26:29 ---------------------------Truck Factory report ---------------------------
+31:05:2011 01:26:29 Truck Factory total prodution till now:    3
+31:05:2011 01:26:29 ---------------------------------------------------------------------------------
+31:05:2011 01:28:13 --------------------------- RO(RO001) report ---------------------------
+31:05:2011 01:28:13 RO (RO001) total received Order till now: 6
+31:05:2011 01:28:13 RO (RO001) total served Order till now:   4
+31:05:2011 01:28:13 RO (RO001) Car order queue:               [NORTH0, NORTH12]
+31:05:2011 01:28:13 RO (RO001) Byke order queue:              []
+31:05:2011 01:28:13 RO (RO001) Truck order queue:             []
+31:05:2011 01:28:13 -------------------------------------------------------------------------------
+31:05:2011 01:28:13 --------------------------- RO(RO002) report ---------------------------
+31:05:2011 01:28:13 RO (RO002) total received Order till now: 6
+31:05:2011 01:28:13 RO (RO002) total served Order till now:   4
+31:05:2011 01:28:13 RO (RO002) Car order queue:               [SOUTH3, SOUTH15]
+31:05:2011 01:28:13 RO (RO002) Byke order queue:              []
+31:05:2011 01:28:13 RO (RO002) Truck order queue:             []
+31:05:2011 01:28:13 -------------------------------------------------------------------------------
+31:05:2011 01:28:13 --------------------------- RO(RO003) report ---------------------------
+31:05:2011 01:28:13 RO (RO003) total received Order till now: 6
+31:05:2011 01:28:13 RO (RO003) total served Order till now:   3
+31:05:2011 01:28:13 RO (RO003) Car order queue:               [EAST6, EAST18]
+31:05:2011 01:28:13 RO (RO003) Byke order queue:              []
+31:05:2011 01:28:13 RO (RO003) Truck order queue:             [EAST20]
+31:05:2011 01:28:13 -------------------------------------------------------------------------------
+31:05:2011 01:28:13 --------------------------- RO(RO004) report ---------------------------
+31:05:2011 01:28:13 RO (RO004) total received Order till now: 6
+31:05:2011 01:28:13 RO (RO004) total served Order till now:   3
+31:05:2011 01:28:13 RO (RO004) Car order queue:               [WEST9, WEST21]
+31:05:2011 01:28:13 RO (RO004) Byke order queue:              []
+31:05:2011 01:28:13 RO (RO004) Truck order queue:             [WEST23]
+31:05:2011 01:28:13 -------------------------------------------------------------------------------
+31:05:2011 01:28:13 --------------------------------- Store report ---------------------------------
+31:05:2011 01:28:13 Store in stock:                                   {Car=0, Truck=0, Byke=5}
+31:05:2011 01:28:13 ---------------------------------------------------------------------------------
+31:05:2011 01:28:13 ---------------------------Car Factory report ---------------------------
+31:05:2011 01:28:13 Car Factory total prodution till now:    0
+31:05:2011 01:28:13 ---------------------------------------------------------------------------------
+31:05:2011 01:28:13 ---------------------------Byke Factory report ---------------------------
+31:05:2011 01:28:13 Byke Factory total prodution till now:    13
+31:05:2011 01:28:13 ---------------------------------------------------------------------------------
+31:05:2011 01:28:13 ---------------------------Truck Factory report ---------------------------
+31:05:2011 01:28:13 Truck Factory total prodution till now:    6
+31:05:2011 01:28:13 ---------------------------------------------------------------------------------
+31:05:2011 01:44:23 --------------------------- RO(RO001) report ---------------------------
+31:05:2011 01:44:23 RO (RO001) total received Order till now: [Car: 1, Byke: 1,Truck: 1]=111
+31:05:2011 01:44:23 RO (RO001) total served Order till now:   [Car: 1, Byke: 1,Truck: 1]=111
+31:05:2011 01:44:23 RO (RO001) Car order queue:               []
+31:05:2011 01:44:23 RO (RO001) Byke order queue:              []
+31:05:2011 01:44:23 RO (RO001) Truck order queue:             []
+31:05:2011 01:44:23 --------------------------- RO(RO002) report ---------------------------
+31:05:2011 01:44:23 RO (RO002) total received Order till now: [Car: 1, Byke: 1,Truck: 1]=111
+31:05:2011 01:44:23 RO (RO002) total served Order till now:   [Car: 1, Byke: 1,Truck: 1]=111
+31:05:2011 01:44:23 RO (RO002) Car order queue:               []
+31:05:2011 01:44:23 RO (RO002) Byke order queue:              []
+31:05:2011 01:44:23 RO (RO002) Truck order queue:             []
+31:05:2011 01:44:23 --------------------------- RO(RO003) report ---------------------------
+31:05:2011 01:44:23 RO (RO003) total received Order till now: [Car: 1, Byke: 1,Truck: 1]=111
+31:05:2011 01:44:23 RO (RO003) total served Order till now:   [Car: 1, Byke: 1,Truck: 1]=111
+31:05:2011 01:44:23 RO (RO003) Car order queue:               []
+31:05:2011 01:44:23 RO (RO003) Byke order queue:              []
+31:05:2011 01:44:23 RO (RO003) Truck order queue:             []
+31:05:2011 01:44:23 --------------------------- RO(RO004) report ---------------------------
+31:05:2011 01:44:23 RO (RO004) total received Order till now: [Car: 1, Byke: 1,Truck: 1]=111
+31:05:2011 01:44:23 RO (RO004) total served Order till now:   [Car: 1, Byke: 1,Truck: 0]=110
+31:05:2011 01:44:23 RO (RO004) Car order queue:               []
+31:05:2011 01:44:23 RO (RO004) Byke order queue:              []
+31:05:2011 01:44:23 RO (RO004) Truck order queue:             [WEST11]
+31:05:2011 01:44:23 --------------------------------- Store report ---------------------------------
+31:05:2011 01:44:23 Store in stock:                                   {Car=0, Truck=0, Byke=2}
+31:05:2011 01:44:23 ---------------------------Car Factory report ---------------------------
+31:05:2011 01:44:23 Car Factory total prodution till now:    4
+31:05:2011 01:44:23 ---------------------------Byke Factory report ---------------------------
+31:05:2011 01:44:23 Byke Factory total prodution till now:    6
+31:05:2011 01:44:23 ---------------------------Truck Factory report ---------------------------
+31:05:2011 01:44:23 Truck Factory total prodution till now:    3
+31:05:2011 01:49:53 --------------------------- RO(RO001) report ---------------------------
+31:05:2011 01:49:53 RO (RO001) total received Order till now: [Car: 1, Byke: 1,Truck: 1]=3
+31:05:2011 01:49:53 RO (RO001) total served Order till now:   [Car: 1, Byke: 1,Truck: 1]=3
+31:05:2011 01:49:53 RO (RO001) Car order queue:               []
+31:05:2011 01:49:53 RO (RO001) Byke order queue:              []
+31:05:2011 01:49:53 RO (RO001) Truck order queue:             []
+31:05:2011 01:49:53 --------------------------- RO(RO002) report ---------------------------
+31:05:2011 01:49:53 RO (RO002) total received Order till now: [Car: 1, Byke: 1,Truck: 1]=3
+31:05:2011 01:49:53 RO (RO002) total served Order till now:   [Car: 1, Byke: 1,Truck: 1]=3
+31:05:2011 01:49:53 RO (RO002) Car order queue:               []
+31:05:2011 01:49:53 RO (RO002) Byke order queue:              []
+31:05:2011 01:49:53 RO (RO002) Truck order queue:             []
+31:05:2011 01:49:53 --------------------------- RO(RO003) report ---------------------------
+31:05:2011 01:49:53 RO (RO003) total received Order till now: [Car: 1, Byke: 1,Truck: 1]=3
+31:05:2011 01:49:53 RO (RO003) total served Order till now:   [Car: 1, Byke: 1,Truck: 1]=3
+31:05:2011 01:49:53 RO (RO003) Car order queue:               []
+31:05:2011 01:49:53 RO (RO003) Byke order queue:              []
+31:05:2011 01:49:53 RO (RO003) Truck order queue:             []
+31:05:2011 01:49:53 --------------------------- RO(RO004) report ---------------------------
+31:05:2011 01:49:53 RO (RO004) total received Order till now: [Car: 1, Byke: 1,Truck: 1]=3
+31:05:2011 01:49:53 RO (RO004) total served Order till now:   [Car: 1, Byke: 1,Truck: 0]=2
+31:05:2011 01:49:53 RO (RO004) Car order queue:               []
+31:05:2011 01:49:53 RO (RO004) Byke order queue:              []
+31:05:2011 01:49:53 RO (RO004) Truck order queue:             [WEST11]
+31:05:2011 01:49:53 --------------------------------- Store report ---------------------------------
+31:05:2011 01:49:53 Store in stock:                                   {Car=0, Truck=0, Byke=2}
+31:05:2011 01:49:53 ---------------------------Car Factory report ---------------------------
+31:05:2011 01:49:53 Car Factory total prodution till now:    4
+31:05:2011 01:49:53 ---------------------------Byke Factory report ---------------------------
+31:05:2011 01:49:53 Byke Factory total prodution till now:    6
+31:05:2011 01:49:53 ---------------------------Truck Factory report ---------------------------
+31:05:2011 01:49:53 Truck Factory total prodution till now:    3
+31:05:2011 01:51:37 --------------------------- RO(RO001) report ---------------------------
+31:05:2011 01:51:37 RO (RO001) total received Order till now: [Car: 2, Byke: 2,Truck: 2]=6
+31:05:2011 01:51:37 RO (RO001) total served Order till now:   [Car: 2, Byke: 2,Truck: 2]=6
+31:05:2011 01:51:37 RO (RO001) Car order queue:               []
+31:05:2011 01:51:37 RO (RO001) Byke order queue:              []
+31:05:2011 01:51:37 RO (RO001) Truck order queue:             []
+31:05:2011 01:51:37 --------------------------- RO(RO002) report ---------------------------
+31:05:2011 01:51:37 RO (RO002) total received Order till now: [Car: 2, Byke: 2,Truck: 2]=6
+31:05:2011 01:51:37 RO (RO002) total served Order till now:   [Car: 2, Byke: 2,Truck: 2]=6
+31:05:2011 01:51:37 RO (RO002) Car order queue:               []
+31:05:2011 01:51:37 RO (RO002) Byke order queue:              []
+31:05:2011 01:51:37 RO (RO002) Truck order queue:             []
+31:05:2011 01:51:37 --------------------------- RO(RO003) report ---------------------------
+31:05:2011 01:51:37 RO (RO003) total received Order till now: [Car: 2, Byke: 2,Truck: 2]=6
+31:05:2011 01:51:37 RO (RO003) total served Order till now:   [Car: 2, Byke: 2,Truck: 1]=5
+31:05:2011 01:51:37 RO (RO003) Car order queue:               []
+31:05:2011 01:51:37 RO (RO003) Byke order queue:              []
+31:05:2011 01:51:37 RO (RO003) Truck order queue:             [EAST20]
+31:05:2011 01:51:37 --------------------------- RO(RO004) report ---------------------------
+31:05:2011 01:51:37 RO (RO004) total received Order till now: [Car: 2, Byke: 2,Truck: 2]=6
+31:05:2011 01:51:37 RO (RO004) total served Order till now:   [Car: 2, Byke: 2,Truck: 1]=5
+31:05:2011 01:51:37 RO (RO004) Car order queue:               []
+31:05:2011 01:51:37 RO (RO004) Byke order queue:              []
+31:05:2011 01:51:37 RO (RO004) Truck order queue:             [WEST23]
+31:05:2011 01:51:37 --------------------------------- Store report ---------------------------------
+31:05:2011 01:51:37 Store in stock:                                   {Car=0, Truck=0, Byke=5}
+31:05:2011 01:51:37 ---------------------------Car Factory report ---------------------------
+31:05:2011 01:51:37 Car Factory total prodution till now:    8
+31:05:2011 01:51:37 ---------------------------Byke Factory report ---------------------------
+31:05:2011 01:51:37 Byke Factory total prodution till now:    13
+31:05:2011 01:51:37 ---------------------------Truck Factory report ---------------------------
+31:05:2011 01:51:37 Truck Factory total prodution till now:    6

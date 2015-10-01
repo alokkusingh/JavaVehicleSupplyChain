@@ -1,0 +1,37 @@
+package com.abc.auto;
+
+import com.abc.utils.WaitForTime;
+
+public class Factory {
+    String strId;
+    Vehicle vehicle;
+    int intProdCapacity;
+    Boolean keepProcessing;
+    
+    Factory (String id, Vehicle vehicle, int prodCap) {
+    	strId = id;
+    	this.vehicle = vehicle;
+    	intProdCapacity = prodCap;
+    	System.out.println("Factory: " + id + ", " + vehicle.GetVehicleType() + ", " + prodCap);
+    }
+    
+    public void StartProduction() {
+    	System.out.println(vehicle.GetVehicleType() + "Production Started...");
+    	keepProcessing = true;
+    	while(true) {
+    		WaitForTime.start((3600 / intProdCapacity) < 1 ? 1 : (3600 / intProdCapacity));
+    		if (!keepProcessing) {
+    			break;
+    		}
+    		Store.GetInstance().AddToStock(vehicle.GetVehicleType(), 1);
+    		System.out.println("Produced (" + vehicle.GetVehicleType() + "): 1");
+    		Store.GetInstance().MinMaxStockVerification(vehicle.GetVehicleType());	
+    	}
+    	
+    }
+    
+    public void StopProduction () {
+    	keepProcessing = false;
+    }
+    
+}
